@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="swingx-ws-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="swingx-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="json-20141113.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/java/opencv-2410.jar"/>
+	<classpathentry kind="lib" path="lib/java/x64">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="BitMAPSearchOSM/lib/java/x64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
