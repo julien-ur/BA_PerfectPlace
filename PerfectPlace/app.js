@@ -1,3 +1,5 @@
+'use strict';
+
 var express = require('express');
 var app = express();
 var server = require('http').Server(app);
@@ -5,6 +7,9 @@ var io = require('socket.io')(server);
 var $ = require('jquery');
 var strict = true; // set to false for html-mode
 var saxStream = require("sax").createStream(strict);
+var categories = require("./server/js/categories.js");
+
+//console.log(require("./server/js/node-element.js"));
 
 server.listen(80);
 
@@ -42,27 +47,52 @@ io.on('connection', function (socket) {
 	});
 });
 
-var parentNode;
-var newXml;
+var pointList;
+var wayList;
+var node;
+var way;
 
-saxStream.on("opentag", function (node) {
+saxStream.on("opentag", function (el) {
 
-	if (node.name === "node")
+	if (el.name === "node")
 	{
-		parentNode = node;
+		node = el;
+		node = require("./server/js/node-element.js");
+		node.setCoords(el.attributes.lat, el.attributes.lon);
 	}
 
-	if(parentNode && node.attributes.v === 'bar')
+	else if (el.name === "way")
 	{
-		var barInfo = 
-    	{
-    		"type": "Point",
-    		"coordinates": [parentNode.attributes.lat, parentNode.attributes.lon]
-    	}
 
-    	console.log(barInfo);
-    	parentNode = undefined;
 	}
+
+	else if (el.name === "tag")
+	{
+		for (var category in categories)
+		{
+			for (var subCategory in categories[category])
+			{
+				for(var tagNum = 0; tagNum < categories[category][subCategory].length; tagNum++)
+				{
+					if (el.attributes.v === categories[category][subCategory][tagNum])
+					{
+						node.setCategory(el.attributes.v);
+						return;
+					}
+				}
+			}
+		}
+	}
+
+});
+
+saxStream.on("closetag", function (tagName) {
+
+	if(tagName === "node")
+	{
+		console.log(node.getNodeInfo());
+	}
+
 });
 
 
