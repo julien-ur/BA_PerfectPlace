@@ -1,3 +1,5 @@
+'use-strict';
+
 var map;
 var socket;
 

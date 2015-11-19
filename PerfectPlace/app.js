@@ -4,11 +4,11 @@ var express = require('express');
 var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
-var $ = require('jquery');
-var strict = true; // set to false for html-mode
-var saxStream = require("sax").createStream(strict);
+var fs = require('fs');
+var saxStream = require("sax").createStream(true);
 var categories = require("./server/js/categories.js");
-var socket;
+var polygon = require('./server/js/polygon.js');
+var polygonListCollection = require('./server/js/polygon-list-collection.js')
 
 server.listen(80);
 
@@ -20,6 +20,7 @@ app.get('/', function (req, res) {
 });
 
 io.on('connection', function (socket) {
+	
 	socket.on('generateMap', function (url) {
 		console.log("clicked");
 
@@ -27,7 +28,7 @@ io.on('connection', function (socket) {
 		var mapDataXML = '';
 
 		var req = http.request(url, function(res) {
-	  		res.pipe(saxStream);
+	  		res.pipe(saxStream).pipe(fs.createWriteStream("test.xml"));
 		});
 
 		req.on('error', function(e) {
@@ -41,132 +42,127 @@ io.on('connection', function (socket) {
 app.listen(8000);
 
 
-var actualNodeID;
 var nodeList = {};
-var refIDList = [];
-var polygon;
+var actualNodeID = null;
+var wayNodeIDList = null;
 
-saxStream.on("opentag", function (el) {
+saxStream.on("opentag", function (tag) {
 
-	if (el.name === "node")
+	if (tag.name === "node")
 	{
-		actualNodeID = el.attributes.id
-		
+		saveNewNode(tag.attributes);
+	}
+
+	else if (tag.name === "way")
+	{
+		wayNodeIDList = [];
+	}
+
+	else if (tag.name === "nd")
+	{
+		wayNodeIDList.push(tag.attributes.ref);
+	}
+
+	else if (tag.name === "tag")
+	{
+		var subCategory = getSubCategoryName(tag.attributes.v)
+
+		if (subCategory)
+		{
+			if (actualNodeID !== null)
+			{
+				saveNodePolygon(subCategory);
+			}
+
+			else if (wayNodeIDList !== null)
+			{
+				saveWayPolygon(subCategory);
+			}
+		}
+	}
+
+	function saveNewNode (attributes) {
+		actualNodeID = attributes.id
+			
 		var coords = {
-			lat: el.attributes.lat,
-			lon: el.attributes.lon
+			lat: attributes.lat,
+			lon: attributes.lon
 		}
 
 		nodeList[actualNodeID] = { coords: coords };
 	}
 
-	else if (el.name === "way")
-	{
-		refIDList = [];
-	}
-
-	else if (el.name === "nd")
-	{
-		refIDList.push(el.attributes.ref);
-	}
-
-	else if (el.name === "tag")
-	{
+	function getSubCategoryName (tagName) {
 		for (var category in categories)
 		{
 			for (var subCategory in categories[category])
 			{
-				for(var tagNum = 0; tagNum < categories[category][subCategory].length; tagNum++)
+				for (var tagNum = 0; tagNum < categories[category][subCategory].length; tagNum++)
 				{
-					if (el.attributes.v === categories[category][subCategory][tagNum])
+					if (tagName === categories[category][subCategory][tagNum])
 					{
-						polygon = null;
-						polygon = require('./server/js/polygon.js');
-						polygon.setCategory(el.attributes.v);
-						console.log(polygon.getPolygonInfo());
-
-						if (actualNodeID != -1)
-						{
-							polygon.addCoords(nodeList[actualNodeID].coords);
-							actualNodeID = -1;
-							
-						}
-
-						else if (refIDList || refIDList.length != 0)
-						{
-							for(var i = 0; i < refIDList.length; i++)
-							{
-								var coords = nodeList[refIDList[i]].coords;
-								polygon.addCoords(coords);
-							}
-
-							refIDList = [];
-						}
-
-						
+						return subCategory;
 					}
 				}
 			}
 		}
+		return null;
 	}
 
+	function saveNodePolygon (subCategory)
+	{
+		addNewPolygonToCollection(subCategory, [nodeList[actualNodeID].coords]);
+		actualNodeID = null;
+	}
+
+	function saveWayPolygon (subCategory)
+	{
+		var coordList = [];
+
+		for(var i = 0; i < wayNodeIDList.length; i++)
+		{
+			coordList.push(nodeList[wayNodeIDList[i]].coords);
+		}
+
+		addNewPolygonToCollection(subCategory, coordList);
+
+		wayNodeIDList = null;
+	}
+
+	function addNewPolygonToCollection (subCategory, coordList) {
+		var polygonObj = polygon();
+
+		polygonObj.setCategory(subCategory);
+		polygonObj.addCoordList(coordList);
+
+		polygonListCollection.addPolygon(polygonObj);
+	}
 });
 
 saxStream.on("closetag", function (tagName) {
 	if (tagName === "node")
 	{
-		actualNodeID = -1;
+		actualNodeID = null;
 	}
 
 	else if (tagName === "way")
 	{
-		refIDList = [];
+		wayNodeIDList = null;
 	}
-
 });
 
 saxStream.on("end", function () {
-	
+
+	for (var category in categories)
+	{
+		for (var subCategory in categories[category])
+		{
+			var polygonList = polygonListCollection.getPolygonList(subCategory);
+			
+			for(var i = 0; i < polygonList.length; i++)
+			{
+				console.log(polygonList[i].getPolygonInfo());
+			}
+		}
+	}
 });
-
-
-
-// function parseMapDataXml(mapDataXML) {
-	
-// 	var bars = mapDataXML.querySelectorAll("[v=bar]");
-	
-// 	console.log(bars);
-
-// 	var barsJson = [];
-
-// 	for (var i = 0; i < bars.length; i++)
-// 	{
-// 		var barEl = bars[i].parentNode;
-		
-// 		if (barEl.tagName == "node") 
-// 		{ 
-// 			var barInfo = 
-// 	    	{
-// 	    		"type": "Point",
-// 	    		"coordinates": [barEl.getAttribute('lon'), barEl.getAttribute('lat')]
-// 	    	}
-// 		}
-    	
-//     	barsJson.push(barInfo);
-//     	console.log(barInfo);
-// 	}
-
-// 	// var barIcon = L.icon({
-// 	// 	iconUrl: 'resources/img/bar.png',
-// 	// 	iconSize: [25, 25]
-// 	// });
-
-// 	// var barsLayer = L.geoJson(barsJson, {
-		
-// 	// 	pointToLayer: function (feature, latlng) {
-// 	// 		return L.marker(latlng, {icon: barIcon});
-// 	// 	}
-// 	// }).addTo(map);
-
-// 	// console.log(barsLayer);
-// }

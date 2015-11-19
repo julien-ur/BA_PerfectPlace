@@ -1,25 +1,51 @@
 'use strict';
-	var shape = "no shape";
-	var coordList = [{}];
-	var category = "";
+
+module.exports = function () {
+
+	var values = {
+		coordList: [],
+		category: ""
+	};
+
+	var functions = {
+		addCoordList: function (coordList) {
+			values.coordList = coordList;
+		},
+
+		setCategory: function (cat) {
+			values.category = cat;
+		},
+
+		getCategory: function () {
+			return values.category;
+		},
+
+		getPolygonInfo: function () {
+			return {
+				shape: computeActualShape(),
+				category: values.category,
+				coordList: values.coordList
+			};
+		}
+	}
 
 	function computeActualShape ()
 	{
 		var shape = "";
 
-		if (!coordList || coordList.length == 0)
+		if (!values.coordList || values.coordList.length == 0)
 		{
 			shape = "no shape";
 		}
 
-		else if (coordList.length == 1)
+		else if (values.coordList.length == 1)
 		{
 			shape = "point";
 		}
 
 		else 
 		{
-			if (coordList[0] != coordList[coordList.length-1])
+			if (values.coordList[0] != values.coordList[values.coordList.length-1])
 			{
 				shape = "line";
 			}
@@ -32,22 +58,6 @@
 		return shape;
 	}
 
-	exports.addCoords =  function (coords) {
-		coordList.push(coords);
-	},
+	return functions;
+}
 
-	exports.setCategory = function (cat) {
-		category = cat;
-	},
-
-	exports.getActualShape = function () {
-		return computeActualShape();
-	},
-
-	exports.getPolygonInfo = function () {
-		return {
-			shape: computeActualShape(),
-			category: category,
-			coordList: coordList
-		};
-	}

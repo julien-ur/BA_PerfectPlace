@@ -3,57 +3,57 @@
 module.exports = {
 
 	SHOPPING : {
-		SUPERMARKET : ["supermarket"],
-		BAKERY : ["bakery"],
-		BUTCHER : ["butcher"],
-		MALL : ["mall"],
-		KIOSK : ["kiosk"]
+		supermarket : ["supermarket"],
+		bakery : ["bakery"],
+		butcher : ["butcher"],
+		mall : ["mall"],
+		kiosk : ["kiosk"]
 	},
 
 	NATURE : {
-		PARK : ["park"],
-		WOOD : ["wood", "forrest"],
-		COUNTRYSIDE : ["farmland", "meadow", "reservoir", "nature reserve", "farm"],
-		WATER : ["riverbank", "water", "coastline", "bay", "river", "stream"]
+		park : ["park"],
+		wood : ["wood", "forrest"],
+		countryside : ["farmland", "meadow", "reservoir", "nature reserve", "farm"],
+		water : ["riverbank", "water", "coastline", "bay", "river", "stream"]
 	},
 
 	TRAFFIC : {
-		BUS : ["bus_stop", "bus_station"],
-		TRAIN : ["train_station"],
-		MOTORWAY : ["motorway"],
-		SUBWAY : ["subway_entrance"],
-		TRAM: ["tram_stop"]
+		bus : ["bus_stop", "bus_station"],
+		train : ["train_station"],
+		motorway : ["motorway"],
+		subway : ["subway_entrance"],
+		tram: ["tram_stop"]
 	},
 
 	EDUCATION : {
-		KINDERGARTEN : ["kindergarten"],
-		SCHOOL : ["school"],
-		UNIVERSITY : ["university"]
+		kindergarten : ["kindergarten"],
+		school : ["school"],
+		university : ["university"]
 	},
 
 	SPORTS : {
-		SWIMMING : ["swimming_pool", "water_park"],
-		FITNESS: ["gym", "sports_centre"],
-		TENNIS : ["tennis"],
-		SOCCER: ["soccer"],
-		BOXING: ["boxing"],
-		DANCING: ["dance"]
+		swimming : ["swimming_pool", "water_park"],
+		fitness: ["gym", "sports_centre"],
+		tennis : ["tennis"],
+		soccer: ["soccer"],
+		boxing: ["boxing"],
+		dancing: ["dance"]
 	},
 
 	GASTRONOMY : {
-		RESTAURANT : ["restaurant"],
-		CAFE : ["cafe"],
-		PUB : ["pub"]
+		restaurant : ["restaurant"],
+		cafe : ["cafe"],
+		pub : ["pub"]
 	},
 
 	MEDICINE : {
-		DOCTOR : ["doctors"],
-		HOSPITAL : ["hospital"],
-		PHARMACY : ["pharmacy"]
+		doctor : ["doctors"],
+		hospital : ["hospital"],
+		pharmacy : ["pharmacy"]
 	},
 
 	CHILDREN : {
-		PLAYGROUND : ["playground"],
-		LIVINGSTREET : ["living_street"]
+		playground : ["playground"],
+		livingstreet : ["living_street"]
 	}
 };
