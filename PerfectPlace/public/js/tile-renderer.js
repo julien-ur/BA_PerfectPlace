@@ -1,4 +1,5 @@
 var map;
+var socket;
 
 window.onload = function() {
 
@@ -11,6 +12,12 @@ window.onload = function() {
 		attribution: '&copy; <a href="http://info.mapquest.com/terms-of-use/">MapQuest</a> | &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 	}).addTo(map);
 
+	socket = io.connect('http://localhost');
+
+	socket.on('debug', function (el) {
+		console.log(el);
+	});
+
 	map.on('click', onMapClick);
 };
 
@@ -19,9 +26,10 @@ function onMapClick(e) {
 	var bbox = bounds.getWest() + "," + bounds.getSouth() + "," + bounds.getEast() + "," + bounds.getNorth();
 	var url = "http://overpass-api.de/api/map?bbox=" + bbox;
 
-	var socket = io.connect('http://localhost');
 	socket.emit('generateMap', url);
-}
+};
+
+
 
 
 

@@ -8,8 +8,7 @@ var $ = require('jquery');
 var strict = true; // set to false for html-mode
 var saxStream = require("sax").createStream(strict);
 var categories = require("./server/js/categories.js");
-
-//console.log(require("./server/js/node-element.js"));
+var socket;
 
 server.listen(80);
 
@@ -28,14 +27,6 @@ io.on('connection', function (socket) {
 		var mapDataXML = '';
 
 		var req = http.request(url, function(res) {
-			// res.on('data', function (chunk) {
-			//     mapDataXML += chunk;
-			// });
-
-			// res.on('end', function() {
-			//     parseMapDataXml(mapDataXML);
-			// });
-
 	  		res.pipe(saxStream);
 		});
 
@@ -47,23 +38,36 @@ io.on('connection', function (socket) {
 	});
 });
 
-var pointList;
-var wayList;
-var node;
-var way;
+app.listen(8000);
+
+
+var actualNodeID;
+var nodeList = {};
+var refIDList = [];
+var polygon;
 
 saxStream.on("opentag", function (el) {
 
 	if (el.name === "node")
 	{
-		node = el;
-		node = require("./server/js/node-element.js");
-		node.setCoords(el.attributes.lat, el.attributes.lon);
+		actualNodeID = el.attributes.id
+		
+		var coords = {
+			lat: el.attributes.lat,
+			lon: el.attributes.lon
+		}
+
+		nodeList[actualNodeID] = { coords: coords };
 	}
 
 	else if (el.name === "way")
 	{
+		refIDList = [];
+	}
 
+	else if (el.name === "nd")
+	{
+		refIDList.push(el.attributes.ref);
 	}
 
 	else if (el.name === "tag")
@@ -76,8 +80,30 @@ saxStream.on("opentag", function (el) {
 				{
 					if (el.attributes.v === categories[category][subCategory][tagNum])
 					{
-						node.setCategory(el.attributes.v);
-						return;
+						polygon = null;
+						polygon = require('./server/js/polygon.js');
+						polygon.setCategory(el.attributes.v);
+						console.log(polygon.getPolygonInfo());
+
+						if (actualNodeID != -1)
+						{
+							polygon.addCoords(nodeList[actualNodeID].coords);
+							actualNodeID = -1;
+							
+						}
+
+						else if (refIDList || refIDList.length != 0)
+						{
+							for(var i = 0; i < refIDList.length; i++)
+							{
+								var coords = nodeList[refIDList[i]].coords;
+								polygon.addCoords(coords);
+							}
+
+							refIDList = [];
+						}
+
+						
 					}
 				}
 			}
@@ -87,12 +113,20 @@ saxStream.on("opentag", function (el) {
 });
 
 saxStream.on("closetag", function (tagName) {
-
-	if(tagName === "node")
+	if (tagName === "node")
 	{
-		console.log(node.getNodeInfo());
+		actualNodeID = -1;
 	}
 
+	else if (tagName === "way")
+	{
+		refIDList = [];
+	}
+
+});
+
+saxStream.on("end", function () {
+	
 });
 
 
@@ -136,6 +170,3 @@ saxStream.on("closetag", function (tagName) {
 
 // 	// console.log(barsLayer);
 // }
-
-app.listen(8000);
-

@@ -1,19 +1,23 @@
 'use strict';
 	
-	var coords = [];
-	var category = "";
+	var id = 0;
+	var coords = {};
+
+	exports.setID = function (id) {
+		id = id;
+	}
 
 	exports.setCoords =  function (lat, lon) {
-		coords = [lat, lon];
-	},
-
-	exports.setCategory = function (cat) {
-		category = cat;
-	},
-
-	exports.getNodeInfo = function () {
-		return {
-			category: category,
-			coords: coords
+		coords = {
+			lat: lat,
+			lon: lon
 		};
+	},
+
+	exports.getID = function () {
+		return id;
+	},
+
+	exports.getCoords = function () {
+		return coords;
 	}
