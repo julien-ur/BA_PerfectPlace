@@ -8,25 +8,30 @@ module.exports = function () {
 	};
 
 	var functions = {
-		addCoordList: function (coordList) {
-			values.coordList = coordList;
-		},
+		addCoordList: addCoordList,
+		setCategory: setCategory,
+		getCategory: getCategory,
+		getPolygonInfo: getPolygonInfo
+	};
 
-		setCategory: function (cat) {
-			values.category = cat;
-		},
+	function addCoordList (coordList) {
+		values.coordList = coordList;
+	}
 
-		getCategory: function () {
-			return values.category;
-		},
+	function setCategory (cat) {
+		values.category = cat;
+	}
 
-		getPolygonInfo: function () {
-			return {
-				shape: computeActualShape(),
-				category: values.category,
-				coordList: values.coordList
-			};
-		}
+	function getCategory () {
+		return values.category;
+	}
+
+	function getPolygonInfo () {
+		return {
+			shape: computeActualShape(),
+			category: values.category,
+			coordList: values.coordList
+		};
 	}
 
 	function computeActualShape ()
@@ -37,12 +42,10 @@ module.exports = function () {
 		{
 			shape = "no shape";
 		}
-
 		else if (values.coordList.length == 1)
 		{
 			shape = "point";
 		}
-
 		else 
 		{
 			if (values.coordList[0] != values.coordList[values.coordList.length-1])
@@ -54,7 +57,6 @@ module.exports = function () {
 				shape = "area";
 			}
 		}
-
 		return shape;
 	}
 

@@ -8,19 +8,38 @@ var fs = require('fs');
 var saxStream = require("sax").createStream(true);
 var categories = require("./server/js/categories.js");
 var polygon = require('./server/js/polygon.js');
-var polygonListCollection = require('./server/js/polygon-list-collection.js')
+var polygonListCollection = require('./server/js/polygon-list-collection.js');
+var svg = require('./server/js/mini-svg');
+var svg2png = require('svg2png');
+
+
+var testLayer = svg(256, 256);
+
+testLayer.addCircle(50, 50, 30, "#004400");
+
+var polyPoints = [[50,50], [100,50], [100,100], [50,100]];
+var linePoints = [[50,50], [100,50], [100,100], [50,100], [50,50]];
+
+testLayer.addPolygon(polyPoints, "#0000BB", 0);
+testLayer.addPolyline(linePoints, "#660000", 5);
+
+testLayer.draw();
+testLayer.writeFile('./server/data/test.svg');
+
+var png;
+svg2png("./server/data/test.svg", "./server/data/dest.png", function (err) {
+    if(err) console.log(err);
+});
+
 
 server.listen(80);
 
 app.use(express.static('public'));
 app.use(express.static('node_modules'));
 
-app.get('/', function (req, res) {
-	res.sendFile(__dirname + '/index.html');
-});
-
 io.on('connection', function (socket) {
-	
+	socket.emit('debug', '#mimimi');
+
 	socket.on('generateMap', function (url) {
 		console.log("clicked");
 
@@ -28,7 +47,7 @@ io.on('connection', function (socket) {
 		var mapDataXML = '';
 
 		var req = http.request(url, function(res) {
-	  		res.pipe(saxStream).pipe(fs.createWriteStream("test.xml"));
+	  		res.pipe(saxStream).pipe(fs.createWriteStream("./server/data/actual.xml"));
 		});
 
 		req.on('error', function(e) {
@@ -92,14 +111,14 @@ saxStream.on("opentag", function (tag) {
 		nodeList[actualNodeID] = { coords: coords };
 	}
 
-	function getSubCategoryName (tagName) {
+	function getSubCategoryName (tagValue) {
 		for (var category in categories)
 		{
 			for (var subCategory in categories[category])
 			{
 				for (var tagNum = 0; tagNum < categories[category][subCategory].length; tagNum++)
 				{
-					if (tagName === categories[category][subCategory][tagNum])
+					if (tagValue === categories[category][subCategory][tagNum])
 					{
 						return subCategory;
 					}
