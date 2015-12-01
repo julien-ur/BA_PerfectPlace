@@ -29,7 +29,7 @@ module.exports = function (width, height) {
 	function addCircle (x, y, radius, colorString) {
 		var newCircle = _.template(circle);
 		newCircle = newCircle({ x: x, y: y, radius: radius, color: colorString });
-		
+
 		addToElements(newCircle);
 	}
 
@@ -65,19 +65,16 @@ module.exports = function (width, height) {
 		for (var num = 0; num < pointList.length; num++) {
 			pointString += pointList[num][0] + "," + pointList[num][1] + " ";
 		};
-
 		return pointString;
 	}
 
 	function createOptionalStroke (colorString, strokeWidth) {
 		var newStroke;
-
 		if(strokeWidth > 0) {
 			newStroke = _.template(strokeOptions)({ color: colorString, strokeWidth: strokeWidth });
 		} else {
 			newStroke = '';
 		}
-
 		return newStroke;
 	}
 

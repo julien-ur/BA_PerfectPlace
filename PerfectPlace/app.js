@@ -12,25 +12,9 @@ var polygonListCollection = require('./server/js/polygon-list-collection.js');
 var svg = require('./server/js/mini-svg');
 var svg2png = require('svg2png');
 
-
-var testLayer = svg(256, 256);
-
-testLayer.addCircle(50, 50, 30, "#004400");
-
-var polyPoints = [[50,50], [100,50], [100,100], [50,100]];
-var linePoints = [[50,50], [100,50], [100,100], [50,100], [50,50]];
-
-testLayer.addPolygon(polyPoints, "#0000BB", 0);
-testLayer.addPolyline(linePoints, "#660000", 5);
-
-testLayer.draw();
-testLayer.writeFile('./server/data/test.svg');
-
-var png;
-svg2png("./server/data/test.svg", "./server/data/dest.png", function (err) {
-    if(err) console.log(err);
-});
-
+var ioSocket;
+var mapBounds;
+var that = this;
 
 server.listen(80);
 
@@ -38,10 +22,14 @@ app.use(express.static('public'));
 app.use(express.static('node_modules'));
 
 io.on('connection', function (socket) {
-	socket.emit('debug', '#mimimi');
+	ioSocket = socket;
 
-	socket.on('generateMap', function (url) {
-		console.log("clicked");
+	socket.on('generateMap', function (bbox) {
+		console.log(bbox);
+		mapBounds = bbox;
+
+		var bboxString = mapBounds.west + "," + mapBounds.south + "," + mapBounds.east + "," + mapBounds.north;
+		var url = "http://overpass-api.de/api/map?bbox=" + bboxString;
 
 		var http = require('http');
 		var mapDataXML = '';
@@ -67,34 +55,23 @@ var wayNodeIDList = null;
 
 saxStream.on("opentag", function (tag) {
 
-	if (tag.name === "node")
-	{
+	if (tag.name === "node") {
 		saveNewNode(tag.attributes);
 	}
-
-	else if (tag.name === "way")
-	{
+	else if (tag.name === "way") {
 		wayNodeIDList = [];
 	}
-
-	else if (tag.name === "nd")
-	{
+	else if (tag.name === "nd") {
 		wayNodeIDList.push(tag.attributes.ref);
 	}
-
-	else if (tag.name === "tag")
-	{
+	else if (tag.name === "tag") {
 		var subCategory = getSubCategoryName(tag.attributes.v)
 
-		if (subCategory)
-		{
-			if (actualNodeID !== null)
-			{
+		if (subCategory) {
+			if (actualNodeID !== null) {
 				saveNodePolygon(subCategory);
 			}
-
-			else if (wayNodeIDList !== null)
-			{
+			else if (wayNodeIDList !== null) {
 				saveWayPolygon(subCategory);
 			}
 		}
@@ -102,24 +79,18 @@ saxStream.on("opentag", function (tag) {
 
 	function saveNewNode (attributes) {
 		actualNodeID = attributes.id
-			
 		var coords = {
 			lat: attributes.lat,
 			lon: attributes.lon
 		}
-
 		nodeList[actualNodeID] = { coords: coords };
 	}
 
 	function getSubCategoryName (tagValue) {
-		for (var category in categories)
-		{
-			for (var subCategory in categories[category])
-			{
-				for (var tagNum = 0; tagNum < categories[category][subCategory].length; tagNum++)
-				{
-					if (tagValue === categories[category][subCategory][tagNum])
-					{
+		for (var category in categories) {
+			for (var subCategory in categories[category]) {
+				for (var tagNum = 0; tagNum < categories[category][subCategory].length; tagNum++) {
+					if (tagValue === categories[category][subCategory][tagNum]) {
 						return subCategory;
 					}
 				}
@@ -128,60 +99,86 @@ saxStream.on("opentag", function (tag) {
 		return null;
 	}
 
-	function saveNodePolygon (subCategory)
-	{
+	function saveNodePolygon (subCategory) {
 		addNewPolygonToCollection(subCategory, [nodeList[actualNodeID].coords]);
 		actualNodeID = null;
 	}
 
-	function saveWayPolygon (subCategory)
-	{
+	function saveWayPolygon (subCategory) {
 		var coordList = [];
-
-		for(var i = 0; i < wayNodeIDList.length; i++)
-		{
+		for(var i = 0; i < wayNodeIDList.length; i++) {
 			coordList.push(nodeList[wayNodeIDList[i]].coords);
 		}
 
 		addNewPolygonToCollection(subCategory, coordList);
-
 		wayNodeIDList = null;
 	}
 
 	function addNewPolygonToCollection (subCategory, coordList) {
 		var polygonObj = polygon();
-
 		polygonObj.setCategory(subCategory);
-		polygonObj.addCoordList(coordList);
-
+		polygonObj.setCoordList(coordList);
 		polygonListCollection.addPolygon(polygonObj);
 	}
 });
 
 saxStream.on("closetag", function (tagName) {
-	if (tagName === "node")
-	{
+	if (tagName === "node") {
 		actualNodeID = null;
-	}
-
-	else if (tagName === "way")
-	{
+	} 
+	else if (tagName === "way") {
 		wayNodeIDList = null;
 	}
 });
 
 saxStream.on("end", function () {
+	var mapWidthInPixel = 800;
+	var mapHeightInPixel = 450;
 
-	for (var category in categories)
-	{
-		for (var subCategory in categories[category])
-		{
-			var polygonList = polygonListCollection.getPolygonList(subCategory);
-			
-			for(var i = 0; i < polygonList.length; i++)
-			{
-				console.log(polygonList[i].getPolygonInfo());
-			}
+	var mapWidthInDegrees = mapBounds.east - mapBounds.west;
+	var mapHeightInDegrees = mapBounds.north - mapBounds.south;
+
+	var pixelPerLonDegree = mapWidthInPixel / mapWidthInDegrees;
+	var pixelPerLatDegree = mapHeightInPixel / mapHeightInDegrees;
+
+	var testLayer = svg(mapWidthInPixel, mapHeightInPixel);
+	var polygonList = polygonListCollection.getPolygonList('park');
+
+	for (var polyNum = 0; polyNum < polygonList.length; polyNum++) {
+
+		var coordList = polygonList[polyNum].getCoordList();
+		var polyPoints = [];
+
+		for (var coordNum = 0; coordNum < coordList.length; coordNum++) {
+
+			var xPosInDegrees = coordList[coordNum].lon - mapBounds.west;
+			var yPosInDegrees = mapBounds.north - coordList[coordNum].lat;
+
+			polyPoints.push([xPosInDegrees * pixelPerLonDegree, yPosInDegrees * pixelPerLatDegree])
+		}
+
+		var shape = polygonList[polyNum].getShape();
+		var randomColor = '#' + ('00000'+(Math.random()*(1<<24)|0).toString(16)).slice(-6);
+
+		if (shape === 'point') {
+			testLayer.addCircle(polyPoints[0][0], polyPoints[0][1], 4, randomColor);
+		} else if (shape === 'line') {
+			testLayer.addPolyline(polyPoints, randomColor, 3);
+		} else if (shape === 'area') {
+			testLayer.addPolygon(polyPoints, randomColor, 0);
 		}
 	}
+
+	testLayer.draw();
+	testLayer.writeFile('./server/data/test.svg');
+
+	var png;
+	svg2png("./server/data/test.svg", "./public/data/dest.png", function (err) {
+	    if(err) { 
+	    	console.log(err);
+	    } else {
+			ioSocket.emit('imageCreated', mapBounds);
+	    	console.log('done');
+	    }
+	});
 });

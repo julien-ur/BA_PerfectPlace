@@ -16,8 +16,11 @@ window.onload = function() {
 
 	socket = io.connect('http://localhost');
 
-	socket.on('debug', function (el) {
-		console.log(el);
+	socket.on('imageCreated', function (bbox) {
+		var imageUrl = 'http://localhost:8000/data/dest.png',
+		    imageBounds = [[bbox.south, bbox.west], [bbox.north, bbox.east]];
+
+		L.imageOverlay(imageUrl, imageBounds).addTo(map);
 	});
 
 	map.on('click', onMapClick);
@@ -25,10 +28,13 @@ window.onload = function() {
 
 function onMapClick(e) {
 	var bounds = map.getBounds();
-	var bbox = bounds.getWest() + "," + bounds.getSouth() + "," + bounds.getEast() + "," + bounds.getNorth();
-	var url = "http://overpass-api.de/api/map?bbox=" + bbox;
-
-	socket.emit('generateMap', url);
+	var bbox = {
+		west: bounds.getWest(),
+		south: bounds.getSouth(),
+		east: bounds.getEast(),
+		north: bounds.getNorth()
+	}
+	socket.emit('generateMap', bbox);
 };
 
 
