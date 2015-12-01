@@ -5,11 +5,11 @@ html
 
 body 
 {
-	color: #333333;
-	background-color: #F5F5F5;
+	color: #FFFFFF;
+	background-color: #333333;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: 300;
-	margin-top: 50px;
+	font-weight: 200;
+	margin-top: 45px;
 }
 
 h1, h2
@@ -19,7 +19,8 @@ h1, h2
 
 #map
 {
-	width: 90%;
-	height: 700px;
+	width: 800px;
+	height: 450px;
 	margin: 0 auto;
+	margin-top: 5px;
 }
