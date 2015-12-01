@@ -1,0 +1,6 @@
+NEXT STEPS
+
+- Für gegebene BoundingBox alle TileIndizes bekommen
+- TileIndex (XYZ) in Tile BoundingBox Coordinaten umwandeln (Y)
+- Für gegebene Tile BoundingBox alle Polygone bekommen
+- Polygone auf TileLayer rendern (Y)
