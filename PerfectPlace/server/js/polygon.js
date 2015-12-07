@@ -2,65 +2,49 @@
 
 module.exports = function () {
 
-	var values = {
+	var polygon = {
+		shape: "",
 		category: "",
 		coordList: []
 	};
 
 	var functions = {
+		setShape: setShape,
 		setCategory: setCategory,
 		setCoordList: setCoordList,
 		getShape: getShape,
 		getCategory: getCategory,
 		getCoordList: getCoordList,
-		getPolygonInfo: getPolygonInfo
+		toJSON: toJSON
 	};
 
+	function setShape (shape) {
+		polygon.shape = shape;
+	}
+
 	function setCategory (cat) {
-		values.category = cat;
+		polygon.category = cat;
 	}
 
 	function setCoordList (coordList) {
-		values.coordList = coordList;
+		polygon.coordList = coordList;
 	}
 
 	function getShape () {
-		return computeActualShape();
+		return polygon.shape;
 	}
 
 	function getCategory () {
-		return values.category;
+		return polygon.category;
 	}
 
 	function getCoordList () {
-		return values.coordList;
+		return polygon.coordList;
 	}
 
-	function getPolygonInfo () {
-		return {
-			shape: computeActualShape(),
-			category: values.category,
-			coordList: values.coordList
-		};
-	}
-
-	function computeActualShape () {
-		var shape = "";
-
-		if (!values.coordList || values.coordList.length == 0) {
-			shape = "no shape";
-		} else if (values.coordList.length == 1) {
-			shape = "point";
-		} else {
-			if (values.coordList[0] != values.coordList[values.coordList.length-1]) {
-				shape = "line";
-			} else {
-				shape = "area";
-			}
-		}
-		return shape;
+	function toJSON () {
+		return polygon;
 	}
 
 	return functions;
 }
-

@@ -1,6 +1,33 @@
-NEXT STEPS
+- NEXT STEPS -
 
-- Für gegebene BoundingBox alle TileIndizes bekommen
-- TileIndex (XYZ) in Tile BoundingBox Coordinaten umwandeln (Y)
-- Für gegebene Tile BoundingBox alle Polygone bekommen
-- Polygone auf TileLayer rendern (Y)
+Tile Process
+-----------------------------
+1. Für gegebene BoundingBox alle TileIndizes bekommen (globalmaptiles: GetQuadTreeList)
+2. TileIndex (XYZ) in Tile BoundingBox umwandeln (globalmaptiles: QuadTreeToLatLon)
+
+3. Für gegebenen TileIndex alle Polygone bekommen
+	# Beim Parsen jedem Node Coord einen TileIndex zuordnen (globalmaptiles: LatLonToQuadTree & QuadTreeToTile)
+	# PolygonListCollection zusätzlich in TileCollections unterteilen
+	# Beim fertigen Polygon aus CoordList alle unterschiedlichen TileIndizes rausholen und das Polygon zu allen entsprechenden TileCollections adden
+
+4. Polygone auf TileLayer anhand der Tile BoundingBox rendern (Y)
+
+
+JSON Polygons mit MVC
+-----------------------------
+- polygonControler hält polygonModel (Generierung von Polygonen durch PolygonControler, polygonModel ist JSON Object, wird mit JSON.stringify in String umgewandelt, toJSON() behavior!?)
+- Nach Fertigstellung des polygons wird das polygonModel aus dem Controller an den polygonListCollectionController übergeben
+- polygonListCollectionController hält polygonListCollection (besteht aus Listen mit polygonModels)
+- Beim späteren Auslesen der polygonModels aus der polygonListCollection des Controlers werden diese wieder mit einem Controler verbunden
+
+
+DILATE Process nicht praktikabel?
+-----------------------------
+- Tiles auf denen Polygone liegen, die sich über mehrere Tiles erstrecken werden kombiniert
+- Analyse aller Polygone eines Tiles, Andocken aller zusätzlichen Tiles 
+- Dabei kommen neue Polygone hinzu, die wiederrum überprüft werden müssen, schlimmstenfalls rießige Fläche verbunden, Grenzen PNG Größe?
+
+
+OTHER PROBLEMS
+-----------------------------
+Feste Größe von Circles (single nodes) und Polylines (open ways) in Abhängigkeit zur Zoomstufe

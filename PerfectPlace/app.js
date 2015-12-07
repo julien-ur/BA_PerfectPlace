@@ -14,7 +14,6 @@ var svg2png = require('svg2png');
 
 var ioSocket;
 var mapBounds;
-var that = this;
 
 server.listen(80);
 
@@ -23,28 +22,35 @@ app.use(express.static('node_modules'));
 
 io.on('connection', function (socket) {
 	ioSocket = socket;
-
-	socket.on('generateMap', function (bbox) {
-		console.log(bbox);
-		mapBounds = bbox;
-
-		var bboxString = mapBounds.west + "," + mapBounds.south + "," + mapBounds.east + "," + mapBounds.north;
-		var url = "http://overpass-api.de/api/map?bbox=" + bboxString;
-
-		var http = require('http');
-		var mapDataXML = '';
-
-		var req = http.request(url, function(res) {
-	  		res.pipe(saxStream).pipe(fs.createWriteStream("./server/data/actual.xml"));
-		});
-
-		req.on('error', function(e) {
-			console.log('problem with request: ' + e.message);
-		});
-
-		req.end();
-	});
 });
+
+ioSocket.on('generateMap', function (bbox) {
+	generateMap();
+});
+
+ioSocket.on('importPolygonListCollection', function (bbox) {
+	importPolygonListCollection();
+});
+
+function generateMap (bbox) {
+	mapBounds = bbox;
+	
+	var bboxString = mapBounds.west + "," + mapBounds.south + "," + mapBounds.east + "," + mapBounds.north;
+	var url = "http://overpass-api.de/api/map?bbox=" + bboxString;
+
+	var http = require('http');
+	var mapDataXML = '';
+
+	var req = http.request(url, function(res) {
+  		res.pipe(saxStream).pipe(fs.createWriteStream("./server/data/actual.xml"));
+	});
+
+	req.on('error', function(e) {
+		console.log('problem with request: ' + e.message);
+	});
+
+	req.end();
+}
 
 app.listen(8000);
 
@@ -118,7 +124,25 @@ saxStream.on("opentag", function (tag) {
 		var polygonObj = polygon();
 		polygonObj.setCategory(subCategory);
 		polygonObj.setCoordList(coordList);
+		polygonObj.setShape(computePolygonShape(coordList));
 		polygonListCollection.addPolygon(polygonObj);
+	}
+
+	function computePolygonShape (coordList) {
+		var shape = "";
+
+		if (!coordList || coordList.length == 0) {
+			shape = "no shape";
+		} else if (coordList.length == 1) {
+			shape = "circle";
+		} else {
+			if (coordList[0] != coordList[coordList.length-1]) {
+				shape = "line";
+			} else {
+				shape = "area";
+			}
+		}
+		return shape;
 	}
 });
 
@@ -132,6 +156,13 @@ saxStream.on("closetag", function (tagName) {
 });
 
 saxStream.on("end", function () {
+	var jsonPath = "./server/data/polygon-list-collection-export.json";
+	// polygonListCollection.exportToJSON(jsonPath);
+	polygonListCollection.importFromJSON(jsonPath, drawPolygonsToMap)
+	// drawPolygonsToMap();
+});
+
+function drawPolygonsToMap () {
 	var mapWidthInPixel = 800;
 	var mapHeightInPixel = 450;
 
@@ -145,7 +176,6 @@ saxStream.on("end", function () {
 	var polygonList = polygonListCollection.getPolygonList('park');
 
 	for (var polyNum = 0; polyNum < polygonList.length; polyNum++) {
-
 		var coordList = polygonList[polyNum].getCoordList();
 		var polyPoints = [];
 
@@ -160,7 +190,7 @@ saxStream.on("end", function () {
 		var shape = polygonList[polyNum].getShape();
 		var randomColor = '#' + ('00000'+(Math.random()*(1<<24)|0).toString(16)).slice(-6);
 
-		if (shape === 'point') {
+		if (shape === 'circle') {
 			testLayer.addCircle(polyPoints[0][0], polyPoints[0][1], 4, randomColor);
 		} else if (shape === 'line') {
 			testLayer.addPolyline(polyPoints, randomColor, 3);
@@ -181,4 +211,4 @@ saxStream.on("end", function () {
 	    	console.log('done');
 	    }
 	});
-});
+}
