@@ -30,4 +30,15 @@ DILATE Process nicht praktikabel?
 
 OTHER PROBLEMS
 -----------------------------
+- Areas with holes, like parts of rivers, are modelled as relations, containing one outer way and several inner ways, the holes -- GeoJSON has the same structure for polygons: 3 dimensional Array [[outer way],[inner way], ...]
+- Flüsse haben zusätzlich zur Polygondarstellung auch eine Liniendarstellung --> nur eine Darstellung verwenden (Polygon) --> Sowohl Polygon als auch Linien sind "ways", performanteste Erkennung?
+- (https://github.com/mapnik/mapnik/wiki/OutputFormats) Tiles zuerst in png8 vorrendern und erst nach Request auf normales png hochrechnen sinnvoll?
+
+
+OLD PROBLEMS
+-----------------------------
 Feste Größe von Circles (single nodes) und Polylines (open ways) in Abhängigkeit zur Zoomstufe
+Kann man bei mapnik mit einer geoJSON eine Karte erzeugen?
+Wie werden bei der OSM Slippy Map die Kartenfarben berechnet?
+
+
