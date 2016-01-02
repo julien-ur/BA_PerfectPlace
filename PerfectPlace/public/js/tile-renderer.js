@@ -16,11 +16,19 @@ window.onload = function() {
 
 	socket = io.connect('http://localhost');
 
-	socket.on('imageCreated', function (bbox) {
-		var imageUrl = 'http://localhost:8000/data/dest.png',
-		    imageBounds = [[bbox.south, bbox.west], [bbox.north, bbox.east]];
+	socket.on('imageCreated', function (geojsonFeatures) {
+		// var imageUrl = 'http://localhost:8000/data/dest.png',
+		//     imageBounds = [[bbox.south, bbox.west], [bbox.north, bbox.east]];
 
-		L.imageOverlay(imageUrl, imageBounds).addTo(map);
+		// L.imageOverlay(imageUrl, imageBounds).addTo(map);
+		console.log('added');
+
+		L.geoJson(geojsonFeatures, {
+			onEachFeature: function (feature, layer) {
+				console.log(feature);
+				console.log(layer);
+			}
+		}).addTo(map);
 	});
 
 	map.on('click', onMapClick);
@@ -34,7 +42,7 @@ function onMapClick(e) {
 		east: bounds.getEast(),
 		north: bounds.getNorth()
 	}
-	socket.emit('generateMap', bbox);
+	socket.emit('parseOSMFile', bbox);
 };
 
 
