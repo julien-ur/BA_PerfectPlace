@@ -2,7 +2,6 @@
 
 var saxStream = require('sax').createStream(true);
 var categories = require('../models/categories.js');
-var geoObject = require('../models/geo-object.js');
 var geoObjectCollection = require('../collections/geo-object-collection.js');
 
 var LON_INDEX = 0;
@@ -96,7 +95,7 @@ function getSubCategoryNameForTagValue (tagValue) {
 
 function saveNewNodeObjectInCollection (subCategory) {
 	var nodeCoords = nodeCoordList[actualNodeID];
-	addNewGeoObjectToCollection(subCategory, nodeCoords, "point");
+	geoObjects.addObject(subCategory, "point", nodeCoords);
 	actualNodeID = null;
 }
 
@@ -111,7 +110,7 @@ function saveNewWayObjectInCollection (subCategory) {
 	var shape = computeWayShape(wayCoordList);
 	if (shape === "polygon") wayCoordList = [wayCoordList];
 	
-	addNewGeoObjectToCollection(subCategory, wayCoordList, shape);
+	geoObjects.addObject(subCategory, shape, wayCoordList);
 	actualWayID = null;
 }
 
@@ -131,7 +130,7 @@ function saveNewRelationObjectInCollection (subCategory) {
 		}
 	}
 
-	addNewGeoObjectToCollection(subCategory, relationCoordList, "polygon");
+	geoObjects.addObject(subCategory, "polygon", relationCoordList);
 	relationMemberWaysReferenceList = null;
 }
 
@@ -160,14 +159,6 @@ function addWayToRelationCoordList (relationCoordList, actualWay, role) {
 	}
 
 	return relationCoordList;
-}
-
-function addNewGeoObjectToCollection (subCategory, coordData, shape) {
-	var geoObj = geoObject();
-	geoObj.setCategory(subCategory);
-	geoObj.setCoordData(coordData);
-	geoObj.setShape(shape);
-	geoObjects.add(geoObj);
 }
 
 

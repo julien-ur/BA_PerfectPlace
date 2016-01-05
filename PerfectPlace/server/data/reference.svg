@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256">
-  <ellipse cx="80" cy="100" rx="50" ry="50" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-width="0" opacity="0.4" />
-  <polyline points="150,100 170,110 130,120" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" opacity="0.4" />
-  <polygon points="150,150 170,160 130,170" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-width="0" opacity="0.4" />
-</svg>
