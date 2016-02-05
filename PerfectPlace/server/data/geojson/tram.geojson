@@ -1,0 +1,10 @@
+{
+	"type": "FeatureCollection",
+	"features": [],
+	"bbox": {
+		"minlat": 48.9831,
+		"minlon": 11.9445,
+		"maxlat": 49.0844,
+		"maxlon": 12.2192
+	}
+}

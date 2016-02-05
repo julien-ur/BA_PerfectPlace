@@ -5,8 +5,8 @@ var categories = require("../models/categories.js");
 module.exports = function () {
 
 	var values = {
-		geoObjectCollection: {},
-		boundingBoxCoords: {}
+		boundingBox: {},
+		geoObjectCollection: {}
 	};
 
 	for (var category in categories) {
@@ -16,15 +16,17 @@ module.exports = function () {
 	}
 
 	var functions = {
+		setBoundingBox: setBoundingBox,
 		addObject: addObject,
+		getBoundingBox: getBoundingBox,
 		getGeoDataForCategory: getGeoDataForCategory
 	};
 
-	function setBoundingBox (bbox) {
-		values.boundingBoxCoords = bbox;
+	function setBoundingBox(bbox) {
+		values.boundingBox = bbox;
 	}
 
-	function addObject (category, shape, coordData) {
+	function addObject(category, shape, coordData) {
 		var geoData = values.geoObjectCollection[category];
 
 		if (shape === 'point') {
@@ -45,7 +47,11 @@ module.exports = function () {
 		}
 	}
 
-	function getGeoDataForCategory (category) {
+	function getBoundingBox() {
+		return values.boundingBox;
+	}
+
+	function getGeoDataForCategory(category) {
 		return values.geoObjectCollection[category];
 	}
 

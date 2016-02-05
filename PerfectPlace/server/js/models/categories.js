@@ -14,7 +14,7 @@ module.exports = {
 		park : ["park", "recreation_ground", "village_green"],
 		wood : ["wood", "forrest"],
 		countryside : ["farmland", "meadow", "reservoir", "nature reserve", "farm"],
-		water : ["river", "riverbank", "water", "coastline", "bay", "stream", "canal", "drain", "ditch"]
+		water : ["river", "riverbank", "fairway", "water", "coastline", "bay", "stream", "canal", "drain", "ditch"]
 	},
 
 	TRAFFIC : {

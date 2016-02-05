@@ -1,0 +1,753 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1181148,
+					49.0418927
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1298716,
+					49.0414698
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1155634,
+					49.0336091
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1161887,
+					49.0346699
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1725861,
+					49.0258073
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1510115,
+					49.0247780
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1024539,
+					49.0127186
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0982700,
+					49.0163392
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1975809,
+					48.9874564
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1977134,
+					48.9874054
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1968928,
+					48.9876869
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1231535,
+					49.0498847
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1097251,
+					49.0026087
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0824991,
+					49.0008908
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0699164,
+					48.9977622
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0831117,
+					48.9947416
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0772115,
+					49.0076993
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1007900,
+					49.0097402
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0518890,
+					49.0132890
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0520860,
+					49.0133030
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1995419,
+					48.9923657
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2001411,
+					48.9927353
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1110702,
+					49.0175823
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0581413,
+					49.0099920
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0902136,
+					49.0513488
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1135452,
+					49.0156666
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0968931,
+					49.0104798
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1004431,
+					49.0064581
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0560006,
+					49.0161639
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1248771,
+					49.0299089
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0967775,
+					49.0108957
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0969021,
+					49.0108697
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0968955,
+					49.0109377
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0968636,
+					49.0108687
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1991283,
+					48.9875453
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0971515,
+					49.0201404
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1997207,
+					48.9881995
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1722804,
+					49.0245430
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9546070,
+					49.0252778
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1856306,
+					49.0708127
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0359148,
+					48.9896546
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0453156,
+							49.0127755
+						],
+						[
+							12.0455892,
+							49.0127613
+						],
+						[
+							12.0455731,
+							49.0126276
+						],
+						[
+							12.0452996,
+							49.0126418
+						],
+						[
+							12.0453156,
+							49.0127755
+						]
+					]
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1994302,
+							48.9923454
+						],
+						[
+							12.1997452,
+							48.9922291
+						],
+						[
+							12.1999056,
+							48.9924162
+						],
+						[
+							12.1997756,
+							48.9924642
+						],
+						[
+							12.1997339,
+							48.9924155
+						],
+						[
+							12.1996687,
+							48.9924396
+						],
+						[
+							12.1996255,
+							48.9923892
+						],
+						[
+							12.1995057,
+							48.9924334
+						],
+						[
+							12.1994302,
+							48.9923454
+						]
+					]
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1113858,
+							49.0171182
+						],
+						[
+							12.1113181,
+							49.0169811
+						],
+						[
+							12.1114785,
+							49.0169470
+						],
+						[
+							12.1114221,
+							49.0168328
+						],
+						[
+							12.1116167,
+							49.0167915
+						],
+						[
+							12.1117110,
+							49.0169825
+						],
+						[
+							12.1117408,
+							49.0170428
+						],
+						[
+							12.1115985,
+							49.0170730
+						],
+						[
+							12.1113858,
+							49.0171182
+						]
+					]
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1189244,
+							49.0058679
+						],
+						[
+							12.1194365,
+							49.0061900
+						],
+						[
+							12.1198008,
+							49.0059407
+						],
+						[
+							12.1192887,
+							49.0056186
+						],
+						[
+							12.1189244,
+							49.0058679
+						]
+					]
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1241522,
+							49.0138645
+						],
+						[
+							12.1241055,
+							49.0137806
+						],
+						[
+							12.1244698,
+							49.0136937
+						],
+						[
+							12.1248442,
+							49.0136035
+						],
+						[
+							12.1249507,
+							49.0137945
+						],
+						[
+							12.1245715,
+							49.0138871
+						],
+						[
+							12.1242040,
+							49.0139736
+						],
+						[
+							12.1241522,
+							49.0138645
+						]
+					]
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		}
+	],
+	"bbox": {
+		"minlat": 48.9831,
+		"minlon": 11.9445,
+		"maxlat": 49.0844,
+		"maxlon": 12.2192
+	}
+}

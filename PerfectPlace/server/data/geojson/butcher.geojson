@@ -1,0 +1,688 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0896182,
+					49.0640246
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0650021,
+					49.0263295
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0410059,
+					48.9940282
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0903488,
+					49.0491589
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0913604,
+					49.0481962
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0518349,
+					49.0130582
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1108441,
+					49.0017892
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1247423,
+					49.0302233
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0894906,
+					49.0200531
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0905607,
+					49.0548075
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1494768,
+					49.0253740
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0839044,
+					49.0019870
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1004315,
+					49.0067241
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1017428,
+					49.0094730
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0978423,
+					49.0187730
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1155867,
+					49.0051781
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0581610,
+					49.0190210
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0469670,
+					49.0152840
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0621412,
+					49.0070119
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1908302,
+					49.0731636
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1985226,
+					49.0766399
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0898246,
+					49.0196118
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2002227,
+					48.9910570
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2057198,
+					49.0291474
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0998291,
+					49.0109703
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0543072,
+					49.0744020
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1161847,
+					49.0345382
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1196291,
+					49.0469995
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0995880,
+					49.0283020
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1747618,
+					49.0247023
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1671110,
+					49.0035049
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1961931,
+					48.9912496
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0897166,
+					49.0065160
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2005133,
+					49.0033817
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1342653,
+					49.0114435
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9595415,
+					49.0730600
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9534540,
+					49.0247626
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1023388,
+					49.0460955
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0949325,
+					49.0208374
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0953194,
+					49.0205264
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1003509,
+					49.0155773
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9522762,
+					49.0243755
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1117250,
+							48.9851216
+						],
+						[
+							12.1117434,
+							48.9850826
+						],
+						[
+							12.1117744,
+							48.9850171
+						],
+						[
+							12.1117968,
+							48.9850217
+						],
+						[
+							12.1118476,
+							48.9849143
+						],
+						[
+							12.1115965,
+							48.9848631
+						],
+						[
+							12.1115457,
+							48.9849705
+						],
+						[
+							12.1116076,
+							48.9849831
+						],
+						[
+							12.1115582,
+							48.9850876
+						],
+						[
+							12.1117250,
+							48.9851216
+						]
+					]
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1225593,
+							49.0415131
+						],
+						[
+							12.1225149,
+							49.0414205
+						],
+						[
+							12.1222744,
+							49.0414701
+						],
+						[
+							12.1223188,
+							49.0415627
+						],
+						[
+							12.1223599,
+							49.0416484
+						],
+						[
+							12.1224583,
+							49.0416281
+						],
+						[
+							12.1224172,
+							49.0415424
+						],
+						[
+							12.1225593,
+							49.0415131
+						]
+					]
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1901910,
+							48.9890560
+						],
+						[
+							12.1900355,
+							48.9891091
+						],
+						[
+							12.1900541,
+							48.9891325
+						],
+						[
+							12.1902096,
+							48.9890794
+						],
+						[
+							12.1901910,
+							48.9890560
+						]
+					]
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		}
+	],
+	"bbox": {
+		"minlat": 48.9831,
+		"minlon": 11.9445,
+		"maxlat": 49.0844,
+		"maxlon": 12.2192
+	}
+}

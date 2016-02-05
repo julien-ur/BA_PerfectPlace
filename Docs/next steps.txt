@@ -1,7 +1,30 @@
 - NEXT STEPS -
 
+
 Tile Process
 -----------------------------
+1. Für jede Kategorie eine GeoJSON
+2. GeoJSON Vector Tiles für Viewport generieren (geojson-vt)
+3. GeoJSON Vector Tiles für Vieport zu einem GeoJSON Metatile zusammgenfügen
+4. stroke-width in den Style Options anpassen statt Dilate
+5. Rendern des GeoJSON Metatiles als Image mit node-mapnik
+6. Anwenden des Blurfilters
+7. Zusammenfügen aller Images für alle Parameter
+8. Rendern des Bildes als Leaflet Image Layer
+
+
+Latitude  --> North (90, Max) - South (-90, Min)
+Longitude --> West (-180, Min) - East (180, Max)
+
+Entfernung in Pixel umrechnen --> Entfernung zu Viewport BBox addieren
+Tiles: Polygone weiß - Hintergrund schwarz --> Anwenden von Minimum Filter --> Multiplizieren mit MapLayer per Canvas Blend Modes in CSS
+
+doch nicht -> (Statt vor dem Ausliefern der Tiles an den Canvas Tile Layer die Bildfilter anzuwenden --> Normalen Tile Layer verwenden und Viewport nachher filtern)
+
+Wenn Tile Cache geupdated wird, müssen alle neu berechneten Tiles neu gezeichnet werden.
+
+
+-- old --
 1. Für gegebene BoundingBox alle TileIndizes bekommen (globalmaptiles: GetQuadTreeList)
 2. TileIndex (XYZ) in Tile BoundingBox umwandeln (globalmaptiles: QuadTreeToLatLon)
 
@@ -13,24 +36,8 @@ Tile Process
 4. Polygone auf TileLayer anhand der Tile BoundingBox rendern (Y)
 
 
-JSON Polygons mit MVC
------------------------------
-- polygonControler hält polygonModel (Generierung von Polygonen durch PolygonControler, polygonModel ist JSON Object, wird mit JSON.stringify in String umgewandelt, toJSON() behavior!?)
-- Nach Fertigstellung des polygons wird das polygonModel aus dem Controller an den polygonListCollectionController übergeben
-- polygonListCollectionController hält polygonListCollection (besteht aus Listen mit polygonModels)
-- Beim späteren Auslesen der polygonModels aus der polygonListCollection des Controlers werden diese wieder mit einem Controler verbunden
-
-
-DILATE Process nicht praktikabel?
------------------------------
-- Tiles auf denen Polygone liegen, die sich über mehrere Tiles erstrecken werden kombiniert
-- Analyse aller Polygone eines Tiles, Andocken aller zusätzlichen Tiles 
-- Dabei kommen neue Polygone hinzu, die wiederrum überprüft werden müssen, schlimmstenfalls rießige Fläche verbunden, Grenzen PNG Größe?
-
-
 OTHER PROBLEMS
 -----------------------------
-- Areas with holes, like parts of rivers, are modelled as relations, containing one outer way and several inner ways, the holes -- GeoJSON has the same structure for polygons: 3 dimensional Array [[outer way],[inner way], ...]
 - Flüsse haben zusätzlich zur Polygondarstellung auch eine Liniendarstellung --> nur eine Darstellung verwenden (Polygon) --> Sowohl Polygon als auch Linien sind "ways", performanteste Erkennung?
 - (https://github.com/mapnik/mapnik/wiki/OutputFormats) Tiles zuerst in png8 vorrendern und erst nach Request auf normales png hochrechnen sinnvoll?
 
@@ -40,5 +47,23 @@ OLD PROBLEMS
 Feste Größe von Circles (single nodes) und Polylines (open ways) in Abhängigkeit zur Zoomstufe
 Kann man bei mapnik mit einer geoJSON eine Karte erzeugen?
 Wie werden bei der OSM Slippy Map die Kartenfarben berechnet?
+Areas with holes, like parts of rivers, are modelled as relations, containing one outer way and several inner ways, the holes -- GeoJSON has the same structure for polygons: 3 dimensional Array [[outer way],[inner way], ...]
+
+DILATE Process nicht praktikabel?
+-----------------------------
+- Tiles auf denen Polygone liegen, die sich über mehrere Tiles erstrecken werden kombiniert
+- Analyse aller Polygone eines Tiles, Andocken aller zusätzlichen Tiles 
+- Dabei kommen neue Polygone hinzu, die wiederrum überprüft werden müssen, schlimmstenfalls rießige Fläche verbunden, Grenzen PNG Größe?
+--> FALSCH, da nur Vieport gerendert werden muss!
 
 
+0, 0, 0, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 1, 1, 1, 1, 1, 1, 0, 0,
+0, 1, 1, 1, 1, 1, 1, 1, 1, 0,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+0, 1, 1, 1, 1, 1, 1, 1, 1, 0,
+0, 0, 1, 1, 1, 1, 1, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 0, 0, 0

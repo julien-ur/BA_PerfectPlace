@@ -1,0 +1,47 @@
+ERWEITERUNGEN
+
+Relationen
+----------------
+Da Flächen mit Löchern nicht durch einen einzelnen Pfad beschrieben werden können, verwendet man dafür sogenannte Multipolygone. Diese werden in OSM durch Relationen beschrieben.
+
+Da einige der in den Kategorien verwendeten Objekte, Löcher enthalten können (z.B. Flüsse --> Inseln), müssen diese Relationen auch mitgeparsed werden, da diese sonst fehlen.
+
+
+Trennung Client - Server
+-------------------------------
+Bei der Frage, was auf dem Client und was auf dem Server berechnet werden soll, muss man beachten, dass die Anwendung von vielen Nutzern gleichzeitig benutzt werden können soll. Das bedeutet das rechenintensivere Prozesse besser auf den Client ausgelagert werden sollten, da diese den Server sonst schnell an seine Grenzen bringen können.
+Da vor allem die Bildverarbeitungs-Funktionen je nach Einstellung sehr rechenintensiv werden können, sollten diese auf jeden Fall auf den Client ausgelagert werden. 
+
+
+Trennung Vor Request - Nach Request
+--------------------------------------
+Der Request des Clients stellt eine wichtige Grenze da. Alles was danach passiert verzögert die Anzeige auf dem Client. Ein wichtiger Schritt bei der Verbesserung der Performance ist die Optimierung dahingehend, möglichst viele der nötigen Berechnungen schon vor dem Request auszuführen. 
+
+Da die App allerdings für jeden Parameter eine Entfernungsangabe zulässt, die der Nutzer in Echtzeit stufenlos verändern kann, können die dafür nötigen Berechnungen nicht vor dem Request erfolgen. Eine Einschränkung wäre es, dem Nutzer feste Stufen für die Entfernungsangabe vorzuschreiben und diese bereits vorzuberechnen. Allerdings müssten diese Stufen relativ klein gehalten werden, da sonst der Nutzen der App um einiges verringert würde. Zu der Entfernungsangabe kommt außerdem noch die Angabe der Wichtigkeit in 3 Stufen. (RECHENBEISPIEL??) Es wird schnell deutlich, dass die Anzahl der möglichen Kombinationen, bei außreichend kleinen Stufen für die Entfernungsangabe zu groß ist, als dass eine Vorberechnung sinnvoll wäre. Die negativen Aspekte des hohen Speicherverbrauchs und der großen Beanspruchung des Speichermediums, aufgrund der großen Dateianzahl überwiegen deutlich.
+
+Zu den Berechnungen die vor dem Reuqest ausgeführt werden können zählen das Abrufen des aktuellsten Auszugs der OSM Daten, das Parsen und Schreiben dieser in das GeoJSON Format und das Erzeugen vorberechneter Tiles.
+
+Beim Erzeugen der vorberechneten Tiles gibt es zwei Möglichkeiten bei der Wahl des Formats, ein Rastergrafikformat oder ein Vektorformat. Je nach dem welches Tileformat gewählt wird, ergeben sich dadurch unterschideliche Arbeitsabläufe nach dem Request. Nimmt man ein Rastergrafikformat zur Vorberrechnung, so müssen die gerasterten Polygone nach dem Request per Dilate-Filter vergrößert werden. Bei der Wahl eines Vectorformats kann man die Polygone mithilfe eines "Outer Stokes" auf Basis der Geometriedaten vergrößern. Danach müssen die Tiles allerdings wieder in ein Rastergrafikformat überführt werden, um den Blur-Filter darauf anzuwenden.
+Die Frage ist nun welcher Prozess länger dauert. Die Dilate-Funktion oder das Verändern des "Outer Stoke" Styles auf Vectorbasis und das anschließende Rastern.
+
+
+Tile Request Prozessablauf
+-------------------------------
+Ein Tile-Renderer ist so aufgebaut, dass er sich für den aktuellen Viewport jedes benötigte Tile, einzeln, per Request vom Tile-Server holt.
+Das Problem dabei ist, dass zur korrekten Funktionsweise der Image Processing Funktionen (Dilate & Blur-Filter) immer ein zusammengesetztes Bild benötigt wird. Wenn die Funktionen nur auf ein einzelnes Tile angewendet werden treten Bildfehler auf, da der Filter keine Kentniss von umliegenden Objekten hat und nicht weiß ob ein Objekt außerhalb des Tiles noch fortgestzt wird. (s.h Abbildung -TODO- )
+Aus diesem Grund
+
+
+Request for Tile
+Check If tile in saved tile cache
+If not, do for each Layer
+Get all Tiles for actual Viewport + Buffer for Image Processing
+Combine requested tile images
+Dilate Filter
+Blur Filter (Algorithm 4)
+
+Composit Layers
+Generate Viewport Tiles (destroy Offset Tiles)
+Draw Requested Tile & save others
+
+

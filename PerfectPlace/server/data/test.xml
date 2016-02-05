@@ -1,4 +1,6 @@
-<Map srs="+init=epsg:3857">
+<?xml version="1.0" encoding="utf-8"?>
+
+<Map background-color="#000000FF" srs="+init=epsg:3857">
 
     <Style name="shapes">
         <Rule>
@@ -18,15 +20,15 @@
     <Style name="ready_shapes">
         <Rule>
             <Filter>[mapnik::geometry_type]=polygon</Filter>
-            <PolygonSymbolizer fill="blue" fill-opacity="0.5" />
+            <PolygonSymbolizer fill="white" fill-opacity="1" />
         </Rule>
         <Rule>
             <Filter>[mapnik::geometry_type]=linestring</Filter>
-            <LineSymbolizer stroke="black" stroke-width="2" stroke-opacity="0.7" />
+            <LineSymbolizer stroke="white" stroke-width="2" stroke-opacity="1" />
         </Rule>
         <Rule>
             <Filter>[mapnik::geometry_type]=point</Filter>
-            <PointSymbolizer opacity="0.7" />
+            <PointSymbolizer file="point.svg" opacity="1" />
         </Rule>
     </Style>
 
@@ -34,7 +36,8 @@
         <StyleName>ready_shapes</StyleName>
         <Datasource>
             <Parameter name="type">geojson</Parameter>
-            <Parameter name="file">test.geojson</Parameter>
+            <Parameter name="file">geojson/water.geojson</Parameter>
         </Datasource>
     </Layer>
+
 </Map>

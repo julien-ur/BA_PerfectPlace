@@ -1,0 +1,180 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0650021,
+					49.0263295
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0894906,
+					49.0200531
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1004315,
+					49.0067241
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1017428,
+					49.0094730
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0978423,
+					49.0187730
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1155867,
+					49.0051781
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0898246,
+					49.0196118
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0998291,
+					49.0109703
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0995880,
+					49.0283020
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0897166,
+					49.0065160
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0949325,
+					49.0208374
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0953194,
+					49.0205264
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1003509,
+					49.0155773
+				]
+			},
+			"properties": {
+				"category": "butcher"
+			}
+		}
+	],
+	"bbox": {
+		"minlat": 49.0045,
+		"minlon": 12.0626,
+		"maxlat": 49.0299,
+		"maxlon": 12.1313
+	}
+}

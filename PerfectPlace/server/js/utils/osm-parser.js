@@ -19,6 +19,14 @@ var callback;
 
 saxStream.on("opentag", function (tag) {
 
+	if (tag.name === "bounds") {
+		geoObjects.setBoundingBox({ 
+			minlat: parseFloat(tag.attributes.minlat),
+			minlon: parseFloat(tag.attributes.minlon),
+			maxlat: parseFloat(tag.attributes.maxlat),
+			maxlon: parseFloat(tag.attributes.maxlon)
+		});
+	}
 	if (tag.name === "node") {
 		actualNodeID = tag.attributes.id
 		var coords = [tag.attributes.lon, tag.attributes.lat];
@@ -80,7 +88,7 @@ saxStream.on("end", function () {
 });
 
 
-function getSubCategoryNameForTagValue (tagValue) {
+function getSubCategoryNameForTagValue(tagValue) {
 	for (var category in categories) {
 		for (var subCategory in categories[category]) {
 			for (var tagNum = 0; tagNum < categories[category][subCategory].length; tagNum++) {
@@ -93,13 +101,13 @@ function getSubCategoryNameForTagValue (tagValue) {
 	return null;
 }
 
-function saveNewNodeObjectInCollection (subCategory) {
+function saveNewNodeObjectInCollection(subCategory) {
 	var nodeCoords = nodeCoordList[actualNodeID];
 	geoObjects.addObject(subCategory, "point", nodeCoords);
 	actualNodeID = null;
 }
 
-function saveNewWayObjectInCollection (subCategory) {
+function saveNewWayObjectInCollection(subCategory) {
 	var wayCoordList = [];
 
 	for(var nodeNum = 0; nodeNum < wayList[actualWayID].length; nodeNum++) {
@@ -114,7 +122,7 @@ function saveNewWayObjectInCollection (subCategory) {
 	actualWayID = null;
 }
 
-function saveNewRelationObjectInCollection (subCategory) {
+function saveNewRelationObjectInCollection(subCategory) {
 	var relationCoordList = [[]];
 
 	for (var wayNum = 0; wayNum < relationMemberWaysReferenceList.length; wayNum++) {
@@ -134,7 +142,7 @@ function saveNewRelationObjectInCollection (subCategory) {
 	relationMemberWaysReferenceList = null;
 }
 
-function computeWayShape (wayCoordList) {
+function computeWayShape(wayCoordList) {
 	if (wayCoordList[0][LAT_INDEX] !== wayCoordList[wayCoordList.length-1][LAT_INDEX] 
 		&& wayCoordList[0][LON_INDEX] !== wayCoordList[wayCoordList.length-1][LON_INDEX]) {
 		return "line";
@@ -143,7 +151,7 @@ function computeWayShape (wayCoordList) {
 	}
 }
 
-function addWayToRelationCoordList (relationCoordList, actualWay, role) {
+function addWayToRelationCoordList(relationCoordList, actualWay, role) {
 	var actCoordListIndex;
 
 	if(role === "outer") {
