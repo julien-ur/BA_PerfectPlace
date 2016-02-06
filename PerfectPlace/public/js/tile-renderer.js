@@ -9,8 +9,9 @@ var actMinTileX; var actMinTileY;
 var updatingCache = false;
 
 var rawTileImageCache = {};
-var finalTileCache = {};
-var pendingCanvasTiles = [];
+var pendingTilesCache = {};
+var pendingTiles = [];
+var pendingTileCanvasList = {};
 
 window.onload = function() {
 
@@ -39,7 +40,7 @@ window.onload = function() {
 	// canvasTileLayer.drawTile = function(canvas, tilePoint, zoom) {
 
 	//     var ctx = canvas.getContext('2d');
-	//     ctx.drawImage(finalTileCache[tilePoint.x][tilePoint.y], 0, 0);
+	//     ctx.drawImage(pendingTilesCache[tilePoint.x][tilePoint.y], 0, 0);
 
 	    // var url = "http://localhost:8000/maps/water/" + zoom + "/" + tilePoint.x + "/" + tilePoint.y + "/tile.png";
 
@@ -66,7 +67,7 @@ window.onload = function() {
 
 	});
 
-	map.on('click', onMapClick);
+	//map.on('click', onMapClick);
 };
 
 function onMapClick(e) {
@@ -84,28 +85,35 @@ function drawTileFromCache(canvas, tilePoint, zoom) {
 	var ctx = canvas.getContext('2d');
 	var cachedCanvas;
 
-	if(finalTileCache[zoom] && finalTileCache[zoom][tilePoint.y] && (cachedCanvas = finalTileCache[zoom][tilePoint.y][tilePoint.x])) {
+	if(pendingTilesCache[zoom] && pendingTilesCache[zoom][tilePoint.y] && (cachedCanvas = pendingTilesCache[zoom][tilePoint.y][tilePoint.x])) {
 		ctx.globalCompositeOperation = "multiply";
 		ctx.drawImage(cachedCanvas, 0, 0);
 	} else {
 
-		pendingCanvasTiles.push({
-			canvas: canvas,
-			tilePoint: tilePoint,
-			zoom: zoom
-		});
+		if (!pendingTileCanvasList[zoom]) pendingTileCanvasList[zoom] = {};
+		if (!pendingTileCanvasList[zoom][tilePoint.x]) pendingTileCanvasList[zoom][tilePoint.x] = {};
+
+		if(!pendingTileCanvasList[zoom][tilePoint.x][tilePoint.y]) {
+			pendingTileCanvasList[zoom][tilePoint.x][tilePoint.y] = canvas;
+			pendingTiles.push({
+				point: tilePoint,
+				zoom: zoom
+			});
+		}
 
 		if (!updatingCache) {
 			updateFinalTileCache(function() {
 				updatingCache = false;
-
-				for (var i = 0; i < pendingCanvasTiles.length; i++) {
-					var tileData = pendingCanvasTiles[i];
-					drawTileFromCache(tileData.canvas, tileData.tilePoint, tileData.zoom);
+				
+				for (var i = 0; i < pendingTiles.length; i++) {
+					var tile = pendingTiles[i];
+					var canvas = pendingTileCanvasList[tile.zoom][tile.point.x][tile.point.y];
+					drawTileFromCache(canvas, tile.point, tile.zoom);
 				}
 
-				pendingCanvasTiles = [];
-				finalTileCache = {};
+				pendingTiles = [];
+				pendingTileCanvasList = {};
+				pendingTilesCache = {};
 			});
 		}
 	}
@@ -217,10 +225,10 @@ function sliceViewportCanvasIntoTilesAndSaveToCache(canvas, callback) {
 	for (var row = 1; row < actRows-1; row++) {
     	for (var col = 1; col < actCols-1; col++) {
 
-		    if (finalTileCache[actZoom] === undefined) finalTileCache[actZoom] = {};
-		    if (finalTileCache[actZoom][actMinTileY+row] === undefined) finalTileCache[actZoom][actMinTileY+row] = {};
+		    if (pendingTilesCache[actZoom] === undefined) pendingTilesCache[actZoom] = {};
+		    if (pendingTilesCache[actZoom][actMinTileY+row] === undefined) pendingTilesCache[actZoom][actMinTileY+row] = {};
 		    
-		    if (!finalTileCache[actZoom][actMinTileY+row][actMinTileX+col]) {
+		    if (!pendingTilesCache[actZoom][actMinTileY+row][actMinTileX+col]) {
 
 			    var sliceCanvas = $('<canvas/>').get(0);
 				sliceCanvas.height = 256;
@@ -228,7 +236,7 @@ function sliceViewportCanvasIntoTilesAndSaveToCache(canvas, callback) {
 			    var ctx = sliceCanvas.getContext('2d');
 			    ctx.drawImage(canvas, col*256, row*256, 256, 256, 0, 0, 256, 256);
 
-				finalTileCache[actZoom][actMinTileY+row][actMinTileX+col] = sliceCanvas;
+				pendingTilesCache[actZoom][actMinTileY+row][actMinTileX+col] = sliceCanvas;
 			}
 			//$('body').append(sliceCanvas);
 		}
