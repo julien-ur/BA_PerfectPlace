@@ -96,7 +96,7 @@ function drawTileFromCache(canvas, tilePoint, zoom) {
 		});
 
 		if (!updatingCache) {
-			updateFinalTileCache(function(){
+			updateFinalTileCache(function() {
 				updatingCache = false;
 
 				for (var i = 0; i < pendingCanvasTiles.length; i++) {
@@ -132,8 +132,13 @@ function updateFinalTileCache(callback) {
 }
 
 function getBufferedVieportBounds(bufferDistance) {
-	var mapBounds = map.getBounds();
+	var zoom = map.getZoom();
+	var pyramidLevelWidth = Math.pow(2, zoom) * 256;
+	var actTileWidthInMeters = globalmaptiles.PixelsToMeters(pyramidLevelWidth/2 + 256, pyramidLevelWidth/2 + 256, zoom)[0];
 
+	bufferDistance = Math.max(bufferDistance, actTileWidthInMeters);
+
+	var mapBounds = map.getBounds();
 	var mUpperLeft = globalmaptiles.LatLonToMeters(mapBounds.getNorth(), mapBounds.getWest());
 	var mBottomRight = globalmaptiles.LatLonToMeters(mapBounds.getSouth(), mapBounds.getEast());
 
@@ -183,7 +188,7 @@ function generateViewportCanvas(tiles, actZoom, finalCallback, callback) {
 	}
 }
 
-function blurViewportCanvas (canvas, blurSize) {
+function blurViewportCanvas(canvas, blurSize) {
 	var ctx = canvas.getContext("2d");
 	var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
@@ -209,20 +214,22 @@ function blurViewportCanvas (canvas, blurSize) {
 }
 
 function sliceViewportCanvasIntoTilesAndSaveToCache(canvas, callback) {
-	for (var row = 0; row < actRows; row++) {
-    	for (var col = 0; col < actCols; col++) {
-
-    		var sliceCanvas = $('<canvas/>').get(0);
-			sliceCanvas.height = 256;
-		    sliceCanvas.width = 256;
-		    var ctx = sliceCanvas.getContext('2d');
-		    ctx.drawImage(canvas, col*256, row*256, 256, 256, 0, 0, 256, 256);
+	for (var row = 1; row < actRows-1; row++) {
+    	for (var col = 1; col < actCols-1; col++) {
 
 		    if (finalTileCache[actZoom] === undefined) finalTileCache[actZoom] = {};
 		    if (finalTileCache[actZoom][actMinTileY+row] === undefined) finalTileCache[actZoom][actMinTileY+row] = {};
 		    
-		    finalTileCache[actZoom][actMinTileY+row][actMinTileX+col] = sliceCanvas;
-			
+		    if (!finalTileCache[actZoom][actMinTileY+row][actMinTileX+col]) {
+
+			    var sliceCanvas = $('<canvas/>').get(0);
+				sliceCanvas.height = 256;
+			    sliceCanvas.width = 256;
+			    var ctx = sliceCanvas.getContext('2d');
+			    ctx.drawImage(canvas, col*256, row*256, 256, 256, 0, 0, 256, 256);
+
+				finalTileCache[actZoom][actMinTileY+row][actMinTileX+col] = sliceCanvas;
+			}
 			//$('body').append(sliceCanvas);
 		}
 	}
