@@ -1,22 +1,82 @@
 <!DOCTYPE html>
 <html ng-app lang="de">
-	<head>
-		<meta charset="utf-8">
-		<link href="/css/style.css" type="text/css" rel="stylesheet">
-		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
-		<script src="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
-		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-		<script src="/socket.io/socket.io.js"></script>
-		<script src="/globalmaptiles.js"></script>
-		<script src="/vendor/fast-gauss-blur.js"
-		<script src="/vendor/filter.bundle.js"></script>
-		<script src="/js/tile-renderer.js"></script>
-		<title>PerfectPlace</title>
-	</head>
-	<body>
-		<h1>Perfect Place</h1>
-		<h2>Die Suchmaschine für perfekte Orte.</h2>
-		<br>
-		<div id="map"></div>
-	</body>
+<head>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="/css/style.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/a_little_sunshine/stylesheet.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css">
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+	<script src="/underscore/underscore.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/vendor/globalmaptiles.js"></script>
+	<script src="/js/models/categories.js"></script>
+	<script src="/vendor/fast-gauss-blur.js"></script>
+	<script src="/vendor/filter.bundle.js"></script>
+	<script src="/js/config.js"></script>
+	<script src="/js/tile-renderer.js"></script>
+	<title>PerfectPlace</title>
+</head>
+
+<body>
+	<div id="header">Perfect Place - Find your perfect location to live!
+		<button id="server-precache" type="button" class="btn btn-primary">Server: Precache Tiles</button>
+	</div>
+	<div id="app-container">
+		<div id="map">
+			<div id="add-parameter-button" class="btn btn-default params">+</div>
+			<div class="params">
+				<div id="settings-labels">
+					<p class="settings-label">Category</p>
+					<p class="settings-label">Distance</p>
+				</div>
+				<div id="basic-settings">
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="category-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							Bakery
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="category-dropdown">
+							<li class="dropdown-header">Dropdown header</li>
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>
+							<li class="dropdown-header">Dropdown header</li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+					</div>
+
+						<div class="input-group" id="distance-input">
+							<input id="distance-number-input" type="text" class="form-control" aria-label="...">
+							<div class="input-group-btn">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">m <span class="caret"></span></button>
+								<ul class="dropdown-menu dropdown-menu-right">
+									<li><a href="#">m </a></li>
+									<li><a href="#">km </a></li>
+								</ul>
+							</div>
+						</div>
+					<div id="distance-number-input"></div>
+					<div id="distance-unit-dropdown"></div>
+				</div>
+				<div id="importance-slider"></div>
+				<div id="importance-labels">
+					<p class="importance-label">Optional</p>
+					<p class="importance-label">Default</p>
+					<p class="importance-label">Very Important</p>
+				</div>
+				<div id="settings-buttons">
+					<p class="btn-setting">cancle</p>
+					<p class="btn-setting">add</p>
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+</body>
 </html>

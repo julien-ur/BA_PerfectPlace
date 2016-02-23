@@ -1,9 +1,8 @@
 'use strict';
 
-var config = {
+(function(exports) {
 
-	MAP_MAX_ZOOM: 18,
-	OVERLAY_MIN_ZOOM: 10
-}
+	exports.MAP_MAX_ZOOM = 18,
+	exports.OVERLAY_MIN_ZOOM = 10
 
-module.exports = config;
+})((typeof exports === 'undefined') ? this['config']={} : exports);

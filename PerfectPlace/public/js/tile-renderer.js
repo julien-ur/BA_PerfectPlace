@@ -13,6 +13,9 @@ var pendingTilesCache = {};
 var pendingTiles = [];
 var pendingTileCanvasList = {};
 
+var paramsList = [];
+var paramsBtnTemplate = _.template('<div id="<%= id %>" class="btn btn-default params"><%= name %> <%= distance %></div>');
+
 window.onload = function() {
 
 	// create a map in the "map" div, set the view to a given place and zoom
@@ -20,7 +23,7 @@ window.onload = function() {
 	
 	// add MapQuest tile layer, must give proper OpenStreetMap attribution according to MapQuest terms
 	L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
-		maxZoom: 18,
+		maxZoom: config.MAP_MAX_ZOOM,
 		subdomains: '1234',
 		attribution: '&copy; <a href="http://info.mapquest.com/terms-of-use/">MapQuest</a> | &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 	}).addTo(map);
@@ -33,8 +36,23 @@ window.onload = function() {
 	canvasTileLayer.drawTile = function(canvas, tilePoint, zoom) {
 	    drawTileFromCache(canvas, tilePoint, zoom);
 	}
+
 	canvasTileLayer.addTo(map);
-	$(canvasTileLayer.getContainer()).css("mix-blend-mode", "multiply");
+	$(canvasTileLayer.getContainer()).css({
+		"mix-blend-mode": "multiply",
+		"opacity": 0.5
+	});
+
+	$("#add-parameter-button").click(function() {
+		newParameterButton = paramsBtnTemplate({
+			id: "param-" + paramsList.length,
+			name: "New Category",
+			distance: ""
+		});
+
+		$("#map").append(newParameterButton);
+	});
+
 
 	// var canvasTileLayer = L.tileLayer.canvas();
 	// canvasTileLayer.drawTile = function(canvas, tilePoint, zoom) {
@@ -42,22 +60,22 @@ window.onload = function() {
 	//     var ctx = canvas.getContext('2d');
 	//     ctx.drawImage(pendingTilesCache[tilePoint.x][tilePoint.y], 0, 0);
 
-	    // var url = "http://localhost:8000/maps/water/" + zoom + "/" + tilePoint.x + "/" + tilePoint.y + "/tile.png";
+	//     var url = "http://localhost:8000/maps/water/" + zoom + "/" + tilePoint.x + "/" + tilePoint.y + "/tile.png";
 
-	    // FILTER.HTMLImageLoader.load(url, function(img) {
-	    // 	ctx.drawImage(img.toImage(FILTER.FORMAT.IMAGE), 0, 0);
+	//     FILTER.HTMLImageLoader.load(url, function(img) {
+	//     	ctx.drawImage(img.toImage(FILTER.FORMAT.IMAGE), 0, 0);
 
-    	// 	var dilate = new FILTER.StatisticalFilter().dilate(10);
+ //    		var dilate = new FILTER.StatisticalFilter().dilate(10);
 
-    	// 	img.apply(dilate, function () {
+ //    		img.apply(dilate, function () {
 
-    	// 		var blur = new FILTER.ConvolutionMatrixFilter().fastGauss();
+ //    			var blur = new FILTER.ConvolutionMatrixFilter().fastGauss();
 
-    	// 		img.apply(blur, function () {
-    	// 			ctx.drawImage(img.toImage(FILTER.FORMAT.IMAGE), 0, 0);
-    	// 		});
-    	// 	});
-	    // });
+ //    			img.apply(blur, function () {
+ //    				ctx.drawImage(img.toImage(FILTER.FORMAT.IMAGE), 0, 0);
+ //    			});
+ //    		});
+	//     });
 	// }
 
 	// canvasTileLayer.addTo(map);
@@ -67,16 +85,16 @@ window.onload = function() {
 
 	});
 
-	//map.on('click', onMapClick);
+	$("#server-precache").on('click', parseOSMFile);
 };
 
-function onMapClick(e) {
-	var actMapBounds = map.getBounds();
+function parseOSMFile(e) {
+	var mapBounds = map.getBounds();
 	var bbox = {
-		west: actMapBounds.getWest(),
-		south: actMapBounds.getSouth(),
-		east: actMapBounds.getEast(),
-		north: actMapBounds.getNorth()
+		west: mapBounds.getWest(),
+		south: mapBounds.getSouth(),
+		east: mapBounds.getEast(),
+		north: mapBounds.getNorth()
 	}
 	socket.emit('parseOSMFile', bbox);
 };
@@ -90,10 +108,10 @@ function drawTileFromCache(canvas, tilePoint, zoom) {
 		ctx.drawImage(cachedCanvas, 0, 0);
 	} else {
 
-		if (!pendingTileCanvasList[zoom]) pendingTileCanvasList[zoom] = {};
-		if (!pendingTileCanvasList[zoom][tilePoint.x]) pendingTileCanvasList[zoom][tilePoint.x] = {};
+		if (pendingTileCanvasList[zoom] === undefined) pendingTileCanvasList[zoom] = {};
+		if (pendingTileCanvasList[zoom][tilePoint.x] === undefined) pendingTileCanvasList[zoom][tilePoint.x] = {};
 
-		if(!pendingTileCanvasList[zoom][tilePoint.x][tilePoint.y]) {
+		if(pendingTileCanvasList[zoom][tilePoint.x][tilePoint.y] === undefined) {
 			pendingTileCanvasList[zoom][tilePoint.x][tilePoint.y] = canvas;
 			pendingTiles.push({
 				point: tilePoint,
@@ -180,7 +198,7 @@ function generateViewportCanvas(tiles, actZoom, finalCallback, callback) {
 
 	    	var tileImg = new Image(256, 256);
 
-	    	tileImg.src = "http://localhost:8000/maps/water/" + actZoom + "/" + tile[0] + "/" + tile[1] + "/tile.png";
+	    	tileImg.src = "http://localhost:8000/maps/park/" + actZoom + "/" + tile[0] + "/" + tile[1] + "/tile.png";
 	    	tileImg.myData = { row: row, col: col}
 
 	    	tileImg.onload = function(){
