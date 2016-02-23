@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = {
+var Categories =  {
 
 	SHOPPING : {
 		supermarket : ["supermarket"],
@@ -57,3 +57,15 @@ module.exports = {
 		livingstreet : ["living_street"]
 	}
 };
+
+// Compatability for Node and Client
+// Source: http://stackoverflow.com/a/23750731/4218628
+(function(window) {
+
+	if(typeof module === 'object' && module && typeof module.exports === "object") {
+		module.exports = Categories;
+	} else {
+		window.Categories = Categories
+	}
+
+})(this);

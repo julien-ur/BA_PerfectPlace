@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Map background-color="#000000FF" srs="+init=epsg:3857">
+
+    <Style name="shapes">
+        <Rule>
+            <Filter>[mapnik::geometry_type]=polygon</Filter>
+            <PolygonSymbolizer fill="white" fill-opacity="1" />
+        </Rule>
+        <Rule>
+            <Filter>[mapnik::geometry_type]=linestring</Filter>
+            <LineSymbolizer stroke="white" stroke-width="2" stroke-opacity="1" />
+        </Rule>
+        <Rule>
+            <Filter>[mapnik::geometry_type]=point</Filter>
+            <PointSymbolizer file="server/data/point.svg" opacity="1" />
+        </Rule>
+    </Style>
+
+    <Layer name="<%= category %>" srs="+init=epsg:4326">
+        <StyleName>shapes</StyleName>
+        <Datasource>
+            <Parameter name="type">geojson</Parameter>
+            <Parameter name="file">server/data/geojson/<%= category %>.geojson</Parameter>
+        </Datasource>
+    </Layer>
+</Map>

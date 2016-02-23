@@ -5,21 +5,25 @@ var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 var fs = require('fs');
-var mapnik = require('mapnik');
+// var mapnik = require('mapnik');
 var GeoJSON = require('geojson');
-var geojsonvt = require('geojson-vt');
-var Vector = require('tilelive-vector');
+// var geojsonvt = require('geojson-vt');
+// var Vector = require('tilelive-vector');
 var mkdirp = require('mkdirp');
+var tileliveMapnik = require('tilelive-mapnik');
+var _ = require('underscore');
 
 var config = require('./public/js/config.js');
 var osmParser = require('./server/js/utils/osm-parser.js');
 var categories = require('./server/js/models/categories.js');
 var globalmaptiles = require('./server/vendor/globalmaptiles.js');
 
-// register fonts and datasource plugins
-mapnik.register_default_fonts();
-mapnik.register_default_input_plugins();
+var mapnikXML = fs.readFileSync("./server/data/mapnik.xml", 'utf-8');
+var mapnikXMLTemplate = _.template(mapnikXML);
 
+// // register fonts and datasource plugins
+// mapnik.register_default_fonts();
+// mapnik.register_default_input_plugins();
 
 // var geoJSON = JSON.parse(fs.readFileSync("./server/data/test.geojson"));
 
@@ -53,15 +57,21 @@ var strataMapnik = require('tilestrata-mapnik');
 var dependency = require('tilestrata-dependency');
 var strata = tilestrata();
 
-// define layers
-strata.layer('water')
-    .route('tile.png')
-        .use(disk.cache({dir: './server/data/geo-objects/water'}))
-        .use(strataMapnik({
-            pathname: './server/data/test.xml',
-            tileSize: 256,
-            scale: 1
-        }))
+// for (var category in categories) {
+// 	for (var subCategory in categories[category]) {
+
+var subCategory = "park";
+
+		strata.layer(subCategory)
+		    .route('tile.png')
+		        .use(disk.cache({dir: './server/data/geo-objects/' + subCategory }))
+		        .use(strataMapnik({
+		            xml: mapnikXMLTemplate({category: subCategory}),
+		            tileSize: 256,
+		            scale: 1
+		        }))
+// 	}
+// }
 
 // start accepting requests
 app.use(tilestrata.middleware({
@@ -74,7 +84,7 @@ server.listen(80);
 
 app.use(express.static('node_modules'));
 app.use(express.static('public'));
-app.use(express.static('server/vendor'));
+app.use(express.static('server'));
 
 io.on('connection', function (socket) {
 	socket.on('parseOSMFile', function (actualViewportBBox) {
@@ -88,7 +98,7 @@ io.on('connection', function (socket) {
 		// osmParser.parseFileStream(readStream, function (geoObjectCollection) {
 		// 	generateGeoJsonFiles(geoObjectCollection, function() {
 		//		var bbox = geoObjectCollection.getBoundingBox();
-		// 		generatePrecachedTiles(bbox);
+		// 		generateTileCache(bbox);
 		// 	});
 		// });
 	});
@@ -102,12 +112,13 @@ function parseOSMFileFromServer(bbox) {
 
 	var req = http.request(url, function(res) {
 		res.pipe(fs.createWriteStream("./server/data/actual.xml"));
-		console.log("OSM Data requested");
+		console.log("OSM Data requested..");
 		
 		osmParser.parseFileStream(res, function (geoObjectCollection) {
+			console.log("GeoObjectCollection generated..")
 			generateGeoJsonFiles(geoObjectCollection, function() {
 				var bbox = geoObjectCollection.getBoundingBox();
-				generatePrecachedTiles(bbox);
+				generateTileCache(bbox);
 			});
 		});
 	});
@@ -136,74 +147,60 @@ function generateGeoJsonFiles(geoObjectCollection, callback) {
 			});
 		}
 	}
-	console.log("GeoJSON files generated");
+	console.log("GeoJSON files generated..");
 	callback();
 }
 
-//
-//boundingBox should be accesed from the geojson files or via the mapnik.xmls
-//
-function generatePrecachedTiles(bbox) {
-	// var map = new mapnik.Map(800, 450);
-	// map.load('./server/data/test.xml', function(err, map) {
-	//     if (err) throw err;
-	    
-	//     map.zoomAll();
-	//     // map.extent = bbox;
-
-	//     var im = new mapnik.Image(800, 450);
-
-	// 	map.render(im, function (err, im) {
-	// 		im.encode('png', function (err, buffer) {
-	// 			if (err) throw err;
-	// 			fs.writeFile('./public/data/map.png', buffer, function(err) {
-	// 				if (err) throw err;
-	// 				console.log('saved map image to map.png');
-	// 				// socket.emit('imageCreated', bbox);
-	// 			});
-	//       	});
-	// 	});
-	// });
-	
-	// for (var category in categories) {
-	// 	for (var subCategory in categories[category]) {
-
-			
-	// 	}
-	// }
-
+function generateTileCache(bbox) {
 	console.log(bbox);
 
-	for (var zoom = config.OVERLAY_MIN_ZOOM; zoom <= config.MAP_MAX_ZOOM; zoom++) {
-		var tiles = globalmaptiles.GetTileList(zoom, [bbox.minlat, bbox.minlon], [bbox.maxlat, bbox.maxlon]);
-
-	    for (var row = 0; row < tiles.length; row++) {
-	    	for (var col = 0; col < tiles[0].length; col++) {
-	    		
-	    		var tile = tiles[row][col];
-				renderTile(tile[0], tile[1], zoom, "water");
-			}
+	var options = {
+		interactivity: false,
+		metatile: 8,
+		resolution: 4,
+		bufferSize: 128,
+		tileSize: 256,
+		scale: 1
+	};
+	
+	for (var category in categories) {
+		for (var subCategory in categories[category]) {
+			createTiles(subCategory, options, bbox);
 		}
 	}
-	console.log("Tiles generated")
 }
 
-function renderTile(x, y, z, category) {
-	var tilelive = require('tilelive');
-	require('tilelive-mapnik').registerProtocols(tilelive);
+function createTiles(category, options, bbox) {
+	var uri = {query: options};
+	uri.xml = mapnikXMLTemplate({category: category});
 
-	tilelive.load('mapnik:./server/data/test.xml', function(err, source) {
+	new tileliveMapnik(uri, function(err, source) {
 	    if (err) throw err;
-	    
-	    source.getTile(z, x, y, function(err, tile, headers) {
-	    	var path = 'server/data/geo-objects/' + category + '/' + z + '/' + x + '/' + y + '/';
 
-	    	mkdirp(path, function (err) {
-			    if (err) console.error(err);
-			    else fs.writeFileSync(path + '/tile.png', tile);
-			});
-	    });
+	    for (var zoom = config.OVERLAY_MIN_ZOOM; zoom <= config.MAP_MAX_ZOOM; zoom++) {
+	    	var tiles = globalmaptiles.GetTileList(zoom, [bbox.minlat, bbox.minlon], [bbox.maxlat, bbox.maxlon]);
+
+	        for (var row = 0; row < tiles.length; row++) {
+	        	for (var col = 0; col < tiles[0].length; col++) {
+	        		
+	        		var tile = tiles[row][col];
+	        		renderTile(source, tile[0], tile[1], zoom, category);
+	    		}
+	    	}
+	    }
+	    console.log("Tiles generated for " + category);
 	});
+}
+
+function renderTile(source, x, y, z, category) {
+    source.getTile(z, x, y, function(err, tile, headers) {
+    	var path = 'server/data/geo-objects/' + category + '/' + z + '/' + x + '/' + y + '/';
+
+    	mkdirp(path, function (err) {
+		    if (err) console.error(err);
+		    else fs.writeFileSync(path + '/tile.png', tile);
+		});
+    });
 }
 
 app.listen(8000);

@@ -1,6 +1,12 @@
 - NEXT STEPS -
 
 
+- Für alle Kategorien Tiles precachen (mapnik.xml template oder im code?)
+- Compositing der Layer
+- UI
+- VectorTiles oder Dilate
+
+
 Tile Process
 -----------------------------
 1. Für jede Kategorie eine GeoJSON
