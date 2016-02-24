@@ -14,7 +14,10 @@ var pendingTiles = [];
 var pendingTileCanvasList = {};
 
 var paramsList = [];
-var paramsBtnTemplate = _.template('<div id="<%= id %>" class="btn btn-default params"><%= name %> <%= distance %></div>');
+var actParameterSettingsPanelLink;
+
+var parameterSettingsPanelTemplate = render('parameter-settings-panel');
+
 
 window.onload = function() {
 
@@ -43,16 +46,44 @@ window.onload = function() {
 		"opacity": 0.5
 	});
 
-	$("#add-parameter-button").click(function() {
-		newParameterButton = paramsBtnTemplate({
-			id: "param-" + paramsList.length,
-			name: "New Category",
-			distance: ""
-		});
+	$('#app-container').click(function(event) {
+		var buttonID = event.target.id;
+		var buttonClass = event.target.className;
+		
+		if(buttonID === "add-parameter-button") {
+			parameterSettingsPanel = parameterSettingsPanelTemplate;
+			actParameterSettingsPanelLink = undefined;
 
-		$("#map").append(newParameterButton);
+			$('#app-container').append(parameterSettingsPanel);
+		} 
+
+		else if (buttonID === "add-btn") {
+			$('#parameter-settings-panel').remove();
+
+			var actParamID = "param-" + paramsList.length;
+
+			newParameterButton = render('parameter-button', {
+				id: actParamID,
+				name: "New Category",
+				distance: ""
+			});
+
+			actParameterSettingsPanelLink = actParamID;
+
+			$('#app-container').append(newParameterButton);
+		}
+
+		else if (buttonID === "cancle-btn") {
+			$('#parameter-settings-panel').remove();
+		}
+
+		else if ($(event.target).hasClass('param-btn')) {
+			console.log(buttonID);
+			$(parameterSettingsPanel).insertAfter($('#' + buttonID));
+			$('#' + buttonID).remove();
+			parameterSettingsPanel = parameterSettingsPanelTemplate;
+		}
 	});
-
 
 	// var canvasTileLayer = L.tileLayer.canvas();
 	// canvasTileLayer.drawTile = function(canvas, tilePoint, zoom) {
@@ -259,4 +290,34 @@ function sliceViewportCanvasIntoTilesAndSaveToCache(canvas, callback) {
 			//$('body').append(sliceCanvas);
 		}
 	}
+}
+
+// Source: http://stackoverflow.com/a/10136935
+function render(tmpl_name, tmpl_data) {
+	if(!tmpl_data) {
+		tmpl_data = {};
+	}
+
+    if (!render.tmpl_cache) { 
+        render.tmpl_cache = {};
+    }
+
+    if (!render.tmpl_cache[tmpl_name]) {
+        var tmpl_dir = '/templates';
+        var tmpl_url = tmpl_dir + '/' + tmpl_name + '.html';
+
+        var tmpl_string;
+        $.ajax({
+            url: tmpl_url,
+            method: 'GET',
+            async: false,
+            success: function(data) {
+                tmpl_string = data;
+            }
+        });
+
+        render.tmpl_cache[tmpl_name] = _.template(tmpl_string);
+    }
+
+    return render.tmpl_cache[tmpl_name](tmpl_data);
 }

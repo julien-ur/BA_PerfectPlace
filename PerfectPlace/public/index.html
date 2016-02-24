@@ -23,60 +23,12 @@
 
 <body>
 	<div id="header">Perfect Place - Find your perfect location to live!
-		<button id="server-precache" type="button" class="btn btn-primary">Server: Precache Tiles</button>
+		<button id="server-precache" type="button" class="btn btn-danger">Server: Precache Tiles</button>
 	</div>
-	<div id="app-container">
-		<div id="map">
-			<div id="add-parameter-button" class="btn btn-default params">+</div>
-			<div class="params">
-				<div id="settings-labels">
-					<p class="settings-label">Category</p>
-					<p class="settings-label">Distance</p>
-				</div>
-				<div id="basic-settings">
-					<div class="dropdown">
-						<button class="btn btn-default dropdown-toggle" type="button" id="category-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-							Bakery
-							<span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu" aria-labelledby="category-dropdown">
-							<li class="dropdown-header">Dropdown header</li>
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-							<li role="separator" class="divider"></li>
-							<li class="dropdown-header">Dropdown header</li>
-							<li><a href="#">Separated link</a></li>
-						</ul>
-					</div>
-
-						<div class="input-group" id="distance-input">
-							<input id="distance-number-input" type="text" class="form-control" aria-label="...">
-							<div class="input-group-btn">
-								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">m <span class="caret"></span></button>
-								<ul class="dropdown-menu dropdown-menu-right">
-									<li><a href="#">m </a></li>
-									<li><a href="#">km </a></li>
-								</ul>
-							</div>
-						</div>
-					<div id="distance-number-input"></div>
-					<div id="distance-unit-dropdown"></div>
-				</div>
-				<div id="importance-slider"></div>
-				<div id="importance-labels">
-					<p class="importance-label">Optional</p>
-					<p class="importance-label">Default</p>
-					<p class="importance-label">Very Important</p>
-				</div>
-				<div id="settings-buttons">
-					<p class="btn-setting">cancle</p>
-					<p class="btn-setting">add</p>
-				</div>
-			</div>
+	<div id="map">
+		<div id="app-container">
+			<div id="add-parameter-button" class="btn btn-default panel">+</div>
 		</div>
-
-		
 	</div>
 </body>
 </html>

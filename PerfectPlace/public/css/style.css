@@ -33,7 +33,7 @@ body
 	margin-right: 5px;
 }
 
-#app-container
+#map
 {
 	position: relative;
 	display: flex;
@@ -41,7 +41,7 @@ body
 	flex: 1;
 }
 
-#map
+#app-container
 {
 	position: relative;
 	width: auto;
@@ -54,7 +54,7 @@ body
 	letter-spacing: 0.5px;
 }
 
-.params
+.panel
 {
 	background-color: #ececfb;
 	color: #6c7184;
@@ -69,15 +69,49 @@ body
 	clear: both;
 }
 
-.settings-label, #basic-settings, #importance-slider, .importance-label, .btn-setting
+.settings-label
+{
+	margin-left: 2px;
+}
+
+#category-dropdown, #distance-input, #importance-dropdown, #distance-appendix-dropdown
 {
 	margin: 15px;
-	position: relative;
 	float: left;
 }
 
-#importance-labels, #settings-buttons
+#distance-input, #distance-appendix-dropdown
+{
+	margin-left: 10px;
+}
+
+#importance-dropdown, #distance-appendix-dropdown
+{
+	margin-top: 7px;
+}
+
+#importance-dropdown, #add-btn
 {
 	clear: both;
 }
 
+#add-btn, #cancle-btn
+{
+	margin: 15px;
+	float: right;
+}
+
+#add-btn
+{
+	margin-left: 0px;
+}
+
+#distance-input
+{
+	width: 100px;
+}
+
+.dropdown-menu
+{
+	min-width: 0px
+}
