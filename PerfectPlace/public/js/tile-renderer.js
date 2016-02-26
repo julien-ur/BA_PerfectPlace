@@ -13,10 +13,7 @@ var pendingTilesCache = {};
 var pendingTiles = [];
 var pendingTileCanvasList = {};
 
-var paramsList = [];
-var actParameterSettingsPanelLink;
-
-var parameterSettingsPanelTemplate = render('parameter-settings-panel');
+var paramsList = {};
 
 
 window.onload = function() {
@@ -46,18 +43,40 @@ window.onload = function() {
 		"opacity": 0.5
 	});
 
-	$('#app-container').click(function(event) {
-		var buttonID = event.target.id;
-		var buttonClass = event.target.className;
+	var categoryDropDownMenuHTML = "";
+	var first = true;
+
+	for (var category in Categories) {
+		if (first) {
+			categoryDropDownMenuHTML += '<li class="dropdown-header">' + category + '</li>';
+			first = false;
+		} else {
+			categoryDropDownMenuHTML += '<li role="separator" class="divider"></li>' + '\n' + '<li class="dropdown-header">' + category + '</li>';
+		}
 		
-		if(buttonID === "add-parameter-button") {
-			parameterSettingsPanel = parameterSettingsPanelTemplate;
-			actParameterSettingsPanelLink = undefined;
+		for (var subCategory in Categories[category]) {
+			categoryDropDownMenuHTML += '<li><a class="dropdown-menu-entry" href="#">' + subCategory.capitalize() + ' </a></li>';
+		}
+	}
+
+	$('#app-container').click(function(event) {
+		var clickedEl = $(event.target);
+
+		if(clickedEl.is("#add-parameter-button")) {
+			var parameterSettingsPanel = render('parameter-settings-panel', {
+				selectedCategory: "Park",
+				categoryDropdownMenu: categoryDropDownMenuHTML,
+				distanceInputValue: "500",
+				selectedDistanceUnit: "m",
+				selectedImportance: "Default",
+				selectedDistanceAppedix: "Maximal .. away"
+			});
 
 			$('#app-container').append(parameterSettingsPanel);
-		} 
+		}
 
-		else if (buttonID === "add-btn") {
+		else if (clickedEl.is("#add-btn")) {
+
 			$('#parameter-settings-panel').remove();
 
 			var actParamID = "param-" + paramsList.length;
@@ -68,22 +87,49 @@ window.onload = function() {
 				distance: ""
 			});
 
-			actParameterSettingsPanelLink = actParamID;
-
 			$('#app-container').append(newParameterButton);
 		}
 
-		else if (buttonID === "cancle-btn") {
+		else if (clickedEl.is("#cancle-btn")) {
 			$('#parameter-settings-panel').remove();
 		}
 
-		else if ($(event.target).hasClass('param-btn')) {
-			console.log(buttonID);
-			$(parameterSettingsPanel).insertAfter($('#' + buttonID));
-			$('#' + buttonID).remove();
-			parameterSettingsPanel = parameterSettingsPanelTemplate;
+		else if (clickedEl.hasClass('param-btn')) {
+			var parameterSettingsPanel = render('parameter-settings-panel', {
+				selectedCategory: "Park",
+				categoryDropdownMenu: categoryDropDownMenuHTML,
+				distanceInputValue: "500",
+				selectedDistanceUnit: "m",
+				selectedImportance: "Default",
+				selectedDistanceAppedix: "Maximal .. away"
+			});
+
+			$(parameterSettingsPanel).insertAfter($('#' + clickedEl.attr('id')));
+			$('#' + clickedEl.attr('id')).remove();
+		}
+
+		else if (clickedEl.hasClass('dropdown-menu-entry')) {
+			var selectedDropdownMenu = $(clickedEl.closest('ul'));
+			var selectedValue = clickedEl.html();
+
+			if(selectedDropdownMenu.is('#category-dropdown-menu')){
+				$('#category-dropdown-btn').contents().first().replaceWith(selectedValue);
+			} 
+
+			else if(selectedDropdownMenu.is('#distance-unit-dropdown-menu')){
+				$('#distance-unit-dropdown-btn').contents().first().replaceWith(selectedValue);
+			} 
+
+			else if(selectedDropdownMenu.is('#importance-dropdown-menu')){
+				$('#importance-dropdown-btn').contents().first().replaceWith(selectedValue);
+			} 
+
+			else if(selectedDropdownMenu.is('#distance-appendix-dropdown-menu')){
+				$('#distance-appendix-dropdown-btn').contents().first().replaceWith(selectedValue);
+			}
 		}
 	});
+
 
 	// var canvasTileLayer = L.tileLayer.canvas();
 	// canvasTileLayer.drawTile = function(canvas, tilePoint, zoom) {
@@ -318,6 +364,9 @@ function render(tmpl_name, tmpl_data) {
 
         render.tmpl_cache[tmpl_name] = _.template(tmpl_string);
     }
-
     return render.tmpl_cache[tmpl_name](tmpl_data);
+}
+
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
 }

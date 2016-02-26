@@ -1,14 +1,14 @@
-html, body
+html
 {
-	height: 100%;
-	-webkit-font-smoothing: antialiased;
 }
 
 body 
 {
-	display: flex;
-	flex-direction: column;
-	font-family: "A little sunshine", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    height: 100%;
 }
 
 #header
@@ -18,12 +18,13 @@ body
 	color: #fff;
 	padding-left: 15px;
 	vertical-align: middle;
+	font-family: "A little sunshine";
 	font-size: 21px;
 	line-height: 40px;
 	width: auto;
 	height: 40px;
 	position: relative;
-	z-index: 3;
+	z-index: 5;
 }
 
 #server-precache
@@ -35,18 +36,17 @@ body
 
 #map
 {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	flex: 1;
+	height: calc(100% - 40px);
+	width: 100%;
+	position: absolute;
 }
 
 #app-container
 {
-	position: relative;
+	position: absolute;
 	width: auto;
-	z-index: 1;
-	flex: 1;
+	right: 0;
+	height: calc(100% - 40px);
 	font-family: "A little sunshine";
 	font-size: 15px;
 	font-weight: bold;
@@ -54,7 +54,7 @@ body
 	letter-spacing: 0.5px;
 }
 
-.panel
+.map-panel
 {
 	background-color: #ececfb;
 	color: #6c7184;
@@ -65,8 +65,12 @@ body
 	-webkit-border-radius: 10px;
 	position: relative;
 	float: right;
-	z-index: 2;
 	clear: both;
+}
+
+#parameter-settings-panel
+{
+	min-width: 295px;
 }
 
 .settings-label
@@ -74,13 +78,13 @@ body
 	margin-left: 2px;
 }
 
-#category-dropdown, #distance-input, #importance-dropdown, #distance-appendix-dropdown
+#category-dropdown, #distance-input-container, #importance-dropdown, #distance-appendix-dropdown
 {
 	margin: 15px;
 	float: left;
 }
 
-#distance-input, #distance-appendix-dropdown
+#distance-input-container, #distance-appendix-dropdown
 {
 	margin-left: 10px;
 }
@@ -97,6 +101,7 @@ body
 
 #add-btn, #cancle-btn
 {
+	width: 80px;
 	margin: 15px;
 	float: right;
 }
@@ -106,12 +111,64 @@ body
 	margin-left: 0px;
 }
 
-#distance-input
+#category-dropdown-btn, #importance-dropdown-btn, #distance-appendix-dropdown-btn
+{
+
+	min-width: 120px;
+	padding: 6px;
+}
+
+#distance-unit-dropdown-btn
+{
+	min-width: 43px;
+	padding: 6px;
+}
+
+#distance-input-container
 {
 	width: 100px;
+}
+
+input {
+   text-align:center;
 }
 
 .dropdown-menu
 {
 	min-width: 0px
+}
+
+#category-dropdown-menu
+{
+    max-height: 150px;
+    width: 120px;
+}
+
+.caret
+{
+	float: right;
+	margin-top: 8px;
+	border-top-color: #585858;
+	margin-right: 2px;
+}
+
+.selected-dropdown-value
+{
+	float: left;
+}
+
+.scrollable-menu {
+    height: auto;
+    overflow-x: hidden;
+}
+
+.scrollable-menu::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;        
+}  
+
+.scrollable-menu::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: lightgray;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);        
 }

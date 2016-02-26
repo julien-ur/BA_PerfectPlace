@@ -1,31 +1,25 @@
-<div id="parameter-settings-panel" class="panel">
+<div id="parameter-settings-panel" class="map-panel">
 
 	<div id="category-dropdown" class="dropdown">
 		<p class="settings-label">Category</p>
-		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-			Bakery 
-			<span class="caret"></span>
+		<button id="category-dropdown-btn" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			<%= selectedCategory %> <span class="caret"></span>
 		</button>
-		<ul class="dropdown-menu" aria-labelledby="category-dropdown">
-			<li class="dropdown-header">Dropdown header</li>
-			<li><a href="#">Action</a></li>
-			<li><a href="#">Another action</a></li>
-			<li><a href="#">Something else here</a></li>
-			<li role="separator" class="divider"></li>
-			<li class="dropdown-header">Dropdown header</li>
-			<li><a href="#">Separated link</a></li>
+		<ul id="category-dropdown-menu" class="dropdown-menu scrollable-menu" aria-labelledby="category-dropdown">
+			<%= categoryDropdownMenu %>
 		</ul>
 	</div>
 
-	<div id="distance-input" class="input-group">
+	<div id="distance-input-container" class="input-group">
 		<p class="settings-label">Distance</p>
 		<div id="distance-number-input" class="input-group">
-			<input type="text" class="form-control" aria-label="...">
+			<input type="text" class="form-control" aria-label="..." value="<%= distanceInputValue %>">
 			<div class="input-group-btn">
-				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">m <span class="caret"></span></button>
-				<ul class="dropdown-menu dropdown-menu-right">
-					<li><a href="#">m </a></li>
-					<li><a href="#">km </a></li>
+				<button id="distance-unit-dropdown-btn" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">	<%= selectedDistanceUnit %> <span class="caret"></span>
+				</button>
+				<ul id="distance-unit-dropdown-menu" class="dropdown-menu dropdown-menu-right">
+					<li><a class="dropdown-menu-entry" href="#">m </a></li>
+					<li><a class="dropdown-menu-entry" href="#">km </a></li>
 				</ul>
 			</div>
 		</div>
@@ -33,26 +27,24 @@
 
 	<div id="importance-dropdown" class="dropdown">
 		<p class="settings-label">Importance</p>
-		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-			Default 
-			<span class="caret"></span>
+		<button id="importance-dropdown-btn" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			<%= selectedImportance %> <span class="caret"></span>
 		</button>
-		<ul class="dropdown-menu" aria-labelledby="category-dropdown">
-			<li><a href="#">Optional</a></li>
-			<li><a href="#">Default</a></li>
-			<li><a href="#">Very Important</a></li>
+		<ul id="importance-dropdown-menu" class="dropdown-menu" aria-labelledby="category-dropdown">
+			<li><a class="dropdown-menu-entry" href="#">Optional </a></li>
+			<li><a class="dropdown-menu-entry" href="#">Default </a></li>
+			<li><a class="dropdown-menu-entry" href="#">Very Important </a></li>
 		</ul>
 	</div>
 
 	<div id="distance-appendix-dropdown" class="dropdown">
 		<p class="settings-label">Distance Appendix</p>
-		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-			Maximal .. away 
-			<span class="caret"></span>
+		<button id="distance-appendix-dropdown-btn" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			<%= selectedDistanceAppedix %> <span class="caret"></span>
 		</button>
-		<ul class="dropdown-menu" aria-labelledby="category-dropdown">
-			<li><a href="#">Maximal .. away</a></li>
-			<li><a href="#">At least .. away</a></li>
+		<ul id="distance-appendix-dropdown-menu" class="dropdown-menu" aria-labelledby="category-dropdown">
+			<li><a class="dropdown-menu-entry" href="#">Maximal .. away </a></li>
+			<li><a class="dropdown-menu-entry" href="#">At least .. away </a></li>
 		</ul>
 	</div>
 
