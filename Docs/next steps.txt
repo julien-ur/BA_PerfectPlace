@@ -6,6 +6,12 @@
 - UI
 - VectorTiles oder Dilate
 
+TileRenderer, UI Manipulation
+
+- Models: parameter-list, tile-cache
+- View: app-view, map-layer-view
+- Controller: app-interaction,  map-layer-control
+
 
 Tile Process
 -----------------------------

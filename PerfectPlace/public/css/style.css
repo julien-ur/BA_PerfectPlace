@@ -68,7 +68,7 @@ body
 	clear: both;
 }
 
-#parameter-settings-panel
+.parameter-settings-panel
 {
 	min-width: 295px;
 }
@@ -78,53 +78,53 @@ body
 	margin-left: 2px;
 }
 
-#category-dropdown, #distance-input-container, #importance-dropdown, #distance-appendix-dropdown
+.category-dropdown, .distance-input-container, .importance-dropdown, .distance-appendix-dropdown
 {
 	margin: 15px;
 	float: left;
 }
 
-#distance-input-container, #distance-appendix-dropdown
+.distance-input-container, .distance-appendix-dropdown
 {
 	margin-left: 10px;
 }
 
-#importance-dropdown, #distance-appendix-dropdown
+.importance-dropdown, .distance-appendix-dropdown
 {
 	margin-top: 7px;
 }
 
-#importance-dropdown, #add-btn
+.importance-dropdown, .add-btn
 {
 	clear: both;
 }
 
-#add-btn, #cancle-btn
+.add-btn, .cancle-btn
 {
 	width: 80px;
 	margin: 15px;
 	float: right;
 }
 
-#add-btn
+.add-btn
 {
 	margin-left: 0px;
 }
 
-#category-dropdown-btn, #importance-dropdown-btn, #distance-appendix-dropdown-btn
+.category-dropdown-btn, .importance-dropdown-btn, .distance-appendix-dropdown-btn
 {
 
 	min-width: 120px;
 	padding: 6px;
 }
 
-#distance-unit-dropdown-btn
+.distance-unit-dropdown-btn
 {
 	min-width: 43px;
 	padding: 6px;
 }
 
-#distance-input-container
+.distance-input-container
 {
 	width: 100px;
 }
@@ -138,7 +138,7 @@ input {
 	min-width: 0px
 }
 
-#category-dropdown-menu
+.category-dropdown-menu
 {
     max-height: 150px;
     width: 120px;
