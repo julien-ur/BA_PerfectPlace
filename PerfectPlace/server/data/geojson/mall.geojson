@@ -870,9 +870,9 @@
 		}
 	],
 	"bbox": {
-		"minlat": 48.9831,
-		"minlon": 11.9445,
-		"maxlat": 49.0844,
-		"maxlon": 12.2192
+		"minlat": 48.9684,
+		"minlon": 12.0163,
+		"maxlat": 49.0682,
+		"maxlon": 12.2104
 	}
 }

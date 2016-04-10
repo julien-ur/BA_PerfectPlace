@@ -10,27 +10,39 @@
 	</head>
 
 	<body>
-		<div id="header">Perfect Place - Find your perfect location to live!
+		<div id="header">
+			Perfect Place - Find your perfect location to live!
 			<button id="server-precache" type="button" class="btn btn-danger">Server: Precache Tiles</button>
 		</div>
-		<div id="map">
-			
+
+		<div id="map">	
 		</div>
+
 		<div id="app-container" class="scrollable-menu">
 			<div id="add-parameter-button" class="btn btn-default map-panel">+</div>
 		</div>
 
 		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
 		<script src="/underscore/underscore.js"></script>
 		<script src="/socket.io/socket.io.js"></script>
 		<script src="/vendor/globalmaptiles.js"></script>
-		<script src="/js/models/categories.js"></script>
 		<script src="/vendor/fast-gauss-blur.js"></script>
 		<script src="/vendor/filter.bundle.js"></script>
+		<script src="/js/models/categories.js"></script>
 		<script src="/js/config.js"></script>
-		<script src="/js/tile-renderer.js"></script>
+		<script src="/js/utils/utils.js"></script>
+		<script src="/js/utils/canvas-tile-renderer.js"></script>
+		<script src="/js/models/parameter-list.js"></script>
+		<script src="/js/models/canvas-tile-cache.js"></script>
+		<script src="/js/views/app-view.js"></script>
+		<script src="/js/views/map-view.js"></script>
+		<script src="/js/views/parameter-view.js"></script>
+		<script src="/js/views/parameter-btn-view.js"></script>
+		<script src="/js/views/parameter-settings-panel-view.js"></script>
+		<script src="/js/controller/map-layer-control.js"></script>
+		<script src="/js/controller/app-interaction.js"></script>
 		<script src="/js/perfect-place.js"></script>
 	</body>
 </html>

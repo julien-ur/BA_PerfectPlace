@@ -1,7 +1,3 @@
-html
-{
-}
-
 body 
 {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -68,11 +64,6 @@ body
 	clear: both;
 }
 
-.parameter-settings-panel
-{
-	min-width: 295px;
-}
-
 .settings-label
 {
 	margin-left: 2px;
@@ -99,7 +90,7 @@ body
 	clear: both;
 }
 
-.add-btn, .cancle-btn
+.add-btn, .remove-btn
 {
 	width: 80px;
 	margin: 15px;

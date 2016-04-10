@@ -57,26 +57,24 @@ var strataMapnik = require('tilestrata-mapnik');
 var dependency = require('tilestrata-dependency');
 var strata = tilestrata();
 
-// for (var category in categories) {
-// 	for (var subCategory in categories[category]) {
-
-var subCategory = "park";
+for (var category in categories) {
+	for (var subCategory in categories[category]) {
 
 		strata.layer(subCategory)
 		    .route('tile.png')
-		        .use(disk.cache({dir: './server/data/geo-objects/' + subCategory }))
+		        //.use(disk.cache({dir: './server/data/geo-objects/' + subCategory }))
 		        .use(strataMapnik({
 		            xml: mapnikXMLTemplate({category: subCategory}),
 		            tileSize: 256,
 		            scale: 1
 		        }))
-// 	}
-// }
+	}
+}
 
 // start accepting requests
 app.use(tilestrata.middleware({
     server: strata,
-    prefix: '/maps'
+    prefix: '/tiles'
 }));
 
 
@@ -97,7 +95,7 @@ io.on('connection', function (socket) {
 
 		// osmParser.parseFileStream(readStream, function (geoObjectCollection) {
 		// 	generateGeoJsonFiles(geoObjectCollection, function() {
-		//		var bbox = geoObjectCollection.getBoundingBox();
+		// 		var bbox = geoObjectCollection.getBoundingBox();
 		// 		generateTileCache(bbox);
 		// 	});
 		// });
@@ -117,8 +115,8 @@ function parseOSMFileFromServer(bbox) {
 		osmParser.parseFileStream(res, function (geoObjectCollection) {
 			console.log("GeoObjectCollection generated..")
 			generateGeoJsonFiles(geoObjectCollection, function() {
-				var bbox = geoObjectCollection.getBoundingBox();
-				generateTileCache(bbox);
+				//var bbox = geoObjectCollection.getBoundingBox();
+				//generateTileCache(bbox);
 			});
 		});
 	});

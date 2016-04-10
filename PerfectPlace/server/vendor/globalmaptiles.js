@@ -4,7 +4,7 @@
 	Copyright (c) 2009 The Bivings Group
 	All rights reserved.
 	Author: John Bafford
-	adapted 2015 by Julien Wachter to fit Node's require module
+	adapted by Julien Wachter (2015) to fit Node's require module
 
 	http://www.bivings.com/
 	http://bafford.com/softare/aggregate-map-tools/
@@ -42,7 +42,7 @@
 	exports.LatLonToMeters = function (lat, lon)
 	{
 		var mx = lon * originShift / 180.0;
-		var my = Math.log( Math.tan((90 + lat) * Math.PI / 360.0 )) / (Math.PI / 180.0);
+		var my = Math.log(Math.tan((90 + lat) * Math.PI / 360.0)) / (Math.PI / 180.0);
 		
 		my = my * originShift / 180.0;
 		
@@ -55,7 +55,7 @@
 		var lon = (mx / originShift) * 180.0;
 		var lat = (my / originShift) * 180.0;
 
-		lat = 180 / Math.PI * (2 * Math.atan( Math.exp( lat * Math.PI / 180.0)) - Math.PI / 2);
+		lat = 180 / Math.PI * (2 * Math.atan(Math.exp(lat * Math.PI / 180.0)) - Math.PI / 2);
 		
 		return [lat, lon];
 	}
@@ -285,4 +285,5 @@
 		
 		return arr;
 	}
-})((typeof exports === 'undefined') ? this['globalmaptiles']={} : exports);
+
+})((typeof exports === 'undefined') ? this['GlobalMapTiles']={} : exports);

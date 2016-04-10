@@ -1,6 +1,18 @@
 - NEXT STEPS -
 
+var formula;
+for (int i = 0, i < paramCount, i++) {
+	formula.add((-1)^i*(paramCount-i)*x^(i+1))
+}
 
+-------------------------------------------------
+Distanz in Pixel umrechnen:
+- LatLon Viewport Mittelpunkt
+- In Meter umrechnen
+- Zu Meter Distanz in Y Hälfte Richtung addieren/subtrahieren - jeweils in Pixel umrechnen
+- Differenz bilden
+
+---------------------------------------------
 - Für alle Kategorien Tiles precachen (mapnik.xml template oder im code?)
 - Compositing der Layer
 - UI
@@ -11,6 +23,10 @@ TileRenderer, UI Manipulation
 - Models: parameter-list, tile-cache
 - View: app-view, map-layer-view
 - Controller: app-interaction,  map-layer-control
+
+- zoomend, moveend
+
+Direkte Einbindung von svg als Pfadangabe? --> url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>');
 
 
 Tile Process

@@ -1,10 +1,10 @@
-<div id="<%= paramID %>" class="map-panel">
+<div id="<%= paramId %>" class="map-panel">
 
 	<div class="dropdown category-dropdown">
 		<p class="settings-label">Category</p>
 		<button class="btn btn-default dropdown-toggle category-dropdown-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><%= selectedCategory %><span class="caret"></span>
 		</button>
-		<ul class="dropdown-menu scrollable-menu category-dropdown-menu" aria-labelledby="category-dropdown">
+		<ul class="dropdown-menu scrollable-menu category-dropdown-menu">
 			<%= categoryDropdownMenu %>
 		</ul>
 	</div>
@@ -17,8 +17,8 @@
 				<button type="button" class="btn btn-default dropdown-toggle distance-unit-dropdown-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= selectedDistanceUnit %><span class="caret"></span>
 				</button>
 				<ul class="dropdown-menu dropdown-menu-right distance-unit-dropdown-menu">
-					<li><a class="dropdown-menu-entry" href="#">m </a></li>
-					<li><a class="dropdown-menu-entry" href="#">km </a></li>
+					<li><a class="dropdown-menu-entry" href="#">m</a></li>
+					<li><a class="dropdown-menu-entry" href="#">km</a></li>
 				</ul>
 			</div>
 		</div>
@@ -28,7 +28,7 @@
 		<p class="settings-label">Importance</p>
 		<button class="btn btn-default dropdown-toggle importance-dropdown-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><%= selectedImportance %><span class="caret"></span>
 		</button>
-		<ul class="dropdown-menu importance-dropdown-menu" aria-labelledby="category-dropdown">
+		<ul class="dropdown-menu importance-dropdown-menu">
 			<li><a class="dropdown-menu-entry" href="#">Optional</a></li>
 			<li><a class="dropdown-menu-entry" href="#">Default</a></li>
 			<li><a class="dropdown-menu-entry" href="#">Very Important</a></li>
@@ -39,12 +39,12 @@
 		<p class="settings-label">Distance Appendix</p>
 		<button class="btn btn-default dropdown-toggle distance-appendix-dropdown-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><%= selectedDistanceAppedix %><span class="caret"></span>
 		</button>
-		<ul class="dropdown-menu distance-appendix-dropdown-menu" aria-labelledby="category-dropdown">
+		<ul class="dropdown-menu distance-appendix-dropdown-menu">
 			<li><a class="dropdown-menu-entry" href="#">Maximal .. away</a></li>
 			<li><a class="dropdown-menu-entry" href="#">At least .. away</a></li>
 		</ul>
 	</div>
 
 	<p class="btn-primary btn add-btn"><%= addButtonName %></p>
-	<p class="btn-primary btn cancle-btn">cancle</p>
+	<p class="btn-primary btn remove-btn"><%= removeButtonName %></p>
 </div>

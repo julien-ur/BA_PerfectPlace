@@ -97,8 +97,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0982700,
-					49.0163392
+					12.0982324,
+					49.0163167
 				]
 			},
 			"properties": {
@@ -357,8 +357,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1004431,
-					49.0064581
+					12.1005128,
+					49.0066077
 				]
 			},
 			"properties": {
@@ -461,6 +461,32 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
+					12.1901393,
+					48.9808794
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1148523,
+					49.0066276
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
 					12.0971515,
 					49.0201404
 				]
@@ -500,21 +526,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.9546070,
-					49.0252778
-				]
-			},
-			"properties": {
-				"category": "doctor"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.1856306,
-					49.0708127
+					12.0950343,
+					49.0166311
 				]
 			},
 			"properties": {
@@ -528,6 +541,19 @@
 				"coordinates": [
 					12.0359148,
 					48.9896546
+				]
+			},
+			"properties": {
+				"category": "doctor"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1026533,
+					49.0134400
 				]
 			},
 			"properties": {
@@ -745,9 +771,9 @@
 		}
 	],
 	"bbox": {
-		"minlat": 48.9831,
-		"minlon": 11.9445,
-		"maxlat": 49.0844,
-		"maxlon": 12.2192
+		"minlat": 48.9684,
+		"minlon": 12.0163,
+		"maxlat": 49.0682,
+		"maxlon": 12.2104
 	}
 }

@@ -6,19 +6,6 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0537184,
-					49.0742920
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
 					12.1153781,
 					49.0052910
 				]
@@ -396,8 +383,21 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0894130,
-					49.0200696
+					12.0894385,
+					49.0200692
+				]
+			},
+			"properties": {
+				"category": "bakery"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1636720,
+					48.9684423
 				]
 			},
 			"properties": {
@@ -448,19 +448,6 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1079752,
-					49.0766876
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
 					12.1017469,
 					49.0095256
 				]
@@ -476,19 +463,6 @@
 				"coordinates": [
 					12.0518455,
 					49.0130970
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.2125767,
-					49.0319416
 				]
 			},
 			"properties": {
@@ -604,8 +578,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0966725,
-					49.0165350
+					12.0967272,
+					49.0164998
 				]
 			},
 			"properties": {
@@ -632,58 +606,6 @@
 				"coordinates": [
 					12.1630094,
 					49.0232215
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.1909054,
-					49.0731987
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.1863615,
-					49.0717623
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.1955346,
-					49.0758739
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.1982758,
-					49.0767032
 				]
 			},
 			"properties": {
@@ -734,8 +656,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1228471,
-					49.0006573
+					12.1933531,
+					48.9813816
 				]
 			},
 			"properties": {
@@ -747,8 +669,34 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.9595699,
-					49.0730039
+					12.1921225,
+					48.9814524
+				]
+			},
+			"properties": {
+				"category": "bakery"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1912640,
+					48.9817264
+				]
+			},
+			"properties": {
+				"category": "bakery"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1228471,
+					49.0006573
 				]
 			},
 			"properties": {
@@ -838,19 +786,6 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1975671,
-					49.0768181
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
 					12.0870419,
 					49.0072134
 				]
@@ -916,19 +851,6 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.9527428,
-					49.0245021
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
 					12.0782504,
 					49.0081742
 				]
@@ -983,19 +905,6 @@
 				"coordinates": [
 					12.1199921,
 					49.0286066
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.9533249,
-					49.0247167
 				]
 			},
 			"properties": {
@@ -1325,39 +1234,6 @@
 				"coordinates": [
 					[
 						[
-							12.1067860,
-							49.0769016
-						],
-						[
-							12.1068683,
-							49.0768627
-						],
-						[
-							12.1069647,
-							49.0769502
-						],
-						[
-							12.1068841,
-							49.0769882
-						],
-						[
-							12.1067860,
-							49.0769016
-						]
-					]
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Polygon",
-				"coordinates": [
-					[
-						[
 							12.1567618,
 							49.0390834
 						],
@@ -1468,9 +1344,9 @@
 		}
 	],
 	"bbox": {
-		"minlat": 48.9831,
-		"minlon": 11.9445,
-		"maxlat": 49.0844,
-		"maxlon": 12.2192
+		"minlat": 48.9684,
+		"minlon": 12.0163,
+		"maxlat": 49.0682,
+		"maxlon": 12.2104
 	}
 }

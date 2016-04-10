@@ -97,8 +97,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1958172,
-					49.0754587
+					12.1925618,
+					48.9813101
 				]
 			},
 			"properties": {
@@ -151,6 +151,19 @@
 				"coordinates": [
 					12.1245084,
 					49.0138502
+				]
+			},
+			"properties": {
+				"category": "kiosk"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1928177,
+					48.9812306
 				]
 			},
 			"properties": {
@@ -257,9 +270,9 @@
 		}
 	],
 	"bbox": {
-		"minlat": 48.9831,
-		"minlon": 11.9445,
-		"maxlat": 49.0844,
-		"maxlon": 12.2192
+		"minlat": 48.9684,
+		"minlon": 12.0163,
+		"maxlat": 49.0682,
+		"maxlon": 12.2104
 	}
 }

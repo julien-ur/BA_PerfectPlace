@@ -149,21 +149,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1938518,
-					49.0754496
-				]
-			},
-			"properties": {
-				"category": "pharmacy"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.1974355,
-					49.0766748
+					12.0648141,
+					48.9804501
 				]
 			},
 			"properties": {
@@ -266,19 +253,6 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0052188,
-					49.0613908
-				]
-			},
-			"properties": {
-				"category": "pharmacy"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
 					12.1508379,
 					49.0248049
 				]
@@ -320,6 +294,19 @@
 				"coordinates": [
 					12.1977833,
 					48.9873829
+				]
+			},
+			"properties": {
+				"category": "pharmacy"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1644667,
+					48.9684261
 				]
 			},
 			"properties": {
@@ -461,6 +448,19 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
+					12.1932105,
+					48.9812405
+				]
+			},
+			"properties": {
+				"category": "pharmacy"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
 					12.1232817,
 					49.0003397
 				]
@@ -541,19 +541,6 @@
 				"coordinates": [
 					12.0967735,
 					49.0106740
-				]
-			},
-			"properties": {
-				"category": "pharmacy"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.1069481,
-					49.0768201
 				]
 			},
 			"properties": {
@@ -654,32 +641,6 @@
 		{
 			"type": "Feature",
 			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.9529145,
-					49.0245760
-				]
-			},
-			"properties": {
-				"category": "pharmacy"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.9542664,
-					49.0237986
-				]
-			},
-			"properties": {
-				"category": "pharmacy"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
 				"type": "Polygon",
 				"coordinates": [
 					[
@@ -709,49 +670,12 @@
 			"properties": {
 				"category": "pharmacy"
 			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Polygon",
-				"coordinates": [
-					[
-						[
-							12.1068683,
-							49.0768627
-						],
-						[
-							12.1069481,
-							49.0768201
-						],
-						[
-							12.1070218,
-							49.0767808
-						],
-						[
-							12.1071282,
-							49.0768596
-						],
-						[
-							12.1069647,
-							49.0769502
-						],
-						[
-							12.1068683,
-							49.0768627
-						]
-					]
-				]
-			},
-			"properties": {
-				"category": "pharmacy"
-			}
 		}
 	],
 	"bbox": {
-		"minlat": 48.9831,
-		"minlon": 11.9445,
-		"maxlat": 49.0844,
-		"maxlon": 12.2192
+		"minlat": 48.9684,
+		"minlon": 12.0163,
+		"maxlat": 49.0682,
+		"maxlon": 12.2104
 	}
 }
