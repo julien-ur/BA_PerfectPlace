@@ -31,18 +31,15 @@ module.exports = function () {
 
 		if (shape === 'point') {
 			geoData.push({
-				point: coordData,
-				category: category
+				point: coordData
 			});
 		} else if (shape === 'line') {
 			geoData.push({
-				line: coordData,
-				category: category
+				line: coordData
 			});
 		} else if (shape === 'polygon') {
 			geoData.push({
-				polygon: coordData,
-				category: category
+				polygon: coordData
 			});
 		}
 	}

@@ -7,7 +7,7 @@
 		
 		// adding MapQuest tile layer, must give proper OpenStreetMap attribution according to MapQuest terms
 		L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
-			maxZoom: config.MAP_MAX_ZOOM,
+			maxZoom: PerfectPlaceConfig.MAP_MAX_ZOOM,
 			subdomains: '1234',
 			attribution: '&copy; <a href="http://info.mapquest.com/terms-of-use/">MapQuest</a> | &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		}).addTo(this.map);
@@ -37,8 +37,9 @@
 
 	MapView.prototype.addLayer = function(opacity, renderFunct) {
 		var that = this;
-		var canvasTileLayer = L.tileLayer.canvas();
-
+		var canvasTileLayer = L.tileLayer.canvas({
+			tileSize: PerfectPlaceConfig.PARAM_LAYER_TILE_SIZE
+		});
 		canvasTileLayer.drawTile = function(canvas, tilePoint, zoom) {
 		    renderFunct(canvas, tilePoint, zoom, that.map.getBounds(), that.map.getCenter());
 		}

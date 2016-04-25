@@ -8,7 +8,7 @@
 	CanvasTileCache.prototype.saveTile = function(tile, x, y, zoom) {
 		if (this.cache[zoom] === undefined) this.cache[zoom] = {};
 		if (this.cache[zoom][y] === undefined) this.cache[zoom][y] = {};
-
+		
 		this.cache[zoom][y][x] = tile;
 	};
 

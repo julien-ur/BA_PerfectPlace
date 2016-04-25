@@ -12,7 +12,7 @@
 		var firstSubCategory = Object.keys(PerfectPlace.Categories[firstCategory])[0];
 		
 		this.defaultParamData = {
-			category: firstSubCategory,
+			category: 'water',
 			distance: 500,
 			distanceUnit: "m",
 			distanceReversed: false,

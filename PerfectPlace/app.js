@@ -7,7 +7,7 @@ var io = require('socket.io')(server);
 var fs = require('fs');
 // var mapnik = require('mapnik');
 var GeoJSON = require('geojson');
-// var geojsonvt = require('geojson-vt');
+var geojsonvt = require('geojson-vt');
 // var Vector = require('tilelive-vector');
 var mkdirp = require('mkdirp');
 var tileliveMapnik = require('tilelive-mapnik');
@@ -20,21 +20,16 @@ var globalmaptiles = require('./server/vendor/globalmaptiles.js');
 
 var mapnikXML = fs.readFileSync("./server/data/mapnik.xml", 'utf-8');
 var mapnikXMLTemplate = _.template(mapnikXML);
+var vtServer = require('./server/js/utils/vt-server.js');
 
 // // register fonts and datasource plugins
 // mapnik.register_default_fonts();
 // mapnik.register_default_input_plugins();
 
-// var geoJSON = JSON.parse(fs.readFileSync("./server/data/test.geojson"));
 
-// // build an initial index of tiles
-// var tileIndex = geojsonvt(geoJSON);
-// //console.log(tileIndex);
-// // request a particular tile
-// var features = tileIndex.getTile(13, 4371, 2812).features;
 
-// // show an array of tile coordinates created so far
-// //console.log(features); // [{z: 0, x: 0, y: 0}, ...]
+// show an array of tile coordinates created so far
+//console.log(features); // [{z: 0, x: 0, y: 0}, ...]
 
 // var geojsonString = JSON.stringify(features, null, "\t");
 
@@ -50,26 +45,43 @@ var mapnikXMLTemplate = _.template(mapnikXML);
 
 // var formattedGeojsonString = geojsonString.replace(/\"(\d+\.?\d*)\"/g, "$1");
 
-
 var tilestrata = require('tilestrata');
 var disk = require('tilestrata-disk');
 var strataMapnik = require('tilestrata-mapnik');
 var dependency = require('tilestrata-dependency');
 var strata = tilestrata();
 
-for (var category in categories) {
-	for (var subCategory in categories[category]) {
+// var vtile = require('tilestrata-vtile');
+// var vtileraster = require('tilestrata-vtile-raster');
 
+// var common = {
+//     xml: '/path/to/map.xml',
+//     tileSize: 256,
+//     metatile: 1,
+//     bufferSize: 128
+// };
+
+// server.layer('mylayer')
+//     .route('t.pbf').use(vtile(common))
+//     .route('t.png').use(vtileraster(common, {
+//         tilesource: ['mylayer', 't.pbf']
+//     }));
+
+// for (var category in categories) {
+// 	for (var subCategory in categories[category]) {
+var subCategory = "water";
 		strata.layer(subCategory)
-		    .route('tile.png')
+		    .route('tile.json')
 		        //.use(disk.cache({dir: './server/data/geo-objects/' + subCategory }))
+		        .use(vtServer(subCategory))
+		    .route('tile.png')
 		        .use(strataMapnik({
 		            xml: mapnikXMLTemplate({category: subCategory}),
 		            tileSize: 256,
 		            scale: 1
-		        }))
-	}
-}
+		        }));
+// 	}
+// }
 
 // start accepting requests
 app.use(tilestrata.middleware({
@@ -79,6 +91,10 @@ app.use(tilestrata.middleware({
 
 
 server.listen(80);
+
+server.on('listening', function(){
+    console.log('server is running!');
+});
 
 app.use(express.static('node_modules'));
 app.use(express.static('public'));
@@ -176,13 +192,15 @@ function createTiles(category, options, bbox) {
 	    if (err) throw err;
 
 	    for (var zoom = config.OVERLAY_MIN_ZOOM; zoom <= config.MAP_MAX_ZOOM; zoom++) {
-	    	var tiles = globalmaptiles.GetTileList(zoom, [bbox.minlat, bbox.minlon], [bbox.maxlat, bbox.maxlon]);
+	    	var boundaryTiles = globalmaptiles.GetTileList(zoom, [bbox.minlat, bbox.minlon], [bbox.maxlat, bbox.maxlon]);
+    		
+    		var tmin = boundaryTiles[0];
+    	    var tmax = boundaryTiles[1];
 
-	        for (var row = 0; row < tiles.length; row++) {
-	        	for (var col = 0; col < tiles[0].length; col++) {
+    		for(var y = tmax[1]; y <= tmin[1]; y++) {
+    			for(var x = tmin[0]; x <= tmax[0]; x++) {
 	        		
-	        		var tile = tiles[row][col];
-	        		renderTile(source, tile[0], tile[1], zoom, category);
+	        		renderTile(source, x, y, zoom, category);
 	    		}
 	    	}
 	    }

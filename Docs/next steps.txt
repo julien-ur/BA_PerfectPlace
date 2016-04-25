@@ -5,6 +5,8 @@ for (int i = 0, i < paramCount, i++) {
 	formula.add((-1)^i*(paramCount-i)*x^(i+1))
 }
 
+http://localhost:8000/tiles/category/z/x/y/tile.json
+
 -------------------------------------------------
 Distanz in Pixel umrechnen:
 - LatLon Viewport Mittelpunkt

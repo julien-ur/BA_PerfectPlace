@@ -1,15 +1,17 @@
 (function (window) {
 	'use strict';
 
-	function CanvasTileRenderer(category, distance, distanceReversed, tileCache) {
+	function CanvasTileRenderer(category, distance, distanceReversed, tileSize, tileCache) {
 		this.category = category;
 		this.distance = distance;
 		this.distanceReversed = distanceReversed;
-		
+		this.tileSize = tileSize;
+
 		this.actViewportInfo = {};
 		this.pendingTileRequests = [];
 		this.tileCache = tileCache;
 		this.updatingCache = false;
+		this.maxAttempts = 3;
 	}
 
 	CanvasTileRenderer.prototype.updateSettings = function (category, distance, distanceReversed) {
@@ -18,14 +20,14 @@
 		this.distanceReversed = distanceReversed;
 	}
 
-	CanvasTileRenderer.prototype.drawTile = function(rawCanvas, tilePoint, zoom, mapBounds, mapCenter) {
+	CanvasTileRenderer.prototype.drawTile = function(rawCanvas, tilePoint, zoom, mapBounds, mapCenter, attempt) {
 		var cachedCanvasTile = this.tileCache.getTile(tilePoint.x, tilePoint.y, zoom);
+		console.log(!!cachedCanvasTile, zoom, tilePoint.x, tilePoint.y, attempt);
 
 		if(cachedCanvasTile) {
 			var ctx = rawCanvas.getContext('2d');
 			ctx.globalCompositeOperation = "multiply";
 			ctx.drawImage(cachedCanvasTile, 0, 0);
-
 			this.tileCache.removeTile(tilePoint.x, tilePoint.y, zoom);
 
 		} else {
@@ -34,59 +36,51 @@
 				point: tilePoint,
 				zoom: zoom,
 				mapBounds: mapBounds,
-				mapCenter: mapCenter
+				mapCenter: mapCenter,
+				attempt: attempt
 			});
 
 			if (!this.updatingCache) {
-				this.actViewportInfo.zoom = zoom;
-				this.actViewportInfo.mapBounds = mapBounds;
-				this.actViewportInfo.mapCenter = mapCenter;
-
-				this._generateAndCacheTilesForActualViewport()
+				this._generateAndCacheTilesForViewport(zoom-4, mapBounds, mapCenter)
 			}
 		}
 	}
-
-	CanvasTileRenderer.prototype._generateAndCacheTilesForActualViewport = function() {
+	
+	CanvasTileRenderer.prototype._generateAndCacheTilesForViewport = function(zoom, mapBounds, mapCenter) {
 		this.updatingCache = true;
+		
+		var bvb = this._getBufferedViepwortBounds(zoom, mapBounds, mapCenter);
+	    var tiles = GlobalMapTiles.GetTiles(zoom, [bvb.minLat, bvb.minLon], [bvb.maxLat, bvb.maxLon]);
+	    console.log(tiles);
 
-		var bvb = this._getBufferedViepwortBounds(this.distance);
-	    var tiles = GlobalMapTiles.GetTileList(this.actViewportInfo.zoom, [bvb.minLat, bvb.minLon], [bvb.maxLat, bvb.maxLon]);
-
-	    this.actViewportInfo.rows = tiles.length;
-	    this.actViewportInfo.cols = tiles[0].length;
-	    this.actViewportInfo.minXTilePoint = tiles[0][0][0];
-	   	this.actViewportInfo.minYTilePoint = tiles[0][0][1];
+    	this.viewportCanvas = $('<canvas/>').get(0);
+    	this.viewportCanvas.height = tiles.rows * this.tileSize;
+        this.viewportCanvas.width = tiles.cols * this.tileSize;
 
 	   	var that = this;
-
-		that._generateCanvasForActualViewport(tiles, function(canvas) {
-			var filterSize = that._convertDistanceToPixels(that.distance);
-			that._dilateViewportCanvas(canvas, filterSize);
-			that._blurViewportCanvas(canvas, filterSize);
-			that._sliceViewportCanvasIntoTilesAndSaveToCache(canvas, function() {
+		that._fetchTilesAndDrawOnViewportCanvas(zoom, tiles, function() {
+			var filterSize = that._convertDistanceToPixels(zoom, mapCenter);
+			// that._dilateViewportCanvas(filterSize);
+			// that._blurViewportCanvas(filterSize);
+			that._sliceViewportCanvasIntoTilesAndSaveToCache(zoom+4, tiles, function() {
 				that.updatingCache = false;
 				that._handlePendingTileRequests();
 			});
 		});
-	};
+	}
 
-	CanvasTileRenderer.prototype._getBufferedViepwortBounds = function(bufferDistance) {
-		var actZoom = this.actViewportInfo.zoom;
-		var pyramidLevelWidth = Math.pow(2, actZoom) * 256;
-		var actTileWidthInMeters = GlobalMapTiles.PixelsToMeters(pyramidLevelWidth/2 + 256, pyramidLevelWidth/2 + 256, actZoom)[0];
+	CanvasTileRenderer.prototype._getBufferedViepwortBounds = function(zoom, mapBounds, mapCenter) {
+		var actMetersPerPixel = GlobalMapTiles.LatToRes(zoom, mapCenter.lat);
+		var minBufferDist = actMetersPerPixel * 10;
+		var bufferDistance = Math.max(this.distance, minBufferDist);
 
-		bufferDistance = Math.max(bufferDistance, actTileWidthInMeters);
-
-		var mapBounds = this.actViewportInfo.mapBounds;
-		var mUpperLeft = GlobalMapTiles.LatLonToMeters(mapBounds.getNorth(), mapBounds.getWest());
-		var mBottomRight = GlobalMapTiles.LatLonToMeters(mapBounds.getSouth(), mapBounds.getEast());
-
-		var north = GlobalMapTiles.MetersToLatLon(mUpperLeft[0], mUpperLeft[1]+bufferDistance)[0];
-		var west = GlobalMapTiles.MetersToLatLon(mUpperLeft[0]-bufferDistance, mUpperLeft[1])[1];
-
-		var south = GlobalMapTiles.MetersToLatLon(mBottomRight[0], mBottomRight[1]-bufferDistance)[0];
-		var east = GlobalMapTiles.MetersToLatLon(mBottomRight[0]+bufferDistance, mBottomRight[1])[1];
+		var upperLeft = GlobalMapTiles.LatLonToMeters(mapBounds.getNorth(), mapBounds.getWest());
+		var bottomRight = GlobalMapTiles.LatLonToMeters(mapBounds.getSouth(), mapBounds.getEast());
+		
+		var north = GlobalMapTiles.MetersToLatLon(upperLeft[0], upperLeft[1]+bufferDistance)[0];
+		var west = GlobalMapTiles.MetersToLatLon(upperLeft[0]-bufferDistance, upperLeft[1])[1];
+		var south = GlobalMapTiles.MetersToLatLon(bottomRight[0], bottomRight[1]-bufferDistance)[0];
+		var east = GlobalMapTiles.MetersToLatLon(bottomRight[0]+bufferDistance, bottomRight[1])[1];
 
 		var bbox = {
 			minLat: south,
@@ -94,61 +88,108 @@
 			maxLat: north,
 			maxLon: east
 		}
+
 		return bbox;
-	};
+	}
 
-	CanvasTileRenderer.prototype._generateCanvasForActualViewport = function(tiles, callback) {
-		var canvas = $('<canvas/>').get(0);
-		canvas.height = this.actViewportInfo.rows * 256;
-	    canvas.width = this.actViewportInfo.cols * 256;
-	    var ctx = canvas.getContext('2d');
-
-	    var numOfTiles = this.actViewportInfo.rows * this.actViewportInfo.cols;
-	    var tilesLoaded = 0;
-	  
-	    for (var row = 0; row < this.actViewportInfo.rows; row++) {
-	    	for (var col = 0; col < this.actViewportInfo.cols; col++) {
-		    	var tile = tiles[row][col];
-
-		    	var tileImg = new Image(256, 256);
-
-		    	tileImg.src = "http://localhost:8000/tiles/" + this.category + "/" + this.actViewportInfo.zoom + "/" + tile[0] + "/" + tile[1] + "/tile.png";
-		    	tileImg.myData = { row: row, col: col };
-
-		    	tileImg.onload = function(){
-	    			ctx.drawImage(this, this.myData.col * 256, this.myData.row * 256);
-	    			tilesLoaded++
-	    			if (tilesLoaded >= numOfTiles) callback(canvas);
-	  			}
-	  		}
-		}
-	};
-
-	CanvasTileRenderer.prototype._convertDistanceToPixels = function(distance) {
-		var viewportCenterInMeters = GlobalMapTiles.LatLonToMeters(this.actViewportInfo.mapCenter.lat, this.actViewportInfo.mapCenter.lng);
+	CanvasTileRenderer.prototype._convertDistanceToPixels = function(zoom, mapCenter) {
+		var viewportCenterInMeters = GlobalMapTiles.LatLonToMeters(mapCenter.lat, mapCenter.lng);
 		var mx = viewportCenterInMeters[0];
 		var my = viewportCenterInMeters[1];
 
-		var pixelsNorth = GlobalMapTiles.MetersToPixels(mx, my - distance/2, this.actViewportInfo.zoom);
-		var pixelsSouth = GlobalMapTiles.MetersToPixels(mx, my + distance/2, this.actViewportInfo.zoom);
+		var pixelsNorth = GlobalMapTiles.MetersToPixels(mx, my - this.distance/2, zoom);
+		var pixelsSouth = GlobalMapTiles.MetersToPixels(mx, my + this.distance/2, zoom);
 		var pixelDistance = pixelsSouth[1] - pixelsNorth[1];
+		console.log(pixelDistance);
+
+		var actMetersPerPixel = GlobalMapTiles.LatToRes(zoom, mapCenter.lat);
+		var pixelDistance = 1/actMetersPerPixel * this.distance;
+		console.log(pixelDistance);
 
 		return pixelDistance;
 	}
 
-	CanvasTileRenderer.prototype._dilateViewportCanvas = function(canvas, dilateSize) {
-		var ctx = canvas.getContext("2d");
-		var filterImg = new FILTER.Image(canvas);
-		var dilate = new FILTER.StatisticalFilter().dilate(dilateSize);
+	CanvasTileRenderer.prototype._fetchTilesAndDrawOnViewportCanvas = function(zoom, tiles, callback) {
+	    console.log("tiles: " + tiles.rows*tiles.cols);
+	    
+		for(var y = tiles.minY; y <= tiles.maxY; y++) {
+			for(var x = tiles.minX; x <= tiles.maxX; x++) {
+
+		    	console.log(zoom,x,y);
+
+	   			var url = "http://localhost:8000/tiles/" + this.category + "/" + zoom + "/" + x + "/" + y + "/tile.json";
+
+		    	$.ajax({
+		    		url: url,
+		    		async: false,
+		    		context: this
+		    	}).done(function(tileString, textStatus, jqXHR) {
+		    		console.log()
+					try {
+						var tile = JSON.parse(tileString);
+	    				this._drawTileOnViewportCanvas(tile, y - tiles.minY, x - tiles.minX);
+						console.log("success");
+					}
+					catch (e) {
+						console.log(e);
+					}
+
+		    	}).fail(function(jqXHR) {
+		    		console.log(jqXHR);
+		    	});
+	    	}
+  		}
+		callback();
+	}
+
+	CanvasTileRenderer.prototype._drawTileOnViewportCanvas = function(tile, row, col) {
+		console.log(row, col);
+		var ctx = this.viewportCanvas.getContext('2d');
+		ctx.strokeStyle = 'black';
+		ctx.fillStyle = 'rgba(0,0,0,0.9)';
+
+		var features = tile.features;
+
+		for (var i = 0; i < features.length; i++) {
+		    var feature = features[i];
+		    var type = feature.type;
+
+		    ctx.beginPath();
+
+		    for (var j = 0; j < feature.geometry.length; j++) {
+		        var geom = feature.geometry[j];
+
+		        if (type === 1) {
+		            ctx.arc(geom[0] + (col * this.tileSize), geom[1] + (row * this.tileSize), 2, 0, 2*Math.PI);
+		            continue;
+		        }
+
+		        for (var k = 0; k < geom.length; k++) {
+		            var p = geom[k];
+		            if (k) ctx.lineTo(p[0] + (col * this.tileSize), p[1] + (row * this.tileSize));
+		            else ctx.moveTo(p[0] + (col * this.tileSize), p[1] + (row * this.tileSize));
+		        }
+		    }
+
+		    if (type === 3 || type === 1) ctx.fill('evenodd');
+		    
+		    ctx.stroke();
+		}
+	}
+
+	CanvasTileRenderer.prototype._dilateViewportCanvas = function(size) {
+		var ctx = this.viewportCanvas.getContext("2d");
+		var filterImg = new FILTER.Image(this.viewportCanvas);
+		var dilate = new FILTER.StatisticalFilter().dilate(size);
 
 		filterImg.apply(dilate, function() {
 			ctx.drawImage(filterImg.toImage(FILTER.FORMAT.IMAGE), 0, 0);
 		});
 	}
 
-	CanvasTileRenderer.prototype._blurViewportCanvas = function(canvas, blurSize) {
-		var ctx = canvas.getContext("2d");
-		var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+	CanvasTileRenderer.prototype._blurViewportCanvas = function(size) {
+		var ctx = this.viewportCanvas.getContext("2d");
+		var imgData = ctx.getImageData(0, 0, this.viewportCanvas.width, this.viewportCanvas.height);
 
 		var redChannel = [];
 
@@ -158,7 +199,7 @@
 
 		var blurredRedChannel = [];
 
-		FastGaussBlur.apply(redChannel, blurredRedChannel, canvas.width, canvas.height, blurSize);
+		FastGaussBlur.apply(redChannel, blurredRedChannel, this.viewportCanvas.width, this.viewportCanvas.height, size);
 
 		for (var i = 0; i < imgData.data.length; i+=4) {
 			var colorValue = blurredRedChannel[i/4];
@@ -168,30 +209,27 @@
 		}
 
 		ctx.putImageData(imgData, 0, 0);
-	};
+	}
 
-	CanvasTileRenderer.prototype._sliceViewportCanvasIntoTilesAndSaveToCache = function(viewportCanvas, callback) {
+	CanvasTileRenderer.prototype._sliceViewportCanvasIntoTilesAndSaveToCache = function(zoom, tiles, callback) {
+		var tileSize = this.tileSize;
 
-		for (var row = 1; row < this.actViewportInfo.rows-1; row++) {
-	    	for (var col = 1; col < this.actViewportInfo.cols-1; col++) {
+		for (var row = 0; row < tiles.rows; row++) {
+	    	for (var col = 0; col < tiles.cols; col++) {
 
 			    var canvasTile = $('<canvas/>').get(0);
-			    canvasTile.height = 256;
-			    canvasTile.width = 256;
+			    canvasTile.height = tileSize;
+			    canvasTile.width = tileSize;
 
 			    var ctx = canvasTile.getContext('2d');
-			    ctx.drawImage(viewportCanvas, col*256, row*256, 256, 256, 0, 0, 256, 256);
+			    ctx.drawImage(this.viewportCanvas, col*tileSize, row*tileSize, tileSize, tileSize, 0, 0, tileSize, tileSize);
 
-			    var zoom = this.actViewportInfo.zoom;
-			    var minX = this.actViewportInfo.minXTilePoint;
-			    var minY = this.actViewportInfo.minYTilePoint;
-
-				this.tileCache.saveTile(canvasTile, minX + col, minY + row, zoom);
+				this.tileCache.saveTile(canvasTile, tiles.minX + col, tiles.minY + row,  zoom);
 			}
 		}
 
 		callback();
-	};
+	}
 
 	CanvasTileRenderer.prototype._handlePendingTileRequests = function() {
 		var pendingTileRequests = Object.create(this.pendingTileRequests);
@@ -200,9 +238,10 @@
 		for (var i = 0; i < pendingTileRequests.length; i++) {
 			var tileRequest = pendingTileRequests[i];
 
-			this.drawTile(tileRequest.rawCanvas, tileRequest.point, tileRequest.zoom, tileRequest.mapBounds, tileRequest.mapCenter);
+			if(tileRequest.attempt >= this.maxAttempts) continue;
+			this.drawTile(tileRequest.rawCanvas, tileRequest.point, tileRequest.zoom, tileRequest.mapBounds, tileRequest.mapCenter, tileRequest.attempt+1);
 		}
-	};
+	}
 
 	window.PerfectPlace = window.PerfectPlace || {};
 	window.PerfectPlace.CanvasTileRenderer = CanvasTileRenderer;
