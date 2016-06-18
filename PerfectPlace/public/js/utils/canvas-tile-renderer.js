@@ -28,6 +28,11 @@
 			var ctx = rawCanvas.getContext('2d');
 			ctx.globalCompositeOperation = "multiply";
 			ctx.drawImage(cachedCanvasTile, 0, 0);
+			$(cachedCanvasTile).css({
+				'margin-top': '600px'
+			});
+
+			$('body').append(cachedCanvasTile);
 			this.tileCache.removeTile(tilePoint.x, tilePoint.y, zoom);
 
 		} else {
@@ -146,8 +151,8 @@
 							         "geometry":{
 							            "type":"Point",
 							            "coordinates":[
-							               12.1990440,
-							               49.0541620
+											12.0791100,
+											49.02
 							            ]
 							         }
 							      },
@@ -184,7 +189,7 @@
 							      }
 							   ]
 							}
-							var tilesData = this._bufferFeaturePolygons(this.tilesData);
+							var tilesData = this.tilesData; //this._bufferFeaturePolygons(this.tilesData);
 							this._drawTileOnViewportCanvas(tilesData, tiles, zoom);
 						}
 					}
@@ -264,37 +269,55 @@
 
 	    for (var i = 0; i < features.length; i++) {
 	    	var feature = features[i];
+			console.log("Feature", feature);
 
 		    for (var j = 0; j < feature.geometry.coordinates.length; j++) {
-		        var geom = feature.geometry.coordinates;
+				var geom = feature.geometry;
+		        var coords = geom.coordinates;
 		        var type = geom.type;
 
+				console.log(type);
+				console.log("Feature Coords", coords);
+
 		        if (type === 'Point') {
-		        	geom = this._convertCoords(geom, z2)
-		            ctx.arc(geom[0] + this.tileSize, geom[1] + this.tileSize, 2, 0, 2*Math.PI);
+		        	coords = this._convertCoords(coords, tiles.minX, tiles.minY, z2);
+					console.log("Single Point Coord", coords);
+		            ctx.arc(coords[0], coords[1], 2, 0, 2*Math.PI);
 		            continue;
 		        }
 
 		        if (type === 'Polygon') {
-		        	geom = geom[j];
+		        	coords = coords[j];
+					console.log("Polgon coords Array", coords);
 		        }
 
-		        for (var k = 0; k < geom.length; k++) {
-	        	    var p = geom[k];
-	        	    p = this._convertCoords(p, z2);
+		        for (var k = 0; k < coords.length; k++) {
+	        	    var p = coords[k];
+					console.log("Single Line/Poly coord", p);
+	        	    p = this._convertCoords(p, tiles.minX, tiles.minY, z2);
+					console.log(p);
 
-	        	    if (k) ctx.lineTo(p[0] + this.tileSize, p[1] + this.tileSize);
-	        	    else ctx.moveTo(p[0] + this.tileSize, p[1] + this.tileSize);
+					if (k) ctx.lineTo(p[0], p[1]);
+	        	    else ctx.moveTo(p[0], p[1]);
 	        	}
 		    }
 
 		    if (type === 'Polygon' || type === 'Point') ctx.fill('evenodd');
-		    
-		    ctx.stroke();
+
+			ctx.stroke();
 		}
+		ctx.rect(0, 0, 4096, 4096);
+		ctx.fill();
+		ctx.stroke();
+		// $(this.viewportCanvas).css({
+		// 	'margin-top': '600px'
+		// });
+        //
+		// $('body').append(this.viewportCanvas);
 	};
 
 	CanvasTileRenderer.prototype._convertCoords = function(p, minX, minY, z2) {
+		console.log(p, minX, minY, z2);
     	var sin = Math.sin((p[1] * Math.PI) / 180),
     	    x = (p[0] / 360) + 0.5,
     	    y = 0.5 - (0.25 * Math.log((1 + sin) / (1 - sin))) / Math.PI;

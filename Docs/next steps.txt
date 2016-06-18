@@ -1,5 +1,7 @@
 - NEXT STEPS -
 
+node-sphericalmercator?!
+
 Problems GeoJSON:
 - Linear Ring needs to have four or more pos (here only 3)
 - First and last pos in a Linear Ring needs to be the same

@@ -14,7 +14,7 @@ body
 	color: #fff;
 	padding-left: 15px;
 	vertical-align: middle;
-	font-family: "A little sunshine";
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 21px;
 	line-height: 40px;
 	width: auto;
@@ -43,7 +43,7 @@ body
 	width: auto;
 	right: 0;
 	height: calc(100% - 40px);
-	font-family: "A little sunshine";
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 15px;
 	font-weight: bold;
 	line-height: 15px;
