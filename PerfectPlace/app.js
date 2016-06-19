@@ -26,8 +26,6 @@ var vtServer = require('./server/js/utils/vt-server.js');
 // mapnik.register_default_fonts();
 // mapnik.register_default_input_plugins();
 
-
-
 // show an array of tile coordinates created so far
 //console.log(features); // [{z: 0, x: 0, y: 0}, ...]
 
@@ -44,6 +42,7 @@ var vtServer = require('./server/js/utils/vt-server.js');
 // });
 
 // var formattedGeojsonString = geojsonString.replace(/\"(\d+\.?\d*)\"/g, "$1");
+
 
 var tilestrata = require('tilestrata');
 var disk = require('tilestrata-disk');

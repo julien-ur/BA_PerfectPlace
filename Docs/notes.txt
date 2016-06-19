@@ -45,3 +45,6 @@ Generate Viewport Tiles (destroy Offset Tiles)
 Draw Requested Tile & save others
 
 
+node-sphericalmercator: Umrechnung für Spherical Marcator
+
+

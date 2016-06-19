@@ -1,6 +1,12 @@
 - NEXT STEPS -
 
-node-sphericalmercator?!
+
+Performanceverbesserung Buffering:
+- Buffer für niedrigste Zoomstufe speichern und bei kleineren Zoomstufen und keinen sonstigen Änderungen diesen verwenden
+    --> Tiles mit jeweils niedriegster Zoomstufe zurück in den geojson-vt TileIndex schreiben
+- Button zum stoppen aller Berechnungen einführen --> User kann Zoomstufe in Ruhe auswählen, danach laufen alle höheren Zoomstufen flüssig
+
+-------------------------------------------------
 
 Problems GeoJSON:
 - Linear Ring needs to have four or more pos (here only 3)

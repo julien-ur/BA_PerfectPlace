@@ -123,7 +123,7 @@
 		for(var y = tiles.minY; y <= tiles.maxY; y++) {
 			for(var x = tiles.minX; x <= tiles.maxX; x++) {
 
-		    	console.log(zoom,x,y);
+		    	console.log(zoom, x, y);
 
 	   			var url = "http://localhost:8000/tiles/" + this.category + "/" + zoom + "/" + x + "/" + y + "/tile.json";
 
@@ -133,64 +133,18 @@
 		    	}).done(function(tileString, textStatus, jqXHR) {
 
 					try {
-						var tileData = JSON.parse(tileString); 
+						var tileData = JSON.parse(tileString);
 						tileData = this._convertTile(tileData);
 						this.tilesData = this.tilesData.concat(tileData);
 						console.log("success");
 
 						this.counter ++;
 						if (this.counter == this.tileCount) {
-							this.tilesData = {
-							   "type":"FeatureCollection",
-							   "features":[
-							      {
-							         "type":"Feature",
-							         "properties":{
 
-							         },
-							         "geometry":{
-							            "type":"Point",
-							            "coordinates":[
-											12.0791100,
-											49.02
-							            ]
-							         }
-							      },
-							      {
-							         "type":"Feature",
-							         "properties":{
-
-							         },
-							         "geometry":{
-							            "type":"LineString",
-							            "coordinates":[
-							               [
-							                  12.0791176,
-							                  49.0257231
-							               ],
-							               [
-							                  12.0808752,
-							                  49.0245425
-							               ],
-							               [
-							                  12.0836616,
-							                  49.0234743
-							               ],
-							               [
-							                  12.0865090,
-							                  49.0228229
-							               ],
-							               [
-							                  12.1018699,
-							                  49.0209784
-							               ]
-							            ]
-							         }
-							      }
-							   ]
-							}
-							var tilesData = this.tilesData; //this._bufferFeaturePolygons(this.tilesData);
+							var tilesData = this._bufferFeaturePolygons(this.tilesData);
 							this._drawTileOnViewportCanvas(tilesData, tiles, zoom);
+
+							callback();
 						}
 					}
 					catch (e) { console.log(e); }
@@ -200,7 +154,6 @@
 		    	});
 	    	}
   		}
-		callback();
 	};
 
 	CanvasTileRenderer.prototype._convertTile = function(tile) {
@@ -225,8 +178,8 @@
 		    		break;
 
 		    	case 3:
-		    		type = 'Polygon';
-		    		coords = feature.geometry;
+		    		type = 'LineString';
+		    		coords = feature.geometry[0];
 		    		break;
 		    }
 
@@ -244,17 +197,17 @@
 		return convertedFeatures;
 	};
 
-	CanvasTileRenderer.prototype._bufferFeaturePolygons = function(tilesData, distance) {
+	CanvasTileRenderer.prototype._bufferFeaturePolygons = function(tilesData) {
 		var ftColl = {
 		  "type": "FeatureCollection",
 		  "features": tilesData
 		};
 		// console.log(JSON.stringify(ftColl).replace(/\"(\d+\.?\d*)\"/g, "$1"));
-		console.log(tilesData);
+		// console.log(ftColl);
 
 	    var unit = 'meters';
-	    var buffered = turf.buffer(tilesData, 20, unit);
-	    console.log(buffered);
+	    var buffered = turfBuffer(ftColl, this.distance, unit);
+	    // console.log(buffered);
 	    return buffered;
 	};
 
@@ -269,46 +222,36 @@
 
 	    for (var i = 0; i < features.length; i++) {
 	    	var feature = features[i];
-			console.log("Feature", feature);
 
 		    for (var j = 0; j < feature.geometry.coordinates.length; j++) {
 				var geom = feature.geometry;
 		        var coords = geom.coordinates;
 		        var type = geom.type;
 
-				console.log(type);
-				console.log("Feature Coords", coords);
-
 		        if (type === 'Point') {
 		        	coords = this._convertCoords(coords, tiles.minX, tiles.minY, z2);
-					console.log("Single Point Coord", coords);
 		            ctx.arc(coords[0], coords[1], 2, 0, 2*Math.PI);
 		            continue;
 		        }
 
 		        if (type === 'Polygon') {
 		        	coords = coords[j];
-					console.log("Polgon coords Array", coords);
 		        }
 
 		        for (var k = 0; k < coords.length; k++) {
 	        	    var p = coords[k];
-					console.log("Single Line/Poly coord", p);
 	        	    p = this._convertCoords(p, tiles.minX, tiles.minY, z2);
-					console.log(p);
 
 					if (k) ctx.lineTo(p[0], p[1]);
 	        	    else ctx.moveTo(p[0], p[1]);
 	        	}
 		    }
 
-		    if (type === 'Polygon' || type === 'Point') ctx.fill('evenodd');
+			ctx.fill('evenodd'); //if (type === 'Polygon' || type === 'Point')
 
 			ctx.stroke();
 		}
-		ctx.rect(0, 0, 4096, 4096);
-		ctx.fill();
-		ctx.stroke();
+
 		// $(this.viewportCanvas).css({
 		// 	'margin-top': '600px'
 		// });
@@ -317,7 +260,6 @@
 	};
 
 	CanvasTileRenderer.prototype._convertCoords = function(p, minX, minY, z2) {
-		console.log(p, minX, minY, z2);
     	var sin = Math.sin((p[1] * Math.PI) / 180),
     	    x = (p[0] / 360) + 0.5,
     	    y = 0.5 - (0.25 * Math.log((1 + sin) / (1 - sin))) / Math.PI;
@@ -367,7 +309,6 @@
 
 	CanvasTileRenderer.prototype._sliceViewportCanvasIntoTilesAndSaveToCache = function(zoom, tiles, callback) {
 		var tileSize = this.tileSize;
-
 		for (var row = 0; row < tiles.rows; row++) {
 	    	for (var col = 0; col < tiles.cols; col++) {
 
