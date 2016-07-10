@@ -10,7 +10,10 @@ module.exports = function(category) {
             // build an initial index of tiles
             var data = JSON.parse(fs.readFileSync("./server/data/geojson/" + category + ".geojson"));
             this.tileIndex = geojsonvt(data, {
-                tolerance: 1
+                tolerance: 3,
+                extent: config.SERVER_TILE_SIZE,
+                maxZoom: 18
+                // buffer: 0
                 // debug: 0
             });
 
@@ -19,17 +22,16 @@ module.exports = function(category) {
         serve: function(server, req, callback) {
             // request a particular tile
             var tile = this.tileIndex.getTile(req.z, req.x, req.y);
-            var status = 404;
+            var err = 'tile ' + req.z + ', ' +  req.x + ', ' +  req.y + ' not found';
             var tileStr = '';
-            console.log(tile);
+
             if(tile) {
                 var tileStr = JSON.stringify(tile, null, "\t");
-                status = 200;
+                err = null;
             }
 
-            console.log(status, req.z, req.x, req.y);
-
-            callback(null, tileStr, req.headers);
+            console.log(err);
+            callback(err, tileStr, req.headers);
         },
         destroy: function(server, callback) {
             callback();

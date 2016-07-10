@@ -34,9 +34,14 @@
 
 (function(exports) {
 	
-	var tileSize = 4096;
+	var tileSize = 256;
 	var initialResolution = 2 * Math.PI * 6378137 / tileSize;
 	var originShift = 2 * Math.PI * 6378137 / 2.0;
+
+	exports.setTileSize = function (size) {
+		tileSize = size;
+		initialResolution = 2 * Math.PI * 6378137 / tileSize;
+	};
 
 	//Converts given lat/lon in WGS84 Datum to XY in Spherical Mercator EPSG:900913
 	exports.LatLonToMeters = function (lat, lon)
@@ -47,7 +52,7 @@
 		my = my * originShift / 180.0;
 		
 		return [mx, my];
-	}
+	};
 
 	//Converts XY point from Spherical Mercator EPSG:900913 to lat/lon in WGS84 Datum
 	exports.MetersToLatLon = function (mx, my)
@@ -58,7 +63,7 @@
 		lat = 180 / Math.PI * (2 * Math.atan(Math.exp(lat * Math.PI / 180.0)) - Math.PI / 2);
 		
 		return [lat, lon];
-	}
+	};
 
 	//Converts pixel coordinates in given zoom level of pyramid to EPSG:900913
 	exports.PixelsToMeters = function (px, py, zoom)
@@ -68,7 +73,7 @@
 		var my = py * res - originShift;
 		
 		return [mx, my];
-	}
+	};
 
 	//Converts EPSG:900913 to pyramid pixel coordinates in given zoom level
 	exports.MetersToPixels = function (mx, my, zoom)
@@ -79,7 +84,7 @@
 		var py = (my + originShift) / res;
 
 		return [px, py];
-	}
+	};
 
 	//Returns a tile covering region in given pixel coordinates
 	exports.PixelsToTile = function (px, py)
@@ -88,7 +93,7 @@
 		var ty = Math.ceil( py / tileSize ) - 1;
 
 		return [tx, ty];
-	}
+	};
 
 	//Returns tile for given mercator coordinates
 	exports.MetersToTile = function (mx, my, zoom)
@@ -100,7 +105,7 @@
 	    t[1] = (1 << zoom) - t[1] - 1;
 
 		return t;
-	}
+	};
 
 	//Returns bounds of the given tile in EPSG:900913 coordinates
 	exports.TileBounds = function (tx, ty, zoom)
@@ -109,7 +114,7 @@
 		var max = exports.PixelsToMeters( (tx+1)*tileSize, (ty+1)*tileSize, zoom );
 		
 		return [min[0], min[1], max[0], max[1]];
-	}
+	};
 
 	//Returns bounds of the given tile in latutude/longitude using WGS84 datum
 	exports.TileLatLonBounds = function (tx, ty, zoom)
@@ -120,19 +125,19 @@
 		var max = exports.MetersToLatLon(bounds[2], bounds[3]);
 		 
 		return [min[0], min[1], max[0], max[1]];
-	}
+	};
 
 	//Resolution (meters/pixel) for given zoom level (measured at Equator)
 	exports.Resolution = function (zoom)
 	{
 		return initialResolution / (1 << zoom);
-	}
+	};
 
 	//Resolution (meters/pixel) for given zoom level and latitude in WGS84 Datum
 	exports.LatToRes = function (zoom, lat)
 	{
 		return initialResolution * Math.cos(lat * (Math.PI / 180)) / (1 << zoom);
-	}
+	};
 
 	//Returns a list of all of tiles at a given zoom level within a latitude/longude box
 	exports.GetTiles = function (zoom, latLon, latLonMax)

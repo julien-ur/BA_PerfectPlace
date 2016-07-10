@@ -40,9 +40,11 @@
 		var canvasTileLayer = L.tileLayer.canvas({
 			tileSize: PerfectPlaceConfig.PARAM_LAYER_TILE_SIZE
 		});
+
 		canvasTileLayer.drawTile = function(canvas, tilePoint, zoom) {
 		    renderFunct(canvas, tilePoint, zoom, that.map.getBounds(), that.map.getCenter());
-		}
+		};
+
 		this.paramLayers.addLayer(canvasTileLayer);
 
 		var $mapLayer = $(canvasTileLayer.getContainer());
@@ -52,21 +54,21 @@
 		});
 
 		return canvasTileLayer._leaflet_id;
-	}
+	};
 
 	MapView.prototype.updateLayerOpacity = function(opacity) {
 		this.paramLayers.eachLayer(function(layer) {
 			layer.setOpacity(opacity);
 		});
-	}
+	};
 
 	MapView.prototype.redrawLayer = function(layerId){
 		this.paramLayers.getLayer(layerId).redraw();
-	}
+	};
 
 	MapView.prototype.removeLayer = function(layerId) {
 		this.paramLayers.removeLayer(layerId);
-	}
+	};
 
 	window.PerfectPlace = window.PerfectPlace || {};
 	window.PerfectPlace.MapView = MapView;

@@ -13,24 +13,24 @@
 		var tileCache = new PerfectPlace.CanvasTileCache();
 		var tileSize = PerfectPlaceConfig.PARAM_LAYER_TILE_SIZE;
 		var renderer = new PerfectPlace.CanvasTileRenderer(category, distanceInMeters, distanceReversed, tileSize, tileCache);
-		
+
 		var opacity = 0.5 / this.paramsList.getAddedParamCount();
 		this.mapView.updateLayerOpacity(opacity);
 
 		var layerId = this.mapView.addLayer(opacity, function(canvas, tilePoint, zoom, mapBounds, mapCenter) {
-			renderer.drawTile(canvas, tilePoint, zoom, mapBounds, mapCenter, 0);
+			renderer.drawTile(canvas, tilePoint, zoom, mapBounds, mapCenter);
 		});
-		
+
 		this.layerList[paramId] = {
 			layerId: layerId,
 			renderer: renderer
 		}
-	}
+	};
 
 	MapLayerControl.prototype.updateLayer = function(paramId, category, distanceInMeters, distanceReversed) {
 		this.layerList[paramId].renderer.updateSettings(category, distanceInMeters, distanceReversed);
 		this.mapView.redrawLayer(this.layerList[paramId].layerId);
-	}
+	};
 
 	MapLayerControl.prototype.removeLayer = function(paramId) {
 		var l = this.layerList[paramId];
@@ -40,7 +40,7 @@
 			this.mapView.updateLayerOpacity(opacity);
 		}
 		this.layerList.splice(paramId, 1);
-	}
+	};
 
 	MapLayerControl.prototype._attachListener = function() {
 		var that = this;
@@ -68,7 +68,7 @@
 		this.paramsList.on('paramDeleted', function(paramId) {
 			that.removeLayer(paramId);
 		});
-	}
+	};
 
 	window.PerfectPlace = window.PerfectPlace || {};
 	window.PerfectPlace.MapLayerControl = MapLayerControl;

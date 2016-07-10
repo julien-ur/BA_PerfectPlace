@@ -58,7 +58,7 @@
 		    }
 		}
 	}
-	console.log(FastGaussBlur);
+
 	window.FastGaussBlur = FastGaussBlur;
 
 })(window);
