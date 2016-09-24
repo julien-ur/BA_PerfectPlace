@@ -1,73 +1,84 @@
 (function(window) {
-	'use strict';
-	
-	function MapView() {
-		// creates a map in the "map" div, set the view to a given place and zoom
-		this.map = L.map('map').setView([49.017222, 12.096944], 14);
-		
-		// adding MapQuest tile layer, must give proper OpenStreetMap attribution according to MapQuest terms
-		L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
-			maxZoom: config.MAP_MAX_ZOOM,
-			subdomains: '1234',
-			attribution: '&copy; <a href="http://info.mapquest.com/terms-of-use/">MapQuest</a> | &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-		}).addTo(this.map);
+    'use strict';
 
-		this.paramLayers = L.layerGroup();
-		this.paramLayers.addTo(this.map);
+    function MapView() {
+        // // creates a map in the "map" div, set the view to a given place and zoom
+        // this.map = L.map('map').setView([49.017222, 12.096944], 14);
+        //
+        // // adding MapQuest tile layer, must give proper OpenStreetMap attribution according to MapQuest terms
+        // L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
+        // 	maxZoom: PerfectPlaceConfig.MAP_MAX_ZOOM,
+        // 	subdomains: '1234',
+        // 	attribution: '&copy; <a href="http://info.mapquest.com/terms-of-use/">MapQuest</a> | &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        // }).addTo(this.map);
 
-		// var that = this;
-		// var socket = io.connect('http://localhost');
-		// socket.on('test', function () {
+        var mapLayer = MQ.mapLayer();
 
-		// });
+        this.map = L.map('map', {
+            layers: mapLayer,
+            center: [ 49.017222, 12.096944 ],
+            zoom: 12
+        });
 
-		// $('#server-precache').on('click', onMapClick);
+        this.paramLayers = L.layerGroup();
+        this.paramLayers.addTo(this.map);
 
-		// function onMapClick(e) {
-		// 	var actMapBounds = that.map.getBounds();
-		// 	var bbox = {
-		// 		west: actMapBounds.getWest(),
-		// 		south: actMapBounds.getSouth(),
-		// 		east: actMapBounds.getEast(),
-		// 		north: actMapBounds.getNorth()
-		// 	}
-		// 	socket.emit('parseOSMFile', bbox);
-		// }
-	}
+        // var that = this;
+        // var socket = io.connect('http://localhost');
+        // socket.on('test', function () {
 
-	MapView.prototype.addLayer = function(opacity, renderFunct) {
-		var that = this;
-		var canvasTileLayer = L.tileLayer.canvas();
+        // });
 
-		canvasTileLayer.drawTile = function(canvas, tilePoint, zoom) {
-		    renderFunct(canvas, tilePoint, zoom, that.map.getBounds(), that.map.getCenter());
-		}
-		this.paramLayers.addLayer(canvasTileLayer);
+        // $('#server-precache').on('click', onMapClick);
 
-		var $mapLayer = $(canvasTileLayer.getContainer());
-		$mapLayer.css({
-			"mix-blend-mode": "multiply",
-			"opacity": opacity
-		});
+        // function onMapClick(e) {
+        // 	var actMapBounds = that.map.getBounds();
+        // 	var bbox = {
+        // 		west: actMapBounds.getWest(),
+        // 		south: actMapBounds.getSouth(),
+        // 		east: actMapBounds.getEast(),
+        // 		north: actMapBounds.getNorth()
+        // 	}
+        // 	socket.emit('parseOSMFile', bbox);
+        // }
+    }
 
-		return canvasTileLayer._leaflet_id;
-	}
+    MapView.prototype.addLayer = function(opacity, renderFunct) {
+        var that = this;
+        var canvasTileLayer = L.tileLayer.canvas({
+            tileSize: 256
+        });
 
-	MapView.prototype.updateLayerOpacity = function(opacity) {
-		this.paramLayers.eachLayer(function(layer) {
-			layer.setOpacity(opacity);
-		});
-	}
+        canvasTileLayer.drawTile = function(canvas, tilePoint, zoom) {
+            renderFunct(canvas, tilePoint, zoom, that.map.getBounds(), that.map.getCenter());
+        };
 
-	MapView.prototype.redrawLayer = function(layerId){
-		this.paramLayers.getLayer(layerId).redraw();
-	}
+        this.paramLayers.addLayer(canvasTileLayer);
 
-	MapView.prototype.removeLayer = function(layerId) {
-		this.paramLayers.removeLayer(layerId);
-	}
+        var $canvasTileLayer = $(canvasTileLayer.getContainer());
+        $canvasTileLayer.css({
+            "mix-blend-mode": "multiply",
+            "opacity": opacity
+        });
 
-	window.PerfectPlace = window.PerfectPlace || {};
-	window.PerfectPlace.MapView = MapView;
+        return canvasTileLayer._leaflet_id;
+    };
+
+    MapView.prototype.updateLayerOpacity = function(opacity) {
+        this.paramLayers.eachLayer(function(layer) {
+            layer.setOpacity(opacity);
+        });
+    };
+
+    MapView.prototype.redrawLayer = function(layerId){
+        this.paramLayers.getLayer(layerId).redraw();
+    };
+
+    MapView.prototype.removeLayer = function(layerId) {
+        this.paramLayers.removeLayer(layerId);
+    };
+
+    window.PerfectPlace = window.PerfectPlace || {};
+    window.PerfectPlace.MapView = MapView;
 
 })(window);

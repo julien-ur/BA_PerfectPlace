@@ -19,6 +19,7 @@
 	}
 
 	CanvasTileRenderer.prototype.drawTile = function(rawCanvas, tilePoint, zoom, mapBounds, mapCenter) {
+	    console.log(zoom);
 		var cachedCanvasTile = this.tileCache.getTile(tilePoint.x, tilePoint.y, zoom);
 
 		if(cachedCanvasTile) {
@@ -62,8 +63,10 @@
 
 		that._generateCanvasForActualViewport(tiles, function(canvas) {
 			var filterSize = that._convertDistanceToPixels(that.distance);
-			that._dilateViewportCanvas(canvas, filterSize);
-			that._blurViewportCanvas(canvas, filterSize);
+            console.time("dilate");
+			that._dilateViewportCanvas(canvas, 10);
+            console.timeEnd("dilate");
+            that._blurViewportCanvas(canvas, filterSize);
 			that._sliceViewportCanvasIntoTilesAndSaveToCache(canvas, function() {
 				that.updatingCache = false;
 				that._handlePendingTileRequests();
