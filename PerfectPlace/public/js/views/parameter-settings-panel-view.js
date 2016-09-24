@@ -8,8 +8,8 @@
 		this.id = id;
 		paramData.category  = paramData.category.capitalize();
 		paramData.distanceReversed = paramData.distanceReversed ? "At least .. away" : "Maximal .. away";
-		var addBtnName = paramNotAdded ? "add" : "cancle";
-		var removeBtnName = paramNotAdded ? "cancle" : "remove";
+		var addBtnName = paramNotAdded ? "add" : "cancel";
+		var removeBtnName = paramNotAdded ? "cancel" : "remove";
 		var catDropdownMenuHTML = this._createCategoryDropdownMenuHTML();
 		
 		this.html = this._createHTMLTemplate(paramData, catDropdownMenuHTML, addBtnName, removeBtnName);
@@ -115,7 +115,7 @@
 		} 
 		else if ($settingsMainEl.hasClass('distance-appendix-dropdown-btn')) {
 			setting = 'distanceReversed';
-			selectedValue = (selectedValue === 'At least .. away') ? true : false;
+			selectedValue = selectedValue === 'At least .. away';
 		}
 
 		return [setting, selectedValue];
@@ -123,7 +123,7 @@
 
 	ParameterSettingsPanelView.prototype.updateAddButtonName = function(settingsChanged) {
 		var addBtn = this.$el.find('.add-btn');
-		var addBtnName = settingsChanged ? "save" : "cancle";
+		var addBtnName = settingsChanged ? "save" : "cancel";
 		addBtn.html(addBtnName);
 	}
 

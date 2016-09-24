@@ -29,11 +29,11 @@
             }
             return this.tmpl_cache[tmpl_name](tmpl_data);
         }
-    }
+    };
 
     String.prototype.capitalize = function() {
         return this.charAt(0).toUpperCase() + this.slice(1);
-    }
+    };
 
     window.PerfectPlace = window.PerfectPlace || {};
     window.PerfectPlace.Utils = Utils;

@@ -5,6 +5,7 @@
 		this.paramsList = paramsList;
 		this.mapView = mapView;
 		this.layerList = [];
+		this.overlayOpacity = 1;
 
 		this._attachListener();
 	}
@@ -14,7 +15,7 @@
 		var tileSize = PerfectPlaceConfig.PARAM_LAYER_TILE_SIZE;
 		var renderer = new PerfectPlace.CanvasTileRenderer(category, distanceInMeters, distanceReversed, tileSize, tileCache);
 
-		var opacity = 0.5 / this.paramsList.getAddedParamCount();
+		var opacity = 0.5;
 		this.mapView.updateLayerOpacity(opacity);
 
 		var layerId = this.mapView.addLayer(opacity, function(canvas, tilePoint, zoom, mapBounds, mapCenter) {
@@ -35,7 +36,7 @@
 	MapLayerControl.prototype.removeLayer = function(paramId) {
 		var l = this.layerList[paramId];
 		if(!$.isEmptyObject(l)) {
-			var opacity = 0.5 / this.paramsList.getAddedParamCount();
+			var opacity = 0.5;
 			this.mapView.removeLayer(l.layerId);
 			this.mapView.updateLayerOpacity(opacity);
 		}

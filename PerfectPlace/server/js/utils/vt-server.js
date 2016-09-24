@@ -10,10 +10,10 @@ module.exports = function(category) {
             // build an initial index of tiles
             var data = JSON.parse(fs.readFileSync("./server/data/geojson/" + category + ".geojson"));
             this.tileIndex = geojsonvt(data, {
-                tolerance: 3,
+                tolerance: 1,
                 extent: config.SERVER_TILE_SIZE,
-                maxZoom: 18
-                // buffer: 0
+                maxZoom: 18,
+                buffer: 0
                 // debug: 0
             });
 

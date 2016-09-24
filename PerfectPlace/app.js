@@ -66,9 +66,9 @@ var strata = tilestrata();
 //         tilesource: ['mylayer', 't.pbf']
 //     }));
 
-// for (var category in categories) {
-// 	for (var subCategory in categories[category]) {
-var subCategory = "water";
+for (var category in categories) {
+	for (var subCategory in categories[category]) {
+// var subCategory = "water";
 		strata.layer(subCategory)
 		    .route('tile.json')
 		        //.use(disk.cache({dir: './server/data/geo-objects/' + subCategory }))
@@ -79,8 +79,8 @@ var subCategory = "water";
 		            tileSize: 256,
 		            scale: 1
 		        }));
-// 	}
-// }
+	}
+}
 
 // start accepting requests
 app.use(tilestrata.middleware({
