@@ -6,9 +6,11 @@ module.exports = function(category) {
 
     return {
         name: 'geojson-vt-server',
+
         init: function(server, callback) {
             // build an initial index of tiles
             var data = JSON.parse(fs.readFileSync("./server/data/geojson/" + category + ".geojson"));
+
             this.tileIndex = geojsonvt(data, {
                 tolerance: 1,
                 extent: config.SERVER_TILE_SIZE,
@@ -16,9 +18,9 @@ module.exports = function(category) {
                 buffer: 0
                 // debug: 0
             });
-
             callback();
         },
+
         serve: function(server, req, callback) {
             // request a particular tile
             var tile = this.tileIndex.getTile(req.z, req.x, req.y);
@@ -26,13 +28,15 @@ module.exports = function(category) {
             var tileStr = '';
 
             if(tile) {
-                var tileStr = JSON.stringify(tile, null, "\t");
+                tileStr = JSON.stringify(tile, null, "\t");
                 err = null;
             }
 
-            console.log(err);
+            console.log(err ? err : 'tile ' + req.z + ', ' +  req.x + ', ' +  req.y + ' served');
+
             callback(err, tileStr, req.headers);
         },
+
         destroy: function(server, callback) {
             callback();
         }

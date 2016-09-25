@@ -1,6 +1,6 @@
 'use strict';
 
-var categories = require("../models/categories.js");
+var categories = require("../categories.js");
 
 module.exports = function () {
 
@@ -16,15 +16,11 @@ module.exports = function () {
 	}
 
 	var functions = {
-		setBoundingBox: setBoundingBox,
 		addObject: addObject,
+		setBoundingBox: setBoundingBox,
 		getBoundingBox: getBoundingBox,
 		getGeoDataForCategory: getGeoDataForCategory
 	};
-
-	function setBoundingBox(bbox) {
-		values.boundingBox = bbox;
-	}
 
 	function addObject(category, shape, coordData) {
 		var geoData = values.geoObjectCollection[category];
@@ -42,6 +38,10 @@ module.exports = function () {
 				polygon: coordData
 			});
 		}
+	}
+
+	function setBoundingBox(bbox) {
+		values.boundingBox = bbox;
 	}
 
 	function getBoundingBox() {

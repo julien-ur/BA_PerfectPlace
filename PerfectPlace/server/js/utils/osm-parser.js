@@ -1,7 +1,7 @@
 'use strict';
 
 var saxStream = require('sax').createStream(true);
-var categories = require('../models/categories.js');
+var categories = require('../categories.js');
 var geoObjectCollection = require('../collections/geo-object-collection.js');
 
 var LON_INDEX = 0;
