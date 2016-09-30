@@ -6,13 +6,22 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
+					12.0455241,
+					49.0714148
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
 					12.1153244,
 					49.0053475
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -23,9 +32,7 @@
 					49.0188639
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -36,9 +43,7 @@
 					48.9994349
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -49,9 +54,7 @@
 					49.0203765
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -62,9 +65,7 @@
 					49.0181295
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -75,9 +76,7 @@
 					49.0184417
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -88,9 +87,7 @@
 					49.0183365
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -101,9 +98,7 @@
 					49.0198844
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -114,9 +109,7 @@
 					49.0195454
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -127,9 +120,7 @@
 					49.0199396
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -140,9 +131,7 @@
 					49.0201033
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -153,9 +142,7 @@
 					49.0191305
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -166,9 +153,7 @@
 					49.0136441
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -179,9 +164,7 @@
 					49.0190200
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -192,9 +175,18 @@
 					49.0234657
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7822254,
+					49.0525206
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -205,22 +197,18 @@
 					49.0187793
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0967481,
-					49.0203638
+					12.1598367,
+					49.0795906
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -231,9 +219,7 @@
 					48.9925398
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -244,9 +230,7 @@
 					48.9964751
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -257,9 +241,7 @@
 					48.9982128
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -270,9 +252,7 @@
 					49.0035493
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -283,9 +263,7 @@
 					49.0171870
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -296,9 +274,7 @@
 					49.0172098
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -309,9 +285,7 @@
 					49.0186390
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -322,9 +296,7 @@
 					49.0186314
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -335,9 +307,7 @@
 					49.0185401
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -348,9 +318,7 @@
 					49.0180389
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -361,9 +329,7 @@
 					49.0184208
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -374,9 +340,7 @@
 					49.0192748
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -387,9 +351,7 @@
 					49.0206161
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -400,9 +362,7 @@
 					49.0198916
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -413,9 +373,7 @@
 					49.0204015
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -426,9 +384,7 @@
 					49.0312287
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -439,9 +395,7 @@
 					49.0241353
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -452,9 +406,7 @@
 					49.0191312
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -465,9 +417,7 @@
 					49.0152390
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -478,9 +428,7 @@
 					48.9876710
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -491,9 +439,7 @@
 					49.0459872
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -504,9 +450,7 @@
 					49.0198005
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -517,9 +461,7 @@
 					49.0184256
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -530,22 +472,18 @@
 					49.0169835
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0781907,
-					49.0229568
+					12.0781893,
+					49.0229574
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -556,9 +494,7 @@
 					49.0191782
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -569,9 +505,7 @@
 					49.0174143
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -582,9 +516,7 @@
 					49.0170665
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -595,22 +527,18 @@
 					49.0158279
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0585730,
-					49.0103700
+					12.0585381,
+					49.0103445
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -621,9 +549,7 @@
 					49.0185982
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -634,9 +560,7 @@
 					49.0168044
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -647,9 +571,18 @@
 					49.0180552
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8878064,
+					49.0652156
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -660,9 +593,7 @@
 					49.0251006
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -673,9 +604,7 @@
 					48.9995802
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -686,9 +615,7 @@
 					49.0178642
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -699,9 +626,29 @@
 					49.0180260
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3733121,
+					49.0171857
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2579911,
+					49.0077919
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -712,9 +659,18 @@
 					49.0169560
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3187335,
+					49.0150142
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -725,9 +681,7 @@
 					49.0242818
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -738,9 +692,7 @@
 					49.0033042
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -751,9 +703,7 @@
 					49.0195658
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -764,9 +714,7 @@
 					49.0182784
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -777,9 +725,7 @@
 					49.0241708
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -790,9 +736,7 @@
 					49.0242662
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -803,9 +747,7 @@
 					48.9877921
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -816,9 +758,7 @@
 					49.0307664
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -829,9 +769,18 @@
 					48.9883240
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.4007618,
+					49.0003653
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -842,9 +791,40 @@
 					48.9963613
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7826064,
+					49.0520294
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.4061525,
+					49.0008730
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1961931,
+					48.9912496
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -855,9 +835,7 @@
 					49.0180590
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -868,9 +846,7 @@
 					49.0137568
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -881,9 +857,7 @@
 					49.0174769
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -894,9 +868,18 @@
 					48.9930165
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0978914,
+					49.0182809
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -907,9 +890,7 @@
 					49.0192044
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -920,9 +901,7 @@
 					49.0181421
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -933,9 +912,7 @@
 					49.0156698
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -946,9 +923,7 @@
 					49.0168182
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -959,9 +934,7 @@
 					49.0172652
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -972,9 +945,7 @@
 					49.0196135
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -985,9 +956,7 @@
 					49.0109598
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -998,9 +967,7 @@
 					49.0099832
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1011,9 +978,18 @@
 					48.9991214
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1095713,
+					49.0772485
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1024,9 +1000,7 @@
 					49.0166135
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1037,9 +1011,7 @@
 					49.0171367
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1050,9 +1022,7 @@
 					49.0157267
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1063,9 +1033,7 @@
 					49.0137743
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1076,9 +1044,7 @@
 					49.0205240
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1089,9 +1055,7 @@
 					49.0192342
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1102,9 +1066,40 @@
 					49.0185162
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0956735,
+					49.0201666
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1058436,
+					49.0187225
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1195782,
+					49.0058975
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1113,39 +1108,45 @@
 				"coordinates": [
 					[
 						[
-							12.0320811,
-							48.9944020
+							12.0321187,
+							48.9943879
 						],
 						[
-							12.0320907,
-							48.9943287
+							12.0321345,
+							48.9943468
 						],
 						[
-							12.0320109,
-							48.9942952
+							12.0321044,
+							48.9943085
+						],
+						[
+							12.0320372,
+							48.9942847
+						],
+						[
+							12.0317685,
+							48.9943588
 						],
 						[
 							12.0317309,
-							48.9943729
+							48.9944087
 						],
 						[
-							12.0317309,
-							48.9944479
+							12.0317667,
+							48.9944578
 						],
 						[
-							12.0318004,
-							48.9944801
+							12.0318380,
+							48.9944660
 						],
 						[
-							12.0320811,
-							48.9944020
+							12.0321187,
+							48.9943879
 						]
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1208,9 +1209,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1249,9 +1248,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1290,9 +1287,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1323,9 +1318,97 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3947766,
+							49.0725291
+						],
+						[
+							12.3947305,
+							49.0725104
+						],
+						[
+							12.3946673,
+							49.0725776
+						],
+						[
+							12.3947279,
+							49.0726020
+						],
+						[
+							12.3947718,
+							49.0725554
+						],
+						[
+							12.3949219,
+							49.0726160
+						],
+						[
+							12.3950288,
+							49.0725024
+						],
+						[
+							12.3948643,
+							49.0724360
+						],
+						[
+							12.3947766,
+							49.0725291
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3814766,
+							48.9652608
+						],
+						[
+							12.3813760,
+							48.9652266
+						],
+						[
+							12.3814258,
+							48.9651664
+						],
+						[
+							12.3813371,
+							48.9651365
+						],
+						[
+							12.3814083,
+							48.9650394
+						],
+						[
+							12.3816282,
+							48.9651146
+						],
+						[
+							12.3815084,
+							48.9652341
+						],
+						[
+							12.3814766,
+							48.9652608
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1356,9 +1439,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1389,9 +1470,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1408,68 +1487,68 @@
 							49.0135086
 						],
 						[
-							12.0989351,
+							12.0989352,
 							49.0135119
 						],
 						[
-							12.0989226,
+							12.0989229,
 							49.0135127
 						],
 						[
-							12.0989105,
-							49.0135107
+							12.0989108,
+							49.0135108
 						],
 						[
-							12.0989001,
-							49.0135062
+							12.0989003,
+							49.0135064
 						],
 						[
-							12.0988925,
-							49.0134998
+							12.0988926,
+							49.0135000
 						],
 						[
-							12.0988884,
-							49.0134922
+							12.0988885,
+							49.0134923
 						],
 						[
-							12.0988884,
-							49.0134841
+							12.0988883,
+							49.0134842
 						],
 						[
 							12.0988923,
 							49.0134764
 						],
 						[
-							12.0988997,
+							12.0988998,
 							49.0134700
 						],
 						[
-							12.0989099,
-							49.0134655
+							12.0989101,
+							49.0134654
 						],
 						[
-							12.0989218,
+							12.0989221,
 							49.0134634
 						],
 						[
-							12.0989341,
-							49.0134639
+							12.0989345,
+							49.0134640
 						],
 						[
-							12.0989456,
-							49.0134670
+							12.0989459,
+							49.0134672
 						],
 						[
-							12.0989550,
-							49.0134725
+							12.0989551,
+							49.0134726
 						],
 						[
-							12.0989611,
-							49.0134796
+							12.0989612,
+							49.0134797
 						],
 						[
 							12.0989633,
-							49.0134877
+							49.0134878
 						],
 						[
 							12.0989614,
@@ -1482,9 +1561,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1515,9 +1592,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1548,9 +1623,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1589,9 +1662,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1622,15 +1693,44 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "cafe"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0781292,
+							49.0229470
+						],
+						[
+							12.0781558,
+							49.0228874
+						],
+						[
+							12.0782631,
+							49.0229034
+						],
+						[
+							12.0782386,
+							49.0229616
+						],
+						[
+							12.0781292,
+							49.0229470
+						]
+					]
+				]
+			},
+			"properties": {}
 		}
 	],
 	"bbox": {
-		"minlat": 48.9684,
-		"minlon": 12.0163,
-		"maxlat": 49.0682,
-		"maxlon": 12.2104
+		"minlat": 48.9529,
+		"minlon": 11.7674,
+		"maxlat": 49.0813,
+		"maxlon": 12.4266
 	}
 }

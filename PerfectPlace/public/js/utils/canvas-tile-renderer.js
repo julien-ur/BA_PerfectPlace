@@ -24,7 +24,7 @@
 
 	CanvasTileRenderer.prototype.drawTile = function(rawCanvas, tilePoint, zoom, mapBounds, mapCenter, attempt) {
 		var cachedCanvasTile = this.tileCache.getTile(tilePoint.x, tilePoint.y, zoom);
-		console.log("chached", !!cachedCanvasTile, "z", zoom, "x", tilePoint.x, "y", tilePoint.y, "attempt", (attempt) ? attempt : 0);
+		// console.log("chached", !!cachedCanvasTile, "z", zoom, "x", tilePoint.x, "y", tilePoint.y, "attempt", (attempt) ? attempt : 0);
 
 		if (cachedCanvasTile) {
 
@@ -59,8 +59,9 @@
 
 		var unbufferedTilesInfo = GlobalMapTiles.GetTiles(zoom, [mapBounds.getSouth(), mapBounds.getWest()], [mapBounds.getNorth(), mapBounds.getEast()]);
         var bvb = this._getBufferedViewportBounds(zoom, unbufferedTilesInfo);
-		console.log("bbox", bvb);
+		// console.log("bbox", bvb);
 	    var requiredTilesInfo = GlobalMapTiles.GetTiles(zoom, [bvb.minLat, bvb.minLon], [bvb.maxLat, bvb.maxLon]);
+		console.log(requiredTilesInfo);
 
 	   	var that = this;
 		console.time('fetch tiles');
@@ -71,15 +72,19 @@
 			var bufferedFtColl = that._bufferFeaturePolygons(featureCollection);
 			console.timeEnd('buffer tiles');
 
+			console.time('draw Canvas');
 			var viewportCanvas = that._getDrawnViewportCanvas(bufferedFtColl, zoom, requiredTilesInfo);
+			console.timeEnd('draw Canvas');
 
-			console.time('calc filterSize');
-			// var filterSize = that._convertDistanceToPixels(zoom, mapCenter, mapBounds);
-			console.timeEnd('calc filterSize');
+			if($('#blur-filter-checkbox').is(':checked')) {
+				console.time('calc filterSize');
+				var filterSize = that._convertDistanceToPixels(zoom, mapCenter, mapBounds);
+				console.timeEnd('calc filterSize');
 
-			console.time('blur viewport');
-			// that._blurCanvas(viewportCanvas, filterSize/3);
-			console.timeEnd('blur viewport');
+				console.time('blur viewport');
+				that._blurCanvas(viewportCanvas, filterSize/3);
+				console.timeEnd('blur viewport');
+			}
 
 			console.time('slice viewport');
 			that._sliceViewportCanvasIntoTilesAndSaveToCache(viewportCanvas, zoom + that.zoomAdjustment, requiredTilesInfo, unbufferedTilesInfo, function() {
@@ -119,7 +124,7 @@
 			maxLon: bufferedBbox[3]
 		};
 
-		console.log("turf bbox", bufferedBbox);
+		// console.log("turf bbox", bufferedBbox);
 
 		var northWest = GlobalMapTiles.MetersToLatLon( upperLeft[0] - bufferDistance, upperLeft[1] + bufferDistance ),
 			southEast = GlobalMapTiles.MetersToLatLon( bottomRight[0] + bufferDistance, bottomRight[1] - bufferDistance );
@@ -159,7 +164,7 @@
 	};
 
 	CanvasTileRenderer.prototype._fetchAndConvertTile = function(x, y, zoom, minX, minY, attempt, callback) {
-		var url = "http://localhost:8000/tiles/" + this.category + "/" + zoom + "/" + x + "/" + y + "/tile.json";
+		var url = "http://localhost:8080/tiles/" + this.category + "/" + zoom + "/" + x + "/" + y + "/tile.json";
 
 		$.ajax({
 			url: url,
@@ -178,7 +183,7 @@
 			callback(features);
 
 		}).fail(function(jqXHR) {
-			console.log(jqXHR);
+			// console.log(jqXHR);
 			callback([]);
 		})
 	};
@@ -259,7 +264,7 @@
 		var z2 = (1 << zoom);
 
         var features = (ftColl.features) ? ftColl.features : ftColl ;
-		if (!features)  console.log(ftColl);
+		// if (!features)  console.log(ftColl);
 
         for (var featureNum = 0; featureNum < features.length; featureNum++) {
 
@@ -352,7 +357,7 @@
 			startCol = unbufferedTilesInfo.minX - requiredTilesInfo.minX,
 			endColDiff = requiredTilesInfo.maxX - unbufferedTilesInfo.maxX;
 
-		console.log('Diffs', 'minY', startRow, 'maxY', endRowDiff, 'minX', startCol, 'maxX', endColDiff);
+		// console.log('Diffs', 'minY', startRow, 'maxY', endRowDiff, 'minX', startCol, 'maxX', endColDiff);
 
 		for (var row = startRow; row < requiredTilesInfo.rows - endRowDiff; row++) {
 	    	for (var col = startCol; col < requiredTilesInfo.cols - endColDiff; col++) {

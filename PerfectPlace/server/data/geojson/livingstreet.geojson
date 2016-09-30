@@ -16,9 +16,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -35,9 +33,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -54,9 +50,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -73,9 +67,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -92,9 +84,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -111,9 +101,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -130,9 +118,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -181,9 +167,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -322,9 +306,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -345,9 +327,48 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.0857211,
+						49.0202416
+					],
+					[
+						12.0856387,
+						49.0203140
+					],
+					[
+						12.0855584,
+						49.0203618
+					],
+					[
+						12.0854936,
+						49.0203893
+					],
+					[
+						12.0851728,
+						49.0204985
+					],
+					[
+						12.0845308,
+						49.0207108
+					],
+					[
+						12.0840004,
+						49.0208485
+					],
+					[
+						12.0835792,
+						49.0208631
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -368,9 +389,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -415,9 +434,48 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.0856126,
+						49.0198710
+					],
+					[
+						12.0856728,
+						49.0201320
+					],
+					[
+						12.0856921,
+						49.0201819
+					],
+					[
+						12.0857211,
+						49.0202416
+					],
+					[
+						12.0858021,
+						49.0203200
+					],
+					[
+						12.0862197,
+						49.0206026
+					],
+					[
+						12.0863375,
+						49.0206790
+					],
+					[
+						12.0865051,
+						49.0207787
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -438,9 +496,32 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.0838160,
+						49.0219494
+					],
+					[
+						12.0843155,
+						49.0218798
+					],
+					[
+						12.0845621,
+						49.0224316
+					],
+					[
+						12.0840257,
+						49.0225899
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -473,9 +554,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -515,14 +594,16 @@
 						49.0255818
 					],
 					[
+						12.0775322,
+						49.0257245
+					],
+					[
 						12.0775087,
 						49.0257327
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -543,9 +624,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -574,9 +653,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -635,9 +712,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -653,16 +728,24 @@
 						49.0184365
 					],
 					[
-						12.0873938,
-						49.0181572
+						12.0873379,
+						49.0182941
 					],
 					[
-						12.0876466,
-						49.0176930
+						12.0873978,
+						49.0181493
+					],
+					[
+						12.0876593,
+						49.0176904
 					],
 					[
 						12.0878460,
 						49.0174265
+					],
+					[
+						12.0878985,
+						49.0173721
 					],
 					[
 						12.0879551,
@@ -690,9 +773,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -702,10 +783,6 @@
 					[
 						12.0893548,
 						49.0186643
-					],
-					[
-						12.0894085,
-						49.0186450
 					],
 					[
 						12.0894581,
@@ -721,9 +798,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -744,9 +819,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -758,14 +831,12 @@
 						49.0197705
 					],
 					[
-						12.0900079,
-						49.0190211
+						12.0901627,
+						49.0194144
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -786,9 +857,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -813,9 +882,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -872,9 +939,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -895,9 +960,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -926,9 +989,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -952,14 +1013,12 @@
 						49.0200336
 					],
 					[
-						12.0895324,
-						49.0199504
+						12.0895501,
+						49.0199358
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -988,9 +1047,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1019,9 +1076,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1038,9 +1093,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1057,9 +1110,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1100,9 +1151,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1118,6 +1167,10 @@
 						49.0213093
 					],
 					[
+						12.0873776,
+						49.0216929
+					],
+					[
 						12.0874723,
 						49.0219021
 					],
@@ -1127,9 +1180,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1146,9 +1197,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1201,19 +1250,13 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "LineString",
 				"coordinates": [
-					[
-						12.0855197,
-						49.0211402
-					],
 					[
 						12.0856457,
 						49.0216503
@@ -1236,9 +1279,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1278,14 +1319,12 @@
 						49.0196348
 					],
 					[
-						12.0892286,
-						49.0195905
+						12.0892385,
+						49.0195944
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1326,9 +1365,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1357,9 +1394,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1371,24 +1406,24 @@
 						49.0454125
 					],
 					[
-						12.1310176,
-						49.0454309
+						12.1310230,
+						49.0454345
 					],
 					[
-						12.1310483,
-						49.0454662
+						12.1310507,
+						49.0454762
 					],
 					[
-						12.1310443,
-						49.0455068
+						12.1310340,
+						49.0455203
 					],
 					[
-						12.1309938,
-						49.0455446
+						12.1309797,
+						49.0455487
 					],
 					[
-						12.1309177,
-						49.0455508
+						12.1309103,
+						49.0455495
 					],
 					[
 						12.1308545,
@@ -1396,9 +1431,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1415,9 +1448,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1434,9 +1465,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1453,9 +1482,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1484,9 +1511,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1531,9 +1556,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1543,6 +1566,10 @@
 					[
 						12.0903653,
 						49.0059737
+					],
+					[
+						12.0911596,
+						49.0059752
 					],
 					[
 						12.0917155,
@@ -1558,9 +1585,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1577,9 +1602,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1612,9 +1635,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1643,9 +1664,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1657,8 +1676,8 @@
 						49.0175324
 					],
 					[
-						12.0920870,
-						49.0174674
+						12.0918872,
+						49.0174771
 					],
 					[
 						12.0924410,
@@ -1674,9 +1693,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1684,26 +1701,24 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.0920870,
-						49.0174674
+						12.0918872,
+						49.0174771
 					],
 					[
-						12.0920811,
-						49.0174345
+						12.0918810,
+						49.0174393
 					],
 					[
-						12.0920538,
-						49.0172818
+						12.0918524,
+						49.0172873
 					],
 					[
-						12.0920349,
-						49.0171815
+						12.0918304,
+						49.0171947
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1728,9 +1743,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1747,9 +1760,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1770,9 +1781,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1797,9 +1806,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1820,9 +1827,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1863,9 +1868,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1882,9 +1885,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1917,9 +1918,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1935,7 +1934,7 @@
 						49.0182706
 					],
 					[
-						12.0905867,
+						12.0905988,
 						49.0182059
 					],
 					[
@@ -1948,9 +1947,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1958,18 +1955,16 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.0906005,
-						49.0186019
+						12.0906193,
+						49.0185931
 					],
 					[
-						12.0905867,
+						12.0905988,
 						49.0182059
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1998,9 +1993,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2021,9 +2014,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2056,9 +2047,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2079,9 +2068,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2102,9 +2089,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2125,9 +2110,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2156,9 +2139,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2175,9 +2156,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2254,9 +2233,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2272,14 +2249,16 @@
 						49.0452949
 					],
 					[
-						12.1313164,
-						49.0448829
+						12.1311269,
+						49.0451395
+					],
+					[
+						12.1313540,
+						49.0448688
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2300,9 +2279,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2331,9 +2308,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2341,8 +2316,8 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.0507570,
-						49.0106371
+						12.0507610,
+						49.0106459
 					],
 					[
 						12.0507061,
@@ -2358,9 +2333,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2385,9 +2358,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2476,9 +2447,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2503,9 +2472,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2558,9 +2525,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2568,7 +2533,7 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.1324769,
+						12.1324969,
 						49.0383711
 					],
 					[
@@ -2581,9 +2546,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2604,9 +2567,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2631,9 +2592,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2641,8 +2600,8 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.1317232,
-						49.0438350
+						12.1317299,
+						49.0438306
 					],
 					[
 						12.1299656,
@@ -2654,9 +2613,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2705,9 +2662,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2715,8 +2670,8 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.1310443,
-						49.0455068
+						12.1310340,
+						49.0455203
 					],
 					[
 						12.1313425,
@@ -2744,9 +2699,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2787,9 +2740,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2814,9 +2765,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2837,9 +2786,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2864,9 +2811,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2899,9 +2844,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2922,9 +2865,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2949,9 +2890,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2984,9 +2923,32 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.0988791,
+						49.0179190
+					],
+					[
+						12.0988907,
+						49.0178870
+					],
+					[
+						12.0988907,
+						49.0178648
+					],
+					[
+						12.0987493,
+						49.0172792
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3003,9 +2965,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3042,9 +3002,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3097,9 +3055,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3136,9 +3092,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3159,9 +3113,56 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.0955648,
+						49.0210523
+					],
+					[
+						12.0955933,
+						49.0211704
+					],
+					[
+						12.0956406,
+						49.0213055
+					],
+					[
+						12.0956561,
+						49.0213254
+					],
+					[
+						12.0956843,
+						49.0213374
+					],
+					[
+						12.0957198,
+						49.0213400
+					],
+					[
+						12.0959250,
+						49.0213262
+					],
+					[
+						12.0962003,
+						49.0212992
+					],
+					[
+						12.0965679,
+						49.0212443
+					],
+					[
+						12.0965006,
+						49.0210011
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3182,9 +3183,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3201,9 +3200,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3224,9 +3221,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3259,9 +3254,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3278,9 +3271,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3329,9 +3320,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3368,9 +3357,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3439,9 +3426,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3462,9 +3447,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3489,9 +3472,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3508,9 +3489,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3531,9 +3510,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3554,9 +3531,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3573,9 +3548,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3592,9 +3565,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3627,9 +3598,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3670,9 +3639,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3689,9 +3656,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3712,9 +3677,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3759,9 +3722,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3786,9 +3747,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3877,9 +3836,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3968,9 +3925,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3995,9 +3950,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4026,9 +3979,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4069,9 +4020,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4092,9 +4041,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4115,9 +4062,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4146,9 +4091,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4173,9 +4116,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4196,9 +4137,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4206,8 +4145,8 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.0882102,
-						48.9832296
+						12.0882048,
+						48.9832287
 					],
 					[
 						12.0881703,
@@ -4215,9 +4154,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4225,38 +4162,28 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.0878530,
-						48.9821753
+						12.0879201,
+						48.9821172
 					],
 					[
-						12.0876062,
-						48.9821138
+						12.0876196,
+						48.9820680
 					],
 					[
-						12.0875261,
-						48.9820938
+						12.0875717,
+						48.9820542
 					],
 					[
-						12.0872443,
-						48.9820295
+						12.0872470,
+						48.9820022
 					],
 					[
-						12.0872161,
-						48.9820076
-					],
-					[
-						12.0872235,
-						48.9819640
-					],
-					[
-						12.0873085,
-						48.9817018
+						12.0873916,
+						48.9816305
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4301,9 +4228,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4352,9 +4277,215 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2135158,
+						48.9866602
+					],
+					[
+						12.2135567,
+						48.9867153
+					],
+					[
+						12.2136840,
+						48.9868868
+					],
+					[
+						12.2138579,
+						48.9871294
+					],
+					[
+						12.2139311,
+						48.9872466
+					],
+					[
+						12.2139895,
+						48.9873803
+					],
+					[
+						12.2140479,
+						48.9875614
+					],
+					[
+						12.2141775,
+						48.9878278
+					],
+					[
+						12.2142546,
+						48.9879451
+					],
+					[
+						12.2143835,
+						48.9880479
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2126656,
+						48.9901978
+					],
+					[
+						12.2126623,
+						48.9901246
+					],
+					[
+						12.2130034,
+						48.9891764
+					],
+					[
+						12.2129727,
+						48.9887748
+					],
+					[
+						12.2129450,
+						48.9885900
+					],
+					[
+						12.2128895,
+						48.9881220
+					],
+					[
+						12.2128359,
+						48.9877051
+					],
+					[
+						12.2128145,
+						48.9876481
+					],
+					[
+						12.2126973,
+						48.9874859
+					],
+					[
+						12.2126366,
+						48.9874311
+					],
+					[
+						12.2124430,
+						48.9871844
+					],
+					[
+						12.2123946,
+						48.9871372
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2161135,
+						48.9894080
+					],
+					[
+						12.2165082,
+						48.9895383
+					],
+					[
+						12.2163229,
+						48.9897766
+					],
+					[
+						12.2162001,
+						48.9898952
+					],
+					[
+						12.2160807,
+						48.9899836
+					],
+					[
+						12.2159373,
+						48.9900725
+					],
+					[
+						12.2157827,
+						48.9901564
+					],
+					[
+						12.2156630,
+						48.9902097
+					],
+					[
+						12.2154160,
+						48.9899601
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2117108,
+						48.9902552
+					],
+					[
+						12.2117040,
+						48.9901778
+					],
+					[
+						12.2119763,
+						48.9894136
+					],
+					[
+						12.2119880,
+						48.9893579
+					],
+					[
+						12.2119871,
+						48.9893246
+					],
+					[
+						12.2118991,
+						48.9889367
+					],
+					[
+						12.2118247,
+						48.9886003
+					],
+					[
+						12.2117060,
+						48.9880638
+					],
+					[
+						12.2116711,
+						48.9879835
+					],
+					[
+						12.2115268,
+						48.9878185
+					],
+					[
+						12.2113585,
+						48.9876471
+					],
+					[
+						12.2113096,
+						48.9875981
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4419,9 +4550,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4462,9 +4591,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4493,9 +4620,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4520,9 +4645,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4551,9 +4674,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4590,9 +4711,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4621,9 +4740,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4648,9 +4765,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4671,9 +4786,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4706,9 +4819,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4733,9 +4844,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4760,9 +4869,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4783,9 +4890,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4810,9 +4915,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4833,9 +4936,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4852,9 +4953,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4895,9 +4994,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4938,9 +5035,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4957,9 +5052,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4976,9 +5069,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4995,9 +5086,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5026,9 +5115,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5092,14 +5179,12 @@
 						49.0421353
 					],
 					[
-						12.1237402,
-						49.0421644
+						12.1237268,
+						49.0421569
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5120,9 +5205,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5171,9 +5254,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5258,9 +5339,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5289,9 +5368,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5364,9 +5441,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5376,6 +5451,10 @@
 					[
 						12.1378752,
 						48.9854768
+					],
+					[
+						12.1377280,
+						48.9855348
 					],
 					[
 						12.1374885,
@@ -5443,9 +5522,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5542,9 +5619,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5581,9 +5656,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5676,9 +5749,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5688,6 +5759,10 @@
 					[
 						12.1353616,
 						48.9866247
+					],
+					[
+						12.1353212,
+						48.9867030
 					],
 					[
 						12.1352351,
@@ -5770,14 +5845,16 @@
 						48.9864600
 					],
 					[
+						12.1345273,
+						48.9864417
+					],
+					[
 						12.1346029,
 						48.9863687
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5787,6 +5864,10 @@
 					[
 						12.1361318,
 						48.9867302
+					],
+					[
+						12.1361250,
+						48.9868116
 					],
 					[
 						12.1361068,
@@ -5814,9 +5895,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5826,6 +5905,10 @@
 					[
 						12.1369706,
 						48.9867328
+					],
+					[
+						12.1369736,
+						48.9868057
 					],
 					[
 						12.1369803,
@@ -5913,9 +5996,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5925,6 +6006,10 @@
 					[
 						12.1389728,
 						48.9866310
+					],
+					[
+						12.1389646,
+						48.9867094
 					],
 					[
 						12.1389369,
@@ -5956,9 +6041,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5968,6 +6051,10 @@
 					[
 						12.1398482,
 						48.9867359
+					],
+					[
+						12.1398288,
+						48.9867821
 					],
 					[
 						12.1397123,
@@ -5991,9 +6078,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6001,8 +6086,12 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.1386832,
-						48.9861138
+						12.1386763,
+						48.9861093
+					],
+					[
+						12.1387156,
+						48.9860710
 					],
 					[
 						12.1392059,
@@ -6038,9 +6127,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6065,9 +6152,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6077,6 +6162,10 @@
 					[
 						12.1364562,
 						48.9841927
+					],
+					[
+						12.1365651,
+						48.9841494
 					],
 					[
 						12.1368909,
@@ -6160,9 +6249,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6178,14 +6265,16 @@
 						48.9843801
 					],
 					[
+						12.1370194,
+						48.9846116
+					],
+					[
 						12.1369399,
 						48.9846357
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6202,9 +6291,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6221,9 +6308,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6244,9 +6329,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6271,9 +6354,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6290,9 +6371,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6317,9 +6396,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6336,9 +6413,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6363,9 +6438,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6382,9 +6455,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6401,9 +6472,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6432,9 +6501,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6479,9 +6546,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6518,9 +6583,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6536,8 +6599,8 @@
 						48.9868588
 					],
 					[
-						12.1433428,
-						48.9870189
+						12.1433708,
+						48.9870291
 					],
 					[
 						12.1435680,
@@ -6581,9 +6644,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6608,9 +6669,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6643,9 +6702,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6674,9 +6731,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6693,9 +6748,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6712,9 +6765,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6731,9 +6782,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6750,9 +6799,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6809,9 +6856,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6832,9 +6877,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6851,9 +6894,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6874,9 +6915,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6893,9 +6932,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6932,9 +6969,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6959,9 +6994,36 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.1009015,
+						49.0701043
+					],
+					[
+						12.1006597,
+						49.0707508
+					],
+					[
+						12.1004248,
+						49.0715913
+					],
+					[
+						12.1004970,
+						49.0720102
+					],
+					[
+						12.1007958,
+						49.0723683
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7018,9 +7080,52 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2150929,
+						48.9889657
+					],
+					[
+						12.2151861,
+						48.9891849
+					],
+					[
+						12.2153214,
+						48.9894979
+					],
+					[
+						12.2151475,
+						48.9895328
+					],
+					[
+						12.2149231,
+						48.9895413
+					],
+					[
+						12.2146395,
+						48.9895325
+					],
+					[
+						12.2146227,
+						48.9895738
+					],
+					[
+						12.2144354,
+						48.9895551
+					],
+					[
+						12.2142184,
+						48.9895090
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7081,9 +7186,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7100,9 +7203,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7127,9 +7228,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7154,9 +7253,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7173,9 +7270,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7196,9 +7291,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7227,9 +7320,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7250,9 +7341,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7273,9 +7362,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7328,9 +7415,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7359,9 +7444,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7406,9 +7489,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7441,9 +7522,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7476,9 +7555,69 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2184946,
+						49.0336165
+					],
+					[
+						12.2190427,
+						49.0337744
+					],
+					[
+						12.2192816,
+						49.0338595
+					],
+					[
+						12.2194081,
+						49.0339148
+					],
+					[
+						12.2195834,
+						49.0339549
+					],
+					[
+						12.2196851,
+						49.0339568
+					],
+					[
+						12.2198080,
+						49.0339406
+					],
+					[
+						12.2199767,
+						49.0338776
+					],
+					[
+						12.2202480,
+						49.0337417
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2192816,
+						49.0338595
+					],
+					[
+						12.2194803,
+						49.0337116
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7507,9 +7646,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7526,9 +7663,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7545,9 +7680,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7564,9 +7697,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7583,9 +7714,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7606,9 +7735,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7629,9 +7756,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7647,18 +7772,16 @@
 						49.0471108
 					],
 					[
-						12.1141962,
-						49.0466473
+						12.1142136,
+						49.0466262
 					],
 					[
-						12.1142200,
-						49.0465036
+						12.1142321,
+						49.0465018
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7683,9 +7806,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7722,9 +7843,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7765,9 +7884,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7788,9 +7905,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7815,9 +7930,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7854,9 +7967,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7877,9 +7988,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7896,9 +8005,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7927,9 +8034,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7950,9 +8055,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -7981,9 +8084,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8012,9 +8113,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8031,9 +8130,24 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.1003865,
+						49.0165250
+					],
+					[
+						12.1009061,
+						49.0164923
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8054,9 +8168,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8077,9 +8189,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8096,9 +8206,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8115,9 +8223,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8162,9 +8268,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8193,23 +8297,13 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "LineString",
 				"coordinates": [
-					[
-						12.0917527,
-						49.0197198
-					],
-					[
-						12.0909416,
-						49.0197183
-					],
 					[
 						12.0903028,
 						49.0197705
@@ -8227,14 +8321,12 @@
 						49.0198081
 					],
 					[
-						12.0897755,
-						49.0198492
+						12.0897981,
+						49.0198406
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8263,9 +8355,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8277,12 +8367,16 @@
 						49.0186783
 					],
 					[
-						12.0899140,
-						49.0186735
+						12.0899381,
+						49.0186594
 					],
 					[
-						12.0906005,
-						49.0186019
+						12.0902756,
+						49.0186193
+					],
+					[
+						12.0906193,
+						49.0185931
 					],
 					[
 						12.0914274,
@@ -8314,9 +8408,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8337,9 +8429,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8360,9 +8450,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8379,9 +8467,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8398,9 +8484,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8429,9 +8513,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8452,9 +8534,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8479,9 +8559,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8498,9 +8576,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8517,9 +8593,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8536,9 +8610,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8555,9 +8627,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8578,9 +8648,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8605,9 +8673,250 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.1702085,
+						48.9623700
+					],
+					[
+						12.1702393,
+						48.9615916
+					],
+					[
+						12.1702928,
+						48.9615313
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.1730622,
+						48.9625345
+					],
+					[
+						12.1726513,
+						48.9625247
+					],
+					[
+						12.1726389,
+						48.9622215
+					],
+					[
+						12.1726001,
+						48.9621982
+					],
+					[
+						12.1725768,
+						48.9621781
+					],
+					[
+						12.1726031,
+						48.9620134
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.1708709,
+						48.9621083
+					],
+					[
+						12.1709279,
+						48.9619818
+					],
+					[
+						12.1709893,
+						48.9619490
+					],
+					[
+						12.1710507,
+						48.9618238
+					],
+					[
+						12.1710377,
+						48.9617824
+					],
+					[
+						12.1710846,
+						48.9616848
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.1702928,
+						48.9615313
+					],
+					[
+						12.1706948,
+						48.9616046
+					],
+					[
+						12.1710846,
+						48.9616848
+					],
+					[
+						12.1711363,
+						48.9616795
+					],
+					[
+						12.1714185,
+						48.9617411
+					],
+					[
+						12.1717939,
+						48.9618206
+					],
+					[
+						12.1718219,
+						48.9618409
+					],
+					[
+						12.1726031,
+						48.9620134
+					],
+					[
+						12.1733419,
+						48.9621888
+					],
+					[
+						12.1734858,
+						48.9621919
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.1722528,
+						48.9623435
+					],
+					[
+						12.1721752,
+						48.9623605
+					],
+					[
+						12.1716695,
+						48.9622545
+					],
+					[
+						12.1716569,
+						48.9622121
+					],
+					[
+						12.1717028,
+						48.9620739
+					],
+					[
+						12.1717632,
+						48.9619840
+					],
+					[
+						12.1717697,
+						48.9619362
+					],
+					[
+						12.1718219,
+						48.9618409
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.1705785,
+						48.9620075
+					],
+					[
+						12.1706419,
+						48.9618726
+					],
+					[
+						12.1706112,
+						48.9618301
+					],
+					[
+						12.1706548,
+						48.9617326
+					],
+					[
+						12.1706419,
+						48.9616965
+					],
+					[
+						12.1706948,
+						48.9616046
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.1712018,
+						48.9621431
+					],
+					[
+						12.1712316,
+						48.9620858
+					],
+					[
+						12.1713027,
+						48.9620550
+					],
+					[
+						12.1713787,
+						48.9618896
+					],
+					[
+						12.1713625,
+						48.9618556
+					],
+					[
+						12.1714185,
+						48.9617411
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8624,9 +8933,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8651,9 +8958,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8674,9 +8979,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8705,9 +9008,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8728,9 +9029,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8751,9 +9050,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8770,9 +9067,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8789,9 +9084,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8832,9 +9125,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8867,9 +9158,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8934,9 +9223,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8953,9 +9240,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -8984,9 +9269,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9007,9 +9290,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9034,9 +9315,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9053,9 +9332,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9072,9 +9349,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9091,9 +9366,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9110,9 +9383,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9133,9 +9404,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9160,9 +9429,45 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2126366,
+						48.9874311
+					],
+					[
+						12.2123664,
+						48.9874440
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2133151,
+						48.9873152
+					],
+					[
+						12.2131026,
+						48.9873471
+					],
+					[
+						12.2126973,
+						48.9874859
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9223,9 +9528,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9246,9 +9549,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9293,9 +9594,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9303,12 +9602,12 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.0564136,
-						49.0080637
+						12.0564201,
+						49.0080658
 					],
 					[
-						12.0564524,
-						49.0078343
+						12.0564470,
+						49.0078493
 					],
 					[
 						12.0565197,
@@ -9316,9 +9615,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9339,9 +9636,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9349,22 +9644,20 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.0563936,
-						49.0072358
+						12.0563560,
+						49.0072710
 					],
 					[
-						12.0564611,
-						49.0071401
+						12.0564329,
+						49.0071621
 					],
 					[
-						12.0566082,
-						49.0069314
+						12.0565921,
+						49.0069516
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9372,26 +9665,24 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.0564611,
-						49.0071401
+						12.0564329,
+						49.0071621
 					],
 					[
-						12.0570591,
-						49.0073568
+						12.0570537,
+						49.0073735
 					],
 					[
-						12.0574791,
-						49.0075090
+						12.0573933,
+						49.0074914
 					],
 					[
 						12.0575367,
-						49.0075281
+						49.0075351
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9403,8 +9694,8 @@
 						49.0066453
 					],
 					[
-						12.0578352,
-						49.0071052
+						12.0577856,
+						49.0070753
 					],
 					[
 						12.0579140,
@@ -9412,9 +9703,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9422,26 +9711,24 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.0572904,
-						49.0079785
+						12.0573226,
+						49.0079715
 					],
 					[
-						12.0572185,
-						49.0079659
+						12.0571702,
+						49.0079483
 					],
 					[
-						12.0568735,
-						49.0079066
+						12.0567930,
+						49.0078996
 					],
 					[
-						12.0564524,
-						49.0078343
+						12.0564470,
+						49.0078493
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9522,9 +9809,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9545,9 +9830,44 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2189359,
+						49.0333368
+					],
+					[
+						12.2187753,
+						49.0334101
+					],
+					[
+						12.2187188,
+						49.0334449
+					],
+					[
+						12.2186513,
+						49.0334938
+					],
+					[
+						12.2184946,
+						49.0336165
+					],
+					[
+						12.2183986,
+						49.0336974
+					],
+					[
+						12.2183051,
+						49.0337835
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9564,9 +9884,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9574,30 +9892,28 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.0878470,
-						48.9822675
+						12.2752079,
+						49.0072341
 					],
 					[
-						12.0875109,
-						48.9823249
+						12.2749715,
+						49.0072305
 					],
 					[
-						12.0873472,
-						48.9823453
+						12.2747677,
+						49.0072094
 					],
 					[
-						12.0872106,
-						48.9823572
+						12.2747248,
+						49.0071671
 					],
 					[
-						12.0870370,
-						48.9823748
+						12.2747532,
+						49.0070439
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9605,30 +9921,49 @@
 				"type": "LineString",
 				"coordinates": [
 					[
-						12.0880230,
-						48.9827746
+						12.0878693,
+						48.9822643
 					],
 					[
-						12.0876870,
-						48.9828362
+						12.0875530,
+						48.9823148
 					],
 					[
-						12.0875469,
-						48.9828622
+						12.0873885,
+						48.9823410
 					],
 					[
-						12.0875167,
-						48.9827897
+						12.0872088,
+						48.9823697
 					],
 					[
-						12.0872224,
-						48.9828270
+						12.0871402,
+						48.9823807
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.0880390,
+						48.9827997
+					],
+					[
+						12.0877061,
+						48.9828476
+					],
+					[
+						12.0874180,
+						48.9828891
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9645,9 +9980,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9668,9 +10001,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9687,9 +10018,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9706,9 +10035,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9725,9 +10052,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9748,9 +10073,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9771,9 +10094,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9794,9 +10115,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9821,9 +10140,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9852,9 +10169,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9879,9 +10194,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9946,9 +10259,143 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2152890,
+						48.9869545
+					],
+					[
+						12.2147759,
+						48.9869699
+					],
+					[
+						12.2145009,
+						48.9869986
+					],
+					[
+						12.2142407,
+						48.9870366
+					],
+					[
+						12.2138579,
+						48.9871294
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2152941,
+						48.9871011
+					],
+					[
+						12.2152692,
+						48.9872637
+					],
+					[
+						12.2152139,
+						48.9874441
+					],
+					[
+						12.2151926,
+						48.9875168
+					],
+					[
+						12.2155012,
+						48.9875996
+					],
+					[
+						12.2157277,
+						48.9876841
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2152287,
+						48.9866547
+					],
+					[
+						12.2154165,
+						48.9866486
+					],
+					[
+						12.2157001,
+						48.9867018
+					],
+					[
+						12.2159597,
+						48.9867658
+					],
+					[
+						12.2162231,
+						48.9868476
+					],
+					[
+						12.2164911,
+						48.9869523
+					],
+					[
+						12.2165737,
+						48.9868649
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2152139,
+						48.9874441
+					],
+					[
+						12.2150766,
+						48.9874357
+					],
+					[
+						12.2150298,
+						48.9874328
+					],
+					[
+						12.2148162,
+						48.9874292
+					],
+					[
+						12.2145890,
+						48.9874435
+					],
+					[
+						12.2143607,
+						48.9874898
+					],
+					[
+						12.2140479,
+						48.9875614
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -9985,9 +10432,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10016,9 +10461,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10035,9 +10478,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10074,9 +10515,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10117,9 +10556,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10140,9 +10577,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10159,9 +10594,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10178,9 +10611,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10201,9 +10632,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10224,9 +10653,81 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2153906,
+						48.9899709
+					],
+					[
+						12.2153692,
+						48.9899393
+					],
+					[
+						12.2152408,
+						48.9897446
+					],
+					[
+						12.2151475,
+						48.9895328
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2107489,
+						48.9903104
+					],
+					[
+						12.2107403,
+						48.9902399
+					],
+					[
+						12.2108181,
+						48.9899191
+					],
+					[
+						12.2109488,
+						48.9895868
+					],
+					[
+						12.2109531,
+						48.9894997
+					],
+					[
+						12.2108824,
+						48.9892351
+					],
+					[
+						12.2107994,
+						48.9889563
+					],
+					[
+						12.2106630,
+						48.9885487
+					],
+					[
+						12.2106192,
+						48.9885047
+					],
+					[
+						12.2105143,
+						48.9883995
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10242,8 +10743,12 @@
 						49.0210123
 					],
 					[
-						12.0683224,
-						49.0210667
+						12.0683138,
+						49.0210527
+					],
+					[
+						12.0683345,
+						49.0210702
 					],
 					[
 						12.0684570,
@@ -10263,9 +10768,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10278,7 +10781,7 @@
 					],
 					[
 						12.1308353,
-						49.0454833
+						49.0454834
 					],
 					[
 						12.1308524,
@@ -10294,9 +10797,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10341,9 +10842,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10355,14 +10854,12 @@
 						48.9975860
 					],
 					[
-						12.1871162,
-						48.9976061
+						12.1870800,
+						48.9976184
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10411,9 +10908,139 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2158327,
+						48.9904041
+					],
+					[
+						12.2156630,
+						48.9902097
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2138579,
+						48.9871294
+					],
+					[
+						12.2135126,
+						48.9872250
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2140479,
+						48.9875614
+					],
+					[
+						12.2135734,
+						48.9876850
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.2162220,
+						48.9873865
+					],
+					[
+						12.2160993,
+						48.9873172
+					],
+					[
+						12.2159192,
+						48.9872368
+					],
+					[
+						12.2157300,
+						48.9871753
+					],
+					[
+						12.2154289,
+						48.9871057
+					],
+					[
+						12.2152941,
+						48.9871011
+					],
+					[
+						12.2152890,
+						48.9869545
+					],
+					[
+						12.2152829,
+						48.9868582
+					],
+					[
+						12.2152618,
+						48.9867453
+					],
+					[
+						12.2152287,
+						48.9866547
+					],
+					[
+						12.2151814,
+						48.9865715
+					],
+					[
+						12.2151427,
+						48.9865149
+					],
+					[
+						12.2150914,
+						48.9864650
+					],
+					[
+						12.2149266,
+						48.9863897
+					],
+					[
+						12.2148475,
+						48.9863405
+					],
+					[
+						12.2148049,
+						48.9863004
+					],
+					[
+						12.2147280,
+						48.9862143
+					],
+					[
+						12.2146869,
+						48.9861665
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10430,9 +11057,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10444,34 +11069,32 @@
 						48.9831485
 					],
 					[
-						12.0880230,
-						48.9827746
+						12.0880390,
+						48.9827997
 					],
 					[
-						12.0878470,
-						48.9822675
+						12.0878693,
+						48.9822643
 					],
 					[
-						12.0878530,
-						48.9821753
+						12.0879201,
+						48.9821172
 					],
 					[
-						12.0879157,
-						48.9820623
+						12.0879372,
+						48.9820764
 					],
 					[
-						12.0880097,
-						48.9818525
+						12.0880392,
+						48.9818235
 					],
 					[
-						12.0880652,
-						48.9817287
+						12.0880692,
+						48.9817419
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10492,9 +11115,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10531,9 +11152,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10578,9 +11197,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10605,9 +11222,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10640,9 +11255,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10675,9 +11288,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10694,9 +11305,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10713,9 +11322,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10760,9 +11367,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10791,9 +11396,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10810,9 +11413,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10829,9 +11430,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10848,9 +11447,28 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						11.8436238,
+						49.0386188
+					],
+					[
+						11.8438277,
+						49.0386240
+					],
+					[
+						11.8439218,
+						49.0386236
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10887,9 +11505,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10910,9 +11526,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10949,9 +11563,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -10996,9 +11608,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -11141,15 +11751,218 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "livingstreet"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						11.9715454,
+						49.0323766
+					],
+					[
+						11.9717892,
+						49.0323547
+					],
+					[
+						11.9725644,
+						49.0323476
+					],
+					[
+						11.9732674,
+						49.0323469
+					],
+					[
+						11.9735201,
+						49.0323867
+					],
+					[
+						11.9739616,
+						49.0324864
+					],
+					[
+						11.9744999,
+						49.0325453
+					],
+					[
+						11.9747695,
+						49.0325723
+					],
+					[
+						11.9752430,
+						49.0325787
+					],
+					[
+						11.9753971,
+						49.0325728
+					],
+					[
+						11.9755005,
+						49.0324787
+					],
+					[
+						11.9756007,
+						49.0324400
+					],
+					[
+						11.9759839,
+						49.0324744
+					],
+					[
+						11.9762929,
+						49.0325289
+					],
+					[
+						11.9766128,
+						49.0326008
+					],
+					[
+						11.9769254,
+						49.0326531
+					],
+					[
+						11.9772707,
+						49.0327020
+					],
+					[
+						11.9775624,
+						49.0327379
+					],
+					[
+						11.9777328,
+						49.0327636
+					],
+					[
+						11.9779964,
+						49.0328468
+					],
+					[
+						11.9780433,
+						49.0328231
+					],
+					[
+						11.9780990,
+						49.0327388
+					],
+					[
+						11.9781717,
+						49.0326108
+					],
+					[
+						11.9782861,
+						49.0325119
+					],
+					[
+						11.9784546,
+						49.0324460
+					],
+					[
+						11.9786376,
+						49.0324421
+					],
+					[
+						11.9789581,
+						49.0324246
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						11.8432975,
+						49.0382384
+					],
+					[
+						11.8435750,
+						49.0384201
+					],
+					[
+						11.8437398,
+						49.0385311
+					],
+					[
+						11.8439218,
+						49.0386236
+					],
+					[
+						11.8443276,
+						49.0388239
+					],
+					[
+						11.8445242,
+						49.0389453
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.0901627,
+						49.0194144
+					],
+					[
+						12.0900079,
+						49.0190211
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.0855197,
+						49.0211402
+					],
+					[
+						12.0856457,
+						49.0216503
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						12.0917527,
+						49.0197198
+					],
+					[
+						12.0909416,
+						49.0197183
+					],
+					[
+						12.0903028,
+						49.0197705
+					]
+				]
+			},
+			"properties": {}
 		}
 	],
 	"bbox": {
-		"minlat": 48.9684,
-		"minlon": 12.0163,
-		"maxlat": 49.0682,
-		"maxlon": 12.2104
+		"minlat": 48.9529,
+		"minlon": 11.7674,
+		"maxlat": 49.0813,
+		"maxlon": 12.4266
 	}
 }

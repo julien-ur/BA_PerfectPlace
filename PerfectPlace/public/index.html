@@ -14,14 +14,15 @@
 	<body>
 		<div id="header">
 			Perfect Place - Find your perfect location to live!
-			<button id="server-precache" type="button" class="btn btn-danger">Server: Precache Tiles</button>
+			<button id="server-precache" type="button" class="btn btn-danger settings-btn">Update OSM Data</button>
+			<button type="button" class="btn btn-warning settings-btn">Use Blur-Filter <input id="blur-filter-checkbox" type="checkbox" checked></button>
 		</div>
 
 		<div id="map">	
 		</div>
 
 		<div id="app-container" class="scrollable-menu">
-			<div id="add-parameter-button" class="btn btn-default map-panel">+</div>
+			<div id="add-parameter-button" class="btn btn-default map-panel"><span class="glyphicon glyphicon-plus-sign param-glyph" aria-hidden="true"></span></div>
 		</div>
 
 		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>

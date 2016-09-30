@@ -10,9 +10,7 @@
 					49.0249186
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -23,9 +21,7 @@
 					49.0439620
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -36,9 +32,7 @@
 					49.0177457
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -49,9 +43,18 @@
 					49.0132518
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2274499,
+					49.0325562
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -62,9 +65,7 @@
 					48.9853434
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -75,9 +76,7 @@
 					49.0070691
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -88,9 +87,18 @@
 					49.0168957
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1958172,
+					49.0754587
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -101,9 +109,7 @@
 					48.9813101
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -114,9 +120,7 @@
 					49.0243290
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -127,22 +131,40 @@
 					48.9972882
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1975596,
-					48.9917145
+					12.4001922,
+					49.0002176
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.4006678,
+					49.0007097
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1975641,
+					48.9916969
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -153,9 +175,7 @@
 					49.0138502
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -166,9 +186,76 @@
 					48.9812306
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2703785,
+					48.9722803
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8516404,
+					49.0804541
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3677449,
+							48.9584036
+						],
+						[
+							12.3677677,
+							48.9582943
+						],
+						[
+							12.3678988,
+							48.9583061
+						],
+						[
+							12.3678760,
+							48.9584154
+						],
+						[
+							12.3679928,
+							48.9584259
+						],
+						[
+							12.3679715,
+							48.9585282
+						],
+						[
+							12.3678166,
+							48.9585143
+						],
+						[
+							12.3677235,
+							48.9585059
+						],
+						[
+							12.3677449,
+							48.9584036
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -199,9 +286,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -264,15 +349,79 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kiosk"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0996865,
+							49.0121005
+						],
+						[
+							12.0996870,
+							49.0120549
+						],
+						[
+							12.0997231,
+							49.0120551
+						],
+						[
+							12.0997226,
+							49.0121006
+						],
+						[
+							12.0996865,
+							49.0121005
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0996754,
+							49.0123160
+						],
+						[
+							12.0998004,
+							49.0123166
+						],
+						[
+							12.0998262,
+							49.0123167
+						],
+						[
+							12.0998267,
+							49.0122687
+						],
+						[
+							12.0996760,
+							49.0122680
+						],
+						[
+							12.0996754,
+							49.0123160
+						]
+					]
+				]
+			},
+			"properties": {}
 		}
 	],
 	"bbox": {
-		"minlat": 48.9684,
-		"minlon": 12.0163,
-		"maxlat": 49.0682,
-		"maxlon": 12.2104
+		"minlat": 48.9529,
+		"minlon": 11.7674,
+		"maxlat": 49.0813,
+		"maxlon": 12.4266
 	}
 }

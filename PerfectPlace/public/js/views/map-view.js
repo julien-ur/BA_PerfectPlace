@@ -17,30 +17,41 @@
 		this.map = L.map('map', {
 			layers: mapLayer,
 			center: [ 49.017222, 12.096944 ],
-			zoom: 12
+			zoom: 14
 		});
 
 		this.paramLayers = L.layerGroup();
 		this.paramLayers.addTo(this.map);
 
-		// var that = this;
-		// var socket = io.connect('http://localhost');
-		// socket.on('test', function () {
+		var that = this;
+		var updatingData = false;
+		var socket = io.connect('http://localhost');
+		var $updateDataBtn = $('#server-precache');
 
-		// });
+		$updateDataBtn.on('click', function() {
+			if(!updatingData) updateOSMData();
+		});
 
-		// $('#server-precache').on('click', onMapClick);
+		function updateOSMData() {
 
-		// function onMapClick(e) {
-		// 	var actMapBounds = that.map.getBounds();
-		// 	var bbox = {
-		// 		west: actMapBounds.getWest(),
-		// 		south: actMapBounds.getSouth(),
-		// 		east: actMapBounds.getEast(),
-		// 		north: actMapBounds.getNorth()
-		// 	}
-		// 	socket.emit('parseOSMFile', bbox);
-		// }
+			$updateDataBtn.html("Updating Data. Please wait..");
+
+			updatingData = true;
+
+			var actMapBounds = that.map.getBounds();
+			var bbox = {
+				west: actMapBounds.getWest(),
+				south: actMapBounds.getSouth(),
+				east: actMapBounds.getEast(),
+				north: actMapBounds.getNorth()
+			};
+			socket.emit('updateOSMData', bbox);
+		}
+
+		socket.on('dataUpdated', function() {
+			$updateDataBtn.html("Update OSM Data");
+			updatingData = false;
+		});
 	}
 
 	MapView.prototype.addLayer = function(opacity, renderFunct) {

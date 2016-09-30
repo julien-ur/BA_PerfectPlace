@@ -6,13 +6,22 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1185037,
-					49.0430426
+					12.0522136,
+					49.0727806
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3785866,
+					49.0052084
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -23,9 +32,7 @@
 					49.0149809
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -36,9 +43,7 @@
 					49.0147860
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -49,9 +54,7 @@
 					49.0188678
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -62,9 +65,7 @@
 					49.0205748
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -75,9 +76,18 @@
 					48.9979959
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7868207,
+					49.0577633
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -88,22 +98,29 @@
 					49.0214341
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1278930,
-					48.9969821
+					11.9562349,
+					49.0721350
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1647458,
+					48.9659917
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -114,9 +131,7 @@
 					49.0238938
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -127,9 +142,7 @@
 					49.0135020
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -140,22 +153,62 @@
 					49.0163330
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0834085,
-					48.9995897
+					12.1957814,
+					49.0738041
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8869356,
+					49.0636227
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8862124,
+					49.0634478
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.4092314,
+					49.0024001
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9562322,
+					49.0327099
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -166,9 +219,51 @@
 					49.0057770
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8822006,
+					49.0646256
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3989083,
+					48.9982377
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9156460,
+					49.0778307
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3025240,
+					49.0199149
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -179,9 +274,7 @@
 					48.9874567
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -192,9 +285,7 @@
 					48.9862787
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -205,9 +296,7 @@
 					49.0052543
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -218,9 +307,7 @@
 					49.0116479
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -231,9 +318,7 @@
 					49.0115036
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -244,9 +329,7 @@
 					49.0090857
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -257,9 +340,7 @@
 					48.9899294
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -270,9 +351,97 @@
 					49.0315553
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0834797,
+					49.0060611
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0924618,
+					49.0169819
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9069481,
+					49.0340584
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1055663,
+					49.0181037
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0849918,
+					49.0218646
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9785919,
+							49.0045187
+						],
+						[
+							11.9781159,
+							49.0045492
+						],
+						[
+							11.9778322,
+							49.0045675
+						],
+						[
+							11.9777834,
+							49.0042472
+						],
+						[
+							11.9782227,
+							49.0042075
+						],
+						[
+							11.9785919,
+							49.0045187
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -319,9 +488,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -380,9 +547,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -395,12 +560,12 @@
 							49.0017666
 						],
 						[
-							12.0919881,
-							49.0015748
+							12.0919884,
+							49.0016053
 						],
 						[
-							12.0924225,
-							49.0015732
+							12.0924228,
+							49.0016037
 						],
 						[
 							12.0924241,
@@ -413,9 +578,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -446,9 +609,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -499,9 +660,50 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.7883967,
+							49.0503361
+						],
+						[
+							11.7890400,
+							49.0500873
+						],
+						[
+							11.7888367,
+							49.0498615
+						],
+						[
+							11.7881934,
+							49.0501104
+						],
+						[
+							11.7876400,
+							49.0502766
+						],
+						[
+							11.7880815,
+							49.0506229
+						],
+						[
+							11.7884923,
+							49.0504437
+						],
+						[
+							11.7883967,
+							49.0503361
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -532,9 +734,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -569,9 +769,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -666,42 +864,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Polygon",
-				"coordinates": [
-					[
-						[
-							12.0838759,
-							49.0017233
-						],
-						[
-							12.0836920,
-							49.0015404
-						],
-						[
-							12.0835501,
-							49.0016039
-						],
-						[
-							12.0837438,
-							49.0017804
-						],
-						[
-							12.0838759,
-							49.0017233
-						]
-					]
-				]
-			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -780,9 +943,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -861,9 +1022,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -910,9 +1069,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -963,9 +1120,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -996,9 +1151,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1033,9 +1186,94 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3883327,
+							48.9640996
+						],
+						[
+							12.3884667,
+							48.9639970
+						],
+						[
+							12.3883220,
+							48.9639155
+						],
+						[
+							12.3882821,
+							48.9639461
+						],
+						[
+							12.3882379,
+							48.9639212
+						],
+						[
+							12.3882586,
+							48.9639053
+						],
+						[
+							12.3881783,
+							48.9638601
+						],
+						[
+							12.3882008,
+							48.9638429
+						],
+						[
+							12.3881612,
+							48.9638206
+						],
+						[
+							12.3881238,
+							48.9637995
+						],
+						[
+							12.3877927,
+							48.9640531
+						],
+						[
+							12.3878574,
+							48.9640895
+						],
+						[
+							12.3879501,
+							48.9641417
+						],
+						[
+							12.3879735,
+							48.9641237
+						],
+						[
+							12.3881117,
+							48.9642015
+						],
+						[
+							12.3881932,
+							48.9641391
+						],
+						[
+							12.3880550,
+							48.9640613
+						],
+						[
+							12.3881438,
+							48.9639933
+						],
+						[
+							12.3883327,
+							48.9640996
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1066,9 +1304,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1155,9 +1391,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1220,9 +1454,154 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1186419,
+							49.0428251
+						],
+						[
+							12.1186714,
+							49.0425428
+						],
+						[
+							12.1185804,
+							49.0425387
+						],
+						[
+							12.1185821,
+							49.0425228
+						],
+						[
+							12.1185396,
+							49.0425209
+						],
+						[
+							12.1185354,
+							49.0425607
+						],
+						[
+							12.1184507,
+							49.0425568
+						],
+						[
+							12.1184495,
+							49.0425683
+						],
+						[
+							12.1184188,
+							49.0425669
+						],
+						[
+							12.1184105,
+							49.0426463
+						],
+						[
+							12.1184412,
+							49.0426477
+						],
+						[
+							12.1184338,
+							49.0427180
+						],
+						[
+							12.1184032,
+							49.0427166
+						],
+						[
+							12.1183951,
+							49.0427939
+						],
+						[
+							12.1184257,
+							49.0427953
+						],
+						[
+							12.1184171,
+							49.0428773
+						],
+						[
+							12.1183865,
+							49.0428759
+						],
+						[
+							12.1183785,
+							49.0429526
+						],
+						[
+							12.1184091,
+							49.0429540
+						],
+						[
+							12.1184015,
+							49.0430263
+						],
+						[
+							12.1183709,
+							49.0430250
+						],
+						[
+							12.1183631,
+							49.0430989
+						],
+						[
+							12.1183938,
+							49.0431003
+						],
+						[
+							12.1183920,
+							49.0431171
+						],
+						[
+							12.1184768,
+							49.0431209
+						],
+						[
+							12.1184727,
+							49.0431593
+						],
+						[
+							12.1185152,
+							49.0431612
+						],
+						[
+							12.1185169,
+							49.0431450
+						],
+						[
+							12.1186080,
+							49.0431491
+						],
+						[
+							12.1186373,
+							49.0428687
+						],
+						[
+							12.1186844,
+							49.0428708
+						],
+						[
+							12.1186867,
+							49.0428491
+						],
+						[
+							12.1186890,
+							49.0428272
+						],
+						[
+							12.1186419,
+							49.0428251
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1301,9 +1680,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1342,9 +1719,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1375,9 +1750,66 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0042339,
+							49.0588187
+						],
+						[
+							12.0043455,
+							49.0587440
+						],
+						[
+							12.0040735,
+							49.0585694
+						],
+						[
+							12.0040511,
+							49.0585844
+						],
+						[
+							12.0039731,
+							49.0585344
+						],
+						[
+							12.0040006,
+							49.0585160
+						],
+						[
+							12.0038828,
+							49.0584404
+						],
+						[
+							12.0037455,
+							49.0585324
+						],
+						[
+							12.0039215,
+							49.0585933
+						],
+						[
+							12.0039781,
+							49.0586302
+						],
+						[
+							12.0039598,
+							49.0586422
+						],
+						[
+							12.0042339,
+							49.0588187
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1408,9 +1840,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1465,9 +1895,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1530,9 +1958,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1579,9 +2005,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1612,9 +2036,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1677,9 +2099,69 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.7866249,
+							49.0576107
+						],
+						[
+							11.7867686,
+							49.0575571
+						],
+						[
+							11.7868932,
+							49.0577005
+						],
+						[
+							11.7867452,
+							49.0577538
+						],
+						[
+							11.7866249,
+							49.0576107
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.7867780,
+							49.0575612
+						],
+						[
+							11.7869471,
+							49.0575034
+						],
+						[
+							11.7870565,
+							49.0576581
+						],
+						[
+							11.7869059,
+							49.0577081
+						],
+						[
+							11.7867780,
+							49.0575612
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1718,9 +2200,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1783,9 +2263,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1824,9 +2302,38 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3979700,
+							49.0699640
+						],
+						[
+							12.3978274,
+							49.0700458
+						],
+						[
+							12.3979021,
+							49.0701017
+						],
+						[
+							12.3980447,
+							49.0700199
+						],
+						[
+							12.3979700,
+							49.0699640
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1865,9 +2372,125 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9816678,
+							49.0306913
+						],
+						[
+							11.9818547,
+							49.0306897
+						],
+						[
+							11.9818514,
+							49.0305326
+						],
+						[
+							11.9819160,
+							49.0305320
+						],
+						[
+							11.9819136,
+							49.0304188
+						],
+						[
+							11.9818577,
+							49.0304193
+						],
+						[
+							11.9818552,
+							49.0302979
+						],
+						[
+							11.9816872,
+							49.0302994
+						],
+						[
+							11.9816898,
+							49.0304271
+						],
+						[
+							11.9815351,
+							49.0304284
+						],
+						[
+							11.9815367,
+							49.0305038
+						],
+						[
+							11.9816639,
+							49.0305027
+						],
+						[
+							11.9816678,
+							49.0306913
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9331738,
+							49.0258235
+						],
+						[
+							11.9331743,
+							49.0259807
+						],
+						[
+							11.9331743,
+							49.0259877
+						],
+						[
+							11.9334592,
+							49.0259947
+						],
+						[
+							11.9334593,
+							49.0259712
+						],
+						[
+							11.9334948,
+							49.0259723
+						],
+						[
+							11.9337584,
+							49.0259805
+						],
+						[
+							11.9337615,
+							49.0258955
+						],
+						[
+							11.9332939,
+							49.0258687
+						],
+						[
+							11.9332952,
+							49.0258265
+						],
+						[
+							11.9331738,
+							49.0258235
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1930,9 +2553,46 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9210121,
+							49.0433798
+						],
+						[
+							11.9213055,
+							49.0431773
+						],
+						[
+							11.9211464,
+							49.0430782
+						],
+						[
+							11.9209884,
+							49.0431872
+						],
+						[
+							11.9208539,
+							49.0431035
+						],
+						[
+							11.9207184,
+							49.0431970
+						],
+						[
+							11.9210121,
+							49.0433798
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1983,9 +2643,62 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3879586,
+							48.9644882
+						],
+						[
+							12.3885582,
+							48.9642189
+						],
+						[
+							12.3886457,
+							48.9641670
+						],
+						[
+							12.3887331,
+							48.9640818
+						],
+						[
+							12.3885329,
+							48.9639734
+						],
+						[
+							12.3883556,
+							48.9638774
+						],
+						[
+							12.3878986,
+							48.9635437
+						],
+						[
+							12.3875854,
+							48.9637178
+						],
+						[
+							12.3875852,
+							48.9637755
+						],
+						[
+							12.3871382,
+							48.9640374
+						],
+						[
+							12.3879586,
+							48.9644882
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2016,9 +2729,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2065,9 +2776,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2098,9 +2807,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2151,9 +2858,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2200,9 +2905,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2237,9 +2940,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2278,9 +2979,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2315,9 +3014,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2352,9 +3049,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2393,9 +3088,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2442,9 +3135,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2475,9 +3166,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2608,9 +3297,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2649,9 +3336,54 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.7865095,
+							49.0489752
+						],
+						[
+							11.7871935,
+							49.0488638
+						],
+						[
+							11.7874852,
+							49.0494207
+						],
+						[
+							11.7870292,
+							49.0494910
+						],
+						[
+							11.7870235,
+							49.0495072
+						],
+						[
+							11.7868438,
+							49.0495219
+						],
+						[
+							11.7867333,
+							49.0493176
+						],
+						[
+							11.7865115,
+							49.0493515
+						],
+						[
+							11.7865095,
+							49.0489752
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2722,9 +3454,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2807,9 +3537,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2912,9 +3640,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2945,9 +3671,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2978,9 +3702,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3011,9 +3733,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3076,15 +3796,301 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "kindergarten"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0841336,
+							49.0014413
+						],
+						[
+							12.0841212,
+							49.0015320
+						],
+						[
+							12.0841003,
+							49.0015308
+						],
+						[
+							12.0841075,
+							49.0015501
+						],
+						[
+							12.0841405,
+							49.0016384
+						],
+						[
+							12.0838546,
+							49.0016843
+						],
+						[
+							12.0838357,
+							49.0016925
+						],
+						[
+							12.0838653,
+							49.0017220
+						],
+						[
+							12.0837263,
+							49.0017821
+						],
+						[
+							12.0835433,
+							49.0015999
+						],
+						[
+							12.0836823,
+							49.0015399
+						],
+						[
+							12.0837636,
+							49.0016208
+						],
+						[
+							12.0838215,
+							49.0015958
+						],
+						[
+							12.0839885,
+							49.0015691
+						],
+						[
+							12.0839802,
+							49.0015468
+						],
+						[
+							12.0839889,
+							49.0015431
+						],
+						[
+							12.0839915,
+							49.0015244
+						],
+						[
+							12.0840039,
+							49.0014336
+						],
+						[
+							12.0841336,
+							49.0014413
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0832906,
+							48.9996213
+						],
+						[
+							12.0833153,
+							48.9996141
+						],
+						[
+							12.0833690,
+							48.9996931
+						],
+						[
+							12.0836439,
+							48.9996128
+						],
+						[
+							12.0835486,
+							48.9994725
+						],
+						[
+							12.0832490,
+							48.9995600
+						],
+						[
+							12.0832694,
+							48.9995899
+						],
+						[
+							12.0832906,
+							48.9996213
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0521462,
+							48.9650923
+						],
+						[
+							12.0518458,
+							48.9645894
+						],
+						[
+							12.0521698,
+							48.9645148
+						],
+						[
+							12.0522771,
+							48.9647021
+						],
+						[
+							12.0526955,
+							48.9646035
+						],
+						[
+							12.0529036,
+							48.9648965
+						],
+						[
+							12.0529466,
+							48.9649585
+						],
+						[
+							12.0529423,
+							48.9650078
+						],
+						[
+							12.0528285,
+							48.9651698
+						],
+						[
+							12.0526354,
+							48.9650839
+						],
+						[
+							12.0525775,
+							48.9649726
+						],
+						[
+							12.0521462,
+							48.9650923
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0690115,
+							49.0179437
+						],
+						[
+							12.0692075,
+							49.0179090
+						],
+						[
+							12.0692154,
+							49.0179282
+						],
+						[
+							12.0692823,
+							49.0179164
+						],
+						[
+							12.0692542,
+							49.0178480
+						],
+						[
+							12.0691873,
+							49.0178599
+						],
+						[
+							12.0691128,
+							49.0176788
+						],
+						[
+							12.0689167,
+							49.0177135
+						],
+						[
+							12.0690115,
+							49.0179437
+						],
+						[
+							12.0693047,
+							49.0178889
+						],
+						[
+							12.0692992,
+							49.0177906
+						],
+						[
+							12.0694319,
+							49.0177875
+						],
+						[
+							12.0694313,
+							49.0177764
+						],
+						[
+							12.0694831,
+							49.0177751
+						],
+						[
+							12.0694801,
+							49.0177219
+						],
+						[
+							12.0696084,
+							49.0177188
+						],
+						[
+							12.0696202,
+							49.0179318
+						],
+						[
+							12.0694919,
+							49.0179349
+						],
+						[
+							12.0694883,
+							49.0178695
+						],
+						[
+							12.0694365,
+							49.0178708
+						],
+						[
+							12.0694373,
+							49.0178857
+						],
+						[
+							12.0693047,
+							49.0178889
+						]
+					]
+				]
+			},
+			"properties": {}
 		}
 	],
 	"bbox": {
-		"minlat": 48.9684,
-		"minlon": 12.0163,
-		"maxlat": 49.0682,
-		"maxlon": 12.2104
+		"minlat": 48.9529,
+		"minlon": 11.7674,
+		"maxlat": 49.0813,
+		"maxlon": 12.4266
 	}
 }

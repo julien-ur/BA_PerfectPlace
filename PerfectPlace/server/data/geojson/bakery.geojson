@@ -6,13 +6,33 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
+					12.0537184,
+					49.0742920
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3795345,
+					49.0070362
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
 					12.1153781,
 					49.0052910
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -23,9 +43,7 @@
 					49.0039945
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -36,9 +54,7 @@
 					49.0165751
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -49,9 +65,7 @@
 					49.0083991
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -62,9 +76,7 @@
 					48.9931246
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -75,9 +87,7 @@
 					49.0249139
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -88,9 +98,7 @@
 					49.0490351
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -101,9 +109,7 @@
 					49.0547278
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -114,9 +120,7 @@
 					49.0417705
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -127,9 +131,7 @@
 					49.0008166
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -140,9 +142,7 @@
 					49.0128200
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -153,9 +153,7 @@
 					49.0194799
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -166,9 +164,7 @@
 					49.0189461
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -179,9 +175,7 @@
 					49.0131633
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -192,9 +186,7 @@
 					49.0145925
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -205,9 +197,7 @@
 					49.0017628
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -218,9 +208,7 @@
 					49.0339469
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -231,9 +219,51 @@
 					48.9979180
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7827378,
+					49.0514173
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7819458,
+					49.0508219
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7916565,
+					49.0535164
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7849757,
+					49.0489839
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -244,9 +274,7 @@
 					49.0197456
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -257,9 +285,7 @@
 					49.0169510
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -270,9 +296,7 @@
 					49.0167044
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -283,9 +307,7 @@
 					49.0187588
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -296,9 +318,7 @@
 					49.0199063
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -309,9 +329,18 @@
 					49.0254197
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3925186,
+					48.9600070
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -322,9 +351,7 @@
 					49.0303269
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -335,9 +362,7 @@
 					49.0416243
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -348,22 +373,18 @@
 					49.0583410
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0585290,
-					49.0103060
+					12.0584941,
+					49.0102866
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -374,9 +395,29 @@
 					49.0137201
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3795712,
+					49.0073132
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3804556,
+					49.0084540
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -387,9 +428,7 @@
 					49.0200692
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -400,9 +439,40 @@
 					48.9684423
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1668083,
+					48.9656477
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1676445,
+					48.9652692
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7937477,
+					49.0483057
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -413,9 +483,7 @@
 					49.0262721
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -426,9 +494,7 @@
 					49.0011368
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -439,9 +505,18 @@
 					48.9945155
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1079752,
+					49.0766876
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -452,9 +527,7 @@
 					49.0095256
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -465,9 +538,18 @@
 					49.0130970
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2125767,
+					49.0319416
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -478,9 +560,7 @@
 					49.0125660
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -491,9 +571,7 @@
 					49.0217530
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -504,9 +582,7 @@
 					49.0206940
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -517,9 +593,7 @@
 					49.0209058
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -530,9 +604,7 @@
 					49.0068414
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -543,9 +615,7 @@
 					49.0178944
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -556,9 +626,7 @@
 					49.0163901
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -569,9 +637,7 @@
 					49.0276616
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -582,9 +648,7 @@
 					49.0164998
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -595,9 +659,7 @@
 					48.9921808
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -608,9 +670,62 @@
 					49.0232215
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1909054,
+					49.0731987
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1863615,
+					49.0717623
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1955346,
+					49.0758739
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8851170,
+					49.0655811
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8841900,
+					49.0646244
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -621,9 +736,7 @@
 					49.0170948
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -634,9 +747,7 @@
 					48.9904840
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -647,9 +758,7 @@
 					48.9910277
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -660,9 +769,7 @@
 					48.9813816
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -673,9 +780,7 @@
 					48.9814524
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -686,9 +791,7 @@
 					48.9817264
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -699,22 +802,95 @@
 					49.0006573
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1415880,
-					48.9883850
+					11.9595699,
+					49.0730039
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9353936,
+					49.0350249
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8472022,
+					49.0391412
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7760810,
+					49.0570182
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.4012513,
+					49.0010308
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.4001664,
+					49.0005840
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.4004024,
+					49.0001687
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.4069656,
+					48.9980434
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -725,9 +901,7 @@
 					49.0246995
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -738,9 +912,18 @@
 					49.0068269
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3041444,
+					49.0209786
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -751,9 +934,7 @@
 					48.9913516
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -764,9 +945,51 @@
 					49.0158978
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7919039,
+					49.0472296
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7936955,
+					49.0474510
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3046512,
+					49.0208115
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8768753,
+					49.0769798
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -777,9 +1000,18 @@
 					49.0020676
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1975671,
+					49.0768181
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -790,9 +1022,7 @@
 					49.0072134
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -803,22 +1033,7 @@
 					49.0165430
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.0994350,
-					49.0166863
-				]
-			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -829,9 +1044,7 @@
 					49.0185774
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -842,9 +1055,18 @@
 					49.0137967
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9527428,
+					49.0245021
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -855,9 +1077,18 @@
 					49.0081742
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3261168,
+					48.9682894
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -868,22 +1099,29 @@
 					49.0248042
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0995697,
-					49.0121267
+					12.4066272,
+					49.0033324
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7776061,
+					49.0565382
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -894,9 +1132,7 @@
 					49.0071644
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -907,9 +1143,95 @@
 					49.0286066
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9533249,
+					49.0247167
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9608732,
+					49.0227530
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0940333,
+					49.0198986
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9616809,
+					49.0078494
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0200942,
+					49.0495564
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2076352,
+					49.0288152
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0781492,
+					49.0230150
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1416398,
+					48.9886176
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -940,9 +1262,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -981,9 +1301,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1022,9 +1340,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1063,9 +1379,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1096,9 +1410,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1137,9 +1449,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1190,9 +1500,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1223,9 +1531,38 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1067860,
+							49.0769016
+						],
+						[
+							12.1068683,
+							49.0768627
+						],
+						[
+							12.1069647,
+							49.0769502
+						],
+						[
+							12.1068841,
+							49.0769882
+						],
+						[
+							12.1067860,
+							49.0769016
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1272,9 +1609,151 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3960337,
+							49.0717682
+						],
+						[
+							12.3959140,
+							49.0717360
+						],
+						[
+							12.3958261,
+							49.0718760
+						],
+						[
+							12.3958367,
+							49.0718789
+						],
+						[
+							12.3959458,
+							49.0719083
+						],
+						[
+							12.3960337,
+							49.0717682
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3816541,
+							48.9653041
+						],
+						[
+							12.3817943,
+							48.9651763
+						],
+						[
+							12.3816282,
+							48.9651146
+						],
+						[
+							12.3815084,
+							48.9652341
+						],
+						[
+							12.3816541,
+							48.9653041
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3805800,
+							49.0090058
+						],
+						[
+							12.3804803,
+							49.0088872
+						],
+						[
+							12.3805797,
+							49.0088513
+						],
+						[
+							12.3806793,
+							49.0089699
+						],
+						[
+							12.3805800,
+							49.0090058
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9077714,
+							49.0353980
+						],
+						[
+							11.9080114,
+							49.0353315
+						],
+						[
+							11.9079819,
+							49.0352858
+						],
+						[
+							11.9079382,
+							49.0352979
+						],
+						[
+							11.9079164,
+							49.0352641
+						],
+						[
+							11.9078708,
+							49.0352768
+						],
+						[
+							11.9078530,
+							49.0352491
+						],
+						[
+							11.9077023,
+							49.0352909
+						],
+						[
+							11.9077714,
+							49.0353980
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1305,9 +1784,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1338,15 +1815,130 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "bakery"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2407055,
+							48.9536902
+						],
+						[
+							12.2410150,
+							48.9536835
+						],
+						[
+							12.2410091,
+							48.9535661
+						],
+						[
+							12.2407005,
+							48.9535728
+						],
+						[
+							12.2407055,
+							48.9536902
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0994389,
+							49.0121817
+						],
+						[
+							12.0995765,
+							49.0121824
+						],
+						[
+							12.0996104,
+							49.0121826
+						],
+						[
+							12.0996113,
+							49.0121002
+						],
+						[
+							12.0994398,
+							49.0120995
+						],
+						[
+							12.0994396,
+							49.0121094
+						],
+						[
+							12.0994389,
+							49.0121817
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0997927,
+							49.0121832
+						],
+						[
+							12.0998547,
+							49.0121835
+						],
+						[
+							12.0999333,
+							49.0121839
+						],
+						[
+							12.1000042,
+							49.0121838
+						],
+						[
+							12.1000045,
+							49.0121161
+						],
+						[
+							12.0999340,
+							49.0121155
+						],
+						[
+							12.0999343,
+							49.0121015
+						],
+						[
+							12.0997936,
+							49.0121009
+						],
+						[
+							12.0997927,
+							49.0121832
+						]
+					]
+				]
+			},
+			"properties": {}
 		}
 	],
 	"bbox": {
-		"minlat": 48.9684,
-		"minlon": 12.0163,
-		"maxlat": 49.0682,
-		"maxlon": 12.2104
+		"minlat": 48.9529,
+		"minlon": 11.7674,
+		"maxlat": 49.0813,
+		"maxlon": 12.4266
 	}
 }

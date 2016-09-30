@@ -10,9 +10,7 @@
 					49.0469160
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -23,9 +21,7 @@
 					49.0054590
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -36,9 +32,7 @@
 					49.0248119
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -49,9 +43,7 @@
 					49.0334252
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -62,9 +54,7 @@
 					49.0131444
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -75,9 +65,7 @@
 					49.0131409
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -88,9 +76,7 @@
 					49.0135016
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -101,9 +87,7 @@
 					49.0301250
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -114,22 +98,40 @@
 					49.0051626
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1003799,
-					49.0121833
+					12.1862555,
+					49.0718067
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1954071,
+					49.0758774
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7762820,
+					49.0570498
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -140,22 +142,18 @@
 					49.0340363
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1421196,
-					48.9888219
+					12.1423280,
+					48.9889384
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -166,9 +164,7 @@
 					49.0144556
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -179,9 +175,7 @@
 					48.9999587
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -192,9 +186,7 @@
 					49.0590160
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -205,9 +197,7 @@
 					48.9945897
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -218,9 +208,7 @@
 					49.0070646
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -231,9 +219,7 @@
 					49.0396751
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -244,9 +230,7 @@
 					49.0169340
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -257,22 +241,7 @@
 					49.0066339
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.1640376,
-					49.0248945
-				]
-			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -283,9 +252,7 @@
 					49.0109447
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -296,9 +263,7 @@
 					49.0055673
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -309,9 +274,7 @@
 					49.0047942
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -322,9 +285,7 @@
 					49.0003758
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -335,9 +296,18 @@
 					49.0246623
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7933726,
+					49.0473406
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -348,9 +318,7 @@
 					49.0023491
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -361,9 +329,18 @@
 					48.9886358
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9552672,
+					49.0250159
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -374,22 +351,29 @@
 					49.0290548
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1972946,
-					48.9916616
+					12.1973116,
+					48.9916404
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7916507,
+					49.0473195
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -400,9 +384,18 @@
 					49.0011303
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9261569,
+					49.0253467
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -413,9 +406,7 @@
 					48.9893003
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -426,9 +417,7 @@
 					49.0095006
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -439,9 +428,7 @@
 					49.0181987
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -452,9 +439,7 @@
 					48.9947362
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -465,9 +450,18 @@
 					49.0595094
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1064124,
+					49.0765632
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -478,9 +472,7 @@
 					48.9818179
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -491,9 +483,7 @@
 					49.0179687
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -504,22 +494,40 @@
 					48.9978312
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1277096,
-					48.9973829
+					11.7776672,
+					49.0566994
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1277404,
+					48.9973767
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8766101,
+					49.0770426
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -530,9 +538,7 @@
 					49.0135485
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -543,9 +549,7 @@
 					49.0329803
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -556,9 +560,7 @@
 					49.0590234
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -569,9 +571,40 @@
 					49.0076168
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1961568,
+					48.9926355
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1560042,
+					48.9725123
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1555141,
+					48.9735941
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -580,31 +613,45 @@
 				"coordinates": [
 					[
 						[
-							12.1096683,
-							48.9941967
+							12.1096203,
+							48.9941792
 						],
 						[
-							12.1100611,
-							48.9937702
+							12.1098164,
+							48.9939652
 						],
 						[
-							12.1103518,
-							48.9938854
+							12.1097882,
+							48.9939541
 						],
 						[
-							12.1099591,
-							48.9943120
+							12.1098951,
+							48.9938375
 						],
 						[
-							12.1096683,
-							48.9941967
+							12.1101552,
+							48.9939401
+						],
+						[
+							12.1102111,
+							48.9938790
+						],
+						[
+							12.1102935,
+							48.9939115
+						],
+						[
+							12.1099347,
+							48.9943032
+						],
+						[
+							12.1096203,
+							48.9941792
 						]
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -635,9 +682,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -692,9 +737,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -745,9 +788,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -794,9 +835,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -827,9 +866,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -868,9 +905,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -917,9 +952,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -950,9 +983,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -999,9 +1030,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1056,9 +1085,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1101,9 +1128,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1142,9 +1167,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1153,31 +1176,123 @@
 				"coordinates": [
 					[
 						[
-							12.1606763,
-							48.9713011
+							12.3925635,
+							48.9603819
 						],
 						[
-							12.1609351,
-							48.9714253
+							12.3921264,
+							48.9600073
 						],
 						[
-							12.1613623,
-							48.9710418
+							12.3924114,
+							48.9598639
 						],
 						[
-							12.1611035,
-							48.9709176
+							12.3925957,
+							48.9600219
 						],
 						[
-							12.1606763,
-							48.9713011
+							12.3925360,
+							48.9600519
+						],
+						[
+							12.3927888,
+							48.9602686
+						],
+						[
+							12.3925635,
+							48.9603819
 						]
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.7936791,
+							49.0480896
+						],
+						[
+							11.7943112,
+							49.0480034
+						],
+						[
+							11.7943945,
+							49.0482657
+						],
+						[
+							11.7942471,
+							49.0482858
+						],
+						[
+							11.7942325,
+							49.0482396
+						],
+						[
+							11.7937477,
+							49.0483057
+						],
+						[
+							11.7936791,
+							49.0480896
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.7932681,
+							49.0493673
+						],
+						[
+							11.7935069,
+							49.0493509
+						],
+						[
+							11.7934990,
+							49.0493014
+						],
+						[
+							11.7937977,
+							49.0492808
+						],
+						[
+							11.7938990,
+							49.0499130
+						],
+						[
+							11.7936053,
+							49.0499332
+						],
+						[
+							11.7935521,
+							49.0496010
+						],
+						[
+							11.7933083,
+							49.0496178
+						],
+						[
+							11.7932681,
+							49.0493673
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1208,9 +1323,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1241,9 +1354,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1294,9 +1405,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1339,9 +1448,54 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.7786761,
+							49.0536337
+						],
+						[
+							11.7788844,
+							49.0534793
+						],
+						[
+							11.7789333,
+							49.0535076
+						],
+						[
+							11.7789691,
+							49.0534811
+						],
+						[
+							11.7790621,
+							49.0535351
+						],
+						[
+							11.7790300,
+							49.0535589
+						],
+						[
+							11.7792362,
+							49.0536784
+						],
+						[
+							11.7790243,
+							49.0538355
+						],
+						[
+							11.7786761,
+							49.0536337
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1440,9 +1594,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1481,9 +1633,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1534,9 +1684,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1587,9 +1735,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1660,9 +1806,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1721,9 +1865,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1802,9 +1944,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1851,9 +1991,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1884,9 +2022,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1937,9 +2073,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1982,9 +2116,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2019,9 +2151,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2052,9 +2182,133 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3936932,
+							48.9984390
+						],
+						[
+							12.3936833,
+							48.9984262
+						],
+						[
+							12.3935102,
+							48.9982025
+						],
+						[
+							12.3928355,
+							48.9984273
+						],
+						[
+							12.3928836,
+							48.9984894
+						],
+						[
+							12.3929453,
+							48.9984688
+						],
+						[
+							12.3930514,
+							48.9986059
+						],
+						[
+							12.3930976,
+							48.9985905
+						],
+						[
+							12.3931094,
+							48.9986058
+						],
+						[
+							12.3932102,
+							48.9985722
+						],
+						[
+							12.3932033,
+							48.9985633
+						],
+						[
+							12.3935174,
+							48.9984587
+						],
+						[
+							12.3935413,
+							48.9984896
+						],
+						[
+							12.3936932,
+							48.9984390
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3869949,
+							49.0030445
+						],
+						[
+							12.3872662,
+							49.0029602
+						],
+						[
+							12.3873242,
+							49.0029421
+						],
+						[
+							12.3872399,
+							49.0028255
+						],
+						[
+							12.3871819,
+							49.0028435
+						],
+						[
+							12.3869965,
+							49.0025867
+						],
+						[
+							12.3869877,
+							49.0025745
+						],
+						[
+							12.3868083,
+							49.0026303
+						],
+						[
+							12.3867768,
+							49.0025867
+						],
+						[
+							12.3866850,
+							49.0026152
+						],
+						[
+							12.3867165,
+							49.0026588
+						],
+						[
+							12.3869949,
+							49.0030445
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2085,9 +2339,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2118,9 +2370,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2151,9 +2401,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2200,9 +2448,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2245,9 +2491,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2256,39 +2500,182 @@
 				"coordinates": [
 					[
 						[
-							12.1219700,
-							49.0350190
+							12.1219704,
+							49.0350185
 						],
 						[
-							12.1219781,
-							49.0348477
+							12.1219777,
+							49.0348466
 						],
 						[
-							12.1214354,
-							49.0348366
+							12.1214349,
+							49.0348367
 						],
 						[
-							12.1214260,
-							49.0350344
+							12.1214265,
+							49.0350346
 						],
 						[
 							12.1215781,
-							49.0350375
+							49.0350373
 						],
 						[
-							12.1215793,
-							49.0350110
+							12.1215792,
+							49.0350113
 						],
 						[
-							12.1219700,
-							49.0350190
+							12.1216300,
+							49.0350123
+						],
+						[
+							12.1219704,
+							49.0350185
 						]
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1210971,
+							49.0355430
+						],
+						[
+							12.1211012,
+							49.0355271
+						],
+						[
+							12.1211153,
+							49.0354722
+						],
+						[
+							12.1211567,
+							49.0353111
+						],
+						[
+							12.1209453,
+							49.0352877
+						],
+						[
+							12.1208857,
+							49.0355197
+						],
+						[
+							12.1210971,
+							49.0355430
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0012822,
+							49.0568626
+						],
+						[
+							12.0016771,
+							49.0565420
+						],
+						[
+							12.0015403,
+							49.0564696
+						],
+						[
+							12.0014952,
+							49.0565062
+						],
+						[
+							12.0013420,
+							49.0564252
+						],
+						[
+							12.0011133,
+							49.0566110
+						],
+						[
+							12.0011002,
+							49.0566041
+						],
+						[
+							12.0009792,
+							49.0567024
+						],
+						[
+							12.0012822,
+							49.0568626
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0472933,
+							49.0729007
+						],
+						[
+							12.0473138,
+							49.0726068
+						],
+						[
+							12.0473782,
+							49.0726087
+						],
+						[
+							12.0473857,
+							49.0725015
+						],
+						[
+							12.0473245,
+							49.0724996
+						],
+						[
+							12.0473259,
+							49.0724789
+						],
+						[
+							12.0470044,
+							49.0724692
+						],
+						[
+							12.0469701,
+							49.0729616
+						],
+						[
+							12.0471042,
+							49.0729656
+						],
+						[
+							12.0471091,
+							49.0728952
+						],
+						[
+							12.0472933,
+							49.0729007
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2343,9 +2730,66 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1061940,
+							49.0766063
+						],
+						[
+							12.1067369,
+							49.0770852
+						],
+						[
+							12.1069027,
+							49.0770045
+						],
+						[
+							12.1068841,
+							49.0769882
+						],
+						[
+							12.1067860,
+							49.0769016
+						],
+						[
+							12.1067681,
+							49.0768858
+						],
+						[
+							12.1065119,
+							49.0766599
+						],
+						[
+							12.1064480,
+							49.0766035
+						],
+						[
+							12.1065081,
+							49.0765742
+						],
+						[
+							12.1064539,
+							49.0765265
+						],
+						[
+							12.1064198,
+							49.0764964
+						],
+						[
+							12.1061940,
+							49.0766063
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2376,9 +2820,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2437,9 +2879,117 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3902443,
+							49.0018825
+						],
+						[
+							12.3903102,
+							49.0018563
+						],
+						[
+							12.3903207,
+							49.0018676
+						],
+						[
+							12.3904788,
+							49.0018047
+						],
+						[
+							12.3904657,
+							49.0017905
+						],
+						[
+							12.3907790,
+							49.0016659
+						],
+						[
+							12.3907908,
+							49.0016787
+						],
+						[
+							12.3909324,
+							49.0016223
+						],
+						[
+							12.3907764,
+							49.0014535
+						],
+						[
+							12.3901642,
+							49.0016971
+						],
+						[
+							12.3902084,
+							49.0017450
+						],
+						[
+							12.3901417,
+							49.0017715
+						],
+						[
+							12.3902443,
+							49.0018825
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9351988,
+							49.0354763
+						],
+						[
+							11.9357982,
+							49.0351009
+						],
+						[
+							11.9355064,
+							49.0349006
+						],
+						[
+							11.9351941,
+							49.0350962
+						],
+						[
+							11.9352403,
+							49.0351279
+						],
+						[
+							11.9350072,
+							49.0352738
+						],
+						[
+							11.9351767,
+							49.0353901
+						],
+						[
+							11.9351226,
+							49.0354239
+						],
+						[
+							11.9351988,
+							49.0354763
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2622,9 +3172,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2675,9 +3223,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2728,9 +3274,62 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.4065572,
+							49.0033683
+						],
+						[
+							12.4065753,
+							49.0032278
+						],
+						[
+							12.4072907,
+							49.0032675
+						],
+						[
+							12.4072707,
+							49.0034224
+						],
+						[
+							12.4073334,
+							49.0034259
+						],
+						[
+							12.4073220,
+							49.0035139
+						],
+						[
+							12.4071538,
+							49.0035046
+						],
+						[
+							12.4071549,
+							49.0034954
+						],
+						[
+							12.4066555,
+							49.0034677
+						],
+						[
+							12.4066675,
+							49.0033744
+						],
+						[
+							12.4065572,
+							49.0033683
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2781,9 +3380,66 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9339601,
+							49.0346722
+						],
+						[
+							11.9336715,
+							49.0348079
+						],
+						[
+							11.9334653,
+							49.0346194
+						],
+						[
+							11.9336610,
+							49.0345274
+						],
+						[
+							11.9336040,
+							49.0344753
+						],
+						[
+							11.9337560,
+							49.0344039
+						],
+						[
+							11.9338135,
+							49.0344565
+						],
+						[
+							11.9341054,
+							49.0343192
+						],
+						[
+							11.9343385,
+							49.0345324
+						],
+						[
+							11.9341531,
+							49.0346195
+						],
+						[
+							11.9341256,
+							49.0345944
+						],
+						[
+							11.9339601,
+							49.0346722
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2818,15 +3474,52 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "supermarket"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1000459,
+							49.0122698
+						],
+						[
+							12.1003622,
+							49.0122714
+						],
+						[
+							12.1003640,
+							49.0121176
+						],
+						[
+							12.1000045,
+							49.0121161
+						],
+						[
+							12.1000042,
+							49.0121838
+						],
+						[
+							12.1000468,
+							49.0121844
+						],
+						[
+							12.1000459,
+							49.0122698
+						]
+					]
+				]
+			},
+			"properties": {}
 		}
 	],
 	"bbox": {
-		"minlat": 48.9684,
-		"minlon": 12.0163,
-		"maxlat": 49.0682,
-		"maxlon": 12.2104
+		"minlat": 48.9529,
+		"minlon": 11.7674,
+		"maxlat": 49.0813,
+		"maxlon": 12.4266
 	}
 }

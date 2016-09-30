@@ -26,6 +26,12 @@
 			layerId: layerId,
 			renderer: renderer
 		}
+		var that = this;
+		$('#blur-filter-checkbox').click(function() {
+			for (var layer in that.layerList) {
+				that.mapView.redrawLayer(that.layerList[layer].layerId);
+			}
+		})
 	};
 
 	MapLayerControl.prototype.updateLayer = function(paramId, category, distanceInMeters, distanceReversed) {

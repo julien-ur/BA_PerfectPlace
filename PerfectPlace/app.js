@@ -3,6 +3,7 @@
 // LOAD REQUIRED MODULES
 var express = require('express');
 var app = express();
+
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
@@ -24,32 +25,18 @@ app.use(express.static('node_modules'));
 app.use(express.static('public'));
 app.use(express.static('server'));
 
-// starts TileServers for each category
 var strata = tilestrata();
+var providerList = {};
+startTileServer();
 
-for (var category in categories) {
-	for (var subCategory in categories[category]) {
-// var subCategory = "water";
-		strata.layer(subCategory)
-			.route('tile.json')
-			//.use(disk.cache({dir: './server/data/geo-objects/' + subCategory }))
-			.use(vtServer(subCategory))
-	}
-}
-
-// start accepting requests
-app.use(tilestrata.middleware({
-	server: strata,
-	prefix: '/tiles'
-}));
 
 // open socket connection, used to initiate geojson files generation process
 io.on('connection', function (socket) {
-	socket.on('parseOSMFile', function (actualViewportBBox) {
+	socket.on('updateOSMData', function (actualViewportBBox) {
 		console.log(actualViewportBBox);
 		var bbox = [actualViewportBBox.west, actualViewportBBox.south, actualViewportBBox.east, actualViewportBBox.north];
 
-		parseOSMFileFromServer(bbox);
+		parseOSMFileFromServer(bbox, socket);
 
 		// var readStream = fs.createReadStream("./server/data/osm_regensburg_small.xml");
 
@@ -63,7 +50,7 @@ io.on('connection', function (socket) {
 });
 
 
-function parseOSMFileFromServer(bbox) {
+function parseOSMFileFromServer(bbox, socket) {
 	var url = "http://overpass-api.de/api/map?bbox=" + bbox.toString();
 
 	var http = require('http');
@@ -77,6 +64,7 @@ function parseOSMFileFromServer(bbox) {
 			generateGeoJsonFiles(geoObjectCollection, function() {
 				//var bbox = geoObjectCollection.getBoundingBox();
 				//generateTileCache(bbox);
+				socket.emit('dataUpdated');
 			});
 		});
 	});
@@ -105,9 +93,14 @@ function generateGeoJsonFiles(geoObjectCollection, callback) {
 		}
 	}
 	console.log("GeoJSON files generated..");
+
+    // reinitiate tile index in the provider plugins for the tile server
+	for (var key in providerList){
+		providerList[key].init();
+	}
+
 	callback();
 }
-
 
 server.listen(80, function() {
 	console.log("SocketIO connection ready");
@@ -116,3 +109,39 @@ server.listen(80, function() {
 app.listen(8000, function() {
 	console.log("WebApp online on port 8000");
 });
+
+
+function startTileServer() {
+
+    // setup TileProvider Plugin for each category
+    for (var category in categories) {
+        for (var subCategory in categories[category]) {
+
+            var providerPlugin = vtServer(subCategory);
+            providerList[subCategory] = providerPlugin;
+
+            // var subCategory = "water";
+            strata.layer(subCategory)
+                .route('tile.json')
+                //.use(disk.cache({dir: './server/data/geo-objects/' + subCategory }))
+                .use(providerPlugin)
+        }
+    }
+    // create new express app for tile server
+    var app2 = express();
+
+    app2.use(function(req, res, next) {
+        res.header("Access-Control-Allow-Origin", "*");
+        res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+        next();
+    });
+
+    app2.use(tilestrata.middleware({
+        server: strata,
+        prefix: '/tiles'
+    }));
+
+    app2.listen(8080, function() {
+        console.log("TileServer online on port 8080");
+    });
+}

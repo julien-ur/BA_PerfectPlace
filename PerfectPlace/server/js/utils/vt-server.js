@@ -18,7 +18,7 @@ module.exports = function(category) {
                 buffer: 0
                 // debug: 0
             });
-            callback();
+            if (callback) callback();
         },
 
         serve: function(server, req, callback) {
@@ -32,7 +32,7 @@ module.exports = function(category) {
                 err = null;
             }
 
-            console.log(err ? err : 'tile ' + req.z + ', ' +  req.x + ', ' +  req.y + ' served');
+            // console.log(err ? err : 'tile ' + req.z + ', ' +  req.x + ', ' +  req.y + ' served');
 
             callback(err, tileStr, req.headers);
         },
@@ -41,4 +41,6 @@ module.exports = function(category) {
             callback();
         }
     };
+
+
 };

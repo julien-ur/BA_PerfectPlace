@@ -23,11 +23,22 @@ body
 	z-index: 5;
 }
 
-#server-precache
+.settings-btn
 {
 	float: right;
 	margin-top: 3px;
 	margin-right: 5px;
+}
+
+.param-glyph
+{
+	margin: 3px -1px 0 0;
+}
+
+#blur-filter-checkbox
+{
+	margin-left: 4px;
+	vertical-align: sub;
 }
 
 #map

@@ -6,13 +6,55 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
+					12.0541725,
+					49.0744002
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9264833,
+					49.0162189
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3794641,
+					49.0068645
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3795639,
+					49.0076221
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
 					12.1983094,
 					49.0638723
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -23,9 +65,7 @@
 					49.0229446
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -36,9 +76,7 @@
 					49.0223158
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -49,9 +87,7 @@
 					49.0200579
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -62,9 +98,7 @@
 					49.0109552
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -75,9 +109,7 @@
 					49.0174293
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -88,9 +120,7 @@
 					49.0175982
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -101,9 +131,7 @@
 					49.0097676
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -114,9 +142,7 @@
 					49.0194620
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -127,9 +153,7 @@
 					49.0136192
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -140,9 +164,7 @@
 					48.9921668
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -153,9 +175,7 @@
 					48.9921901
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -166,9 +186,7 @@
 					49.0105903
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -179,9 +197,7 @@
 					49.0190898
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -192,9 +208,7 @@
 					49.0179496
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -205,9 +219,7 @@
 					49.0183409
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -218,9 +230,7 @@
 					49.0192005
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -231,9 +241,7 @@
 					49.0110024
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -244,9 +252,7 @@
 					49.0200369
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -257,9 +263,7 @@
 					49.0195782
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -270,9 +274,7 @@
 					49.0202337
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -283,9 +285,7 @@
 					49.0183253
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -296,9 +296,7 @@
 					49.0199725
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -309,9 +307,7 @@
 					49.0193413
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -322,9 +318,7 @@
 					49.0130720
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -335,22 +329,106 @@
 					48.9990550
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0830942,
-					49.0062953
+					12.0129554,
+					48.9866373
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0830727,
+					49.0062504
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7823289,
+					49.0523280
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7829844,
+					49.0517586
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7830748,
+					49.0512970
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7819988,
+					49.0513838
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7837619,
+					49.0509154
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7836309,
+					49.0510266
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.7820925,
+					49.0535781
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -361,9 +439,7 @@
 					49.0187214
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -374,9 +450,7 @@
 					49.0216463
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -387,9 +461,7 @@
 					49.0217163
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -400,9 +472,7 @@
 					49.0240684
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -413,9 +483,7 @@
 					49.0304687
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -426,9 +494,7 @@
 					49.0429401
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -439,9 +505,7 @@
 					49.0197492
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -452,9 +516,7 @@
 					49.0108600
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -465,9 +527,7 @@
 					49.0093339
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -478,9 +538,18 @@
 					49.0278381
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1509432,
+					48.9640841
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -491,9 +560,7 @@
 					49.0214613
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -504,9 +571,7 @@
 					49.0214201
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -517,9 +582,7 @@
 					49.0188199
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -530,9 +593,18 @@
 					49.0189746
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1844241,
+					48.9599974
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -543,9 +615,18 @@
 					49.0191367
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9577896,
+					49.0728812
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -556,9 +637,18 @@
 					49.0183067
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0072340,
+					48.9655058
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -569,22 +659,40 @@
 					49.0229884
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.2080719,
-					49.0288188
+					12.0065669,
+					49.0573034
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2079693,
+					49.0287910
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.4066448,
+					48.9988972
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -595,9 +703,7 @@
 					49.0228153
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -608,9 +714,7 @@
 					49.0229412
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -621,9 +725,7 @@
 					49.0205573
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -634,22 +736,18 @@
 					49.0193042
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0956035,
-					48.9957368
+					12.0956987,
+					48.9957350
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -660,22 +758,7 @@
 					49.0167387
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.0978558,
-					49.0156657
-				]
-			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -686,9 +769,7 @@
 					49.0169920
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -699,9 +780,7 @@
 					49.0152783
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -712,9 +791,7 @@
 					49.0205828
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -725,9 +802,7 @@
 					49.0197987
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -738,9 +813,7 @@
 					49.0193631
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -751,9 +824,7 @@
 					49.0200936
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -764,9 +835,7 @@
 					49.0184091
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -777,9 +846,7 @@
 					49.0186684
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -790,9 +857,7 @@
 					49.0245981
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -803,9 +868,7 @@
 					49.0178460
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -816,9 +879,7 @@
 					49.0101791
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -829,9 +890,7 @@
 					49.0209363
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -842,9 +901,40 @@
 					49.0164989
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3999918,
+					49.0000879
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3827164,
+					49.0163900
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3836551,
+					48.9652837
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -855,9 +945,7 @@
 					49.0111250
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -868,9 +956,18 @@
 					49.0195414
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1670705,
+					49.0783909
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -881,9 +978,7 @@
 					49.0240467
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -894,9 +989,7 @@
 					49.0213847
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -907,9 +1000,7 @@
 					49.0174786
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -920,9 +1011,7 @@
 					49.0105474
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -933,22 +1022,18 @@
 					49.0199863
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1368158,
-					48.9941058
+					12.1062599,
+					49.0764300
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -959,9 +1044,40 @@
 					49.0122285
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1044289,
+					48.9584203
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8496790,
+					49.0698390
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2529718,
+					49.0384485
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -972,9 +1088,7 @@
 					49.0480559
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -985,9 +1099,18 @@
 					49.0502606
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1934829,
+					49.0750727
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -998,9 +1121,7 @@
 					48.9937573
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1011,9 +1132,7 @@
 					49.0181735
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1024,9 +1143,7 @@
 					49.0584077
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1037,9 +1154,7 @@
 					49.0191093
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1050,22 +1165,18 @@
 					49.0312252
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1971563,
-					48.9917049
+					12.1971665,
+					48.9916915
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1076,9 +1187,7 @@
 					49.0197215
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1089,9 +1198,7 @@
 					49.0198252
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1102,9 +1209,7 @@
 					49.0196828
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1115,22 +1220,29 @@
 					48.9772480
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0568558,
-					49.0060024
+					12.1303785,
+					48.9540240
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0935328,
+					48.9607710
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1141,9 +1253,7 @@
 					49.0197063
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1154,9 +1264,7 @@
 					48.9980735
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1167,9 +1275,7 @@
 					49.0199783
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1180,9 +1286,7 @@
 					49.0194458
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1193,9 +1297,7 @@
 					49.0201713
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1206,9 +1308,7 @@
 					49.0150728
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1219,9 +1319,7 @@
 					49.0166791
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1232,9 +1330,7 @@
 					49.0188039
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1245,9 +1341,29 @@
 					49.0227014
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9055117,
+					49.0575943
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1011908,
+					49.0724223
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1258,9 +1374,7 @@
 					49.0145555
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1271,9 +1385,7 @@
 					49.0100513
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1284,9 +1396,7 @@
 					49.0109863
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1297,9 +1407,7 @@
 					49.0097177
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1310,9 +1418,7 @@
 					49.0176858
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1323,9 +1429,7 @@
 					48.9950241
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1336,9 +1440,7 @@
 					49.0208785
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1349,9 +1451,7 @@
 					49.0207854
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1362,9 +1462,7 @@
 					49.0183265
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1375,9 +1473,7 @@
 					49.0293610
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1388,22 +1484,29 @@
 					49.0301816
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1185457,
-					49.0347383
+					12.1185801,
+					49.0347289
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1063628,
+					49.0763364
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1414,9 +1517,18 @@
 					49.0288797
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8861112,
+					49.0652085
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1427,9 +1539,7 @@
 					49.0640376
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1440,9 +1550,7 @@
 					49.0185873
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1453,9 +1561,7 @@
 					49.0280081
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1466,9 +1572,7 @@
 					49.0177905
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1479,9 +1583,7 @@
 					49.0310134
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1492,9 +1594,7 @@
 					48.9998462
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1505,9 +1605,7 @@
 					49.0193640
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1518,9 +1616,7 @@
 					49.0184300
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1531,22 +1627,29 @@
 					49.0189375
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0854048,
-					49.0439221
+					11.9558727,
+					49.0717769
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0642030,
+					48.9552754
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1557,9 +1660,18 @@
 					49.0166490
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0293298,
+					49.0177666
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1570,9 +1682,7 @@
 					49.0162396
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1583,9 +1693,7 @@
 					49.0071846
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1596,9 +1704,7 @@
 					49.0028263
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1609,9 +1715,7 @@
 					49.0088312
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1622,9 +1726,7 @@
 					49.0181500
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1635,9 +1737,29 @@
 					49.0110513
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8475774,
+					49.0390460
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8469230,
+					49.0394658
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1648,35 +1770,40 @@
 					49.0540510
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1149762,
-					49.0120549
+					12.1148052,
+					49.0120569
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0956588,
-					49.0169562
+					12.4011235,
+					49.0015100
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.8868933,
+					49.0653714
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1687,9 +1814,29 @@
 					49.0167942
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.4009800,
+					49.0017529
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9082618,
+					49.0608214
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1700,9 +1847,18 @@
 					49.0175071
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2156473,
+					48.9847370
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1713,22 +1869,18 @@
 					49.0202311
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0909336,
-					49.0101718
+					12.0908960,
+					49.0101753
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1739,9 +1891,7 @@
 					49.0458337
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1752,9 +1902,7 @@
 					48.9974503
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1765,9 +1913,7 @@
 					48.9902905
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1778,9 +1924,18 @@
 					48.9897536
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9845180,
+					49.0311150
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1791,9 +1946,7 @@
 					49.0169213
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1804,9 +1957,7 @@
 					49.0024146
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1817,9 +1968,7 @@
 					49.0206479
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1830,9 +1979,7 @@
 					49.0095807
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1843,9 +1990,7 @@
 					49.0032086
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1856,9 +2001,7 @@
 					49.0020906
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1869,9 +2012,7 @@
 					48.9754885
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1882,9 +2023,7 @@
 					49.0167704
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1895,22 +2034,18 @@
 					49.0045965
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1367711,
-					48.9941494
+					12.1367850,
+					48.9941236
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1921,9 +2056,7 @@
 					49.0033024
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1934,9 +2067,29 @@
 					49.0105686
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9535742,
+					49.0238532
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9544244,
+					49.0238656
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1947,9 +2100,7 @@
 					48.9890279
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1960,9 +2111,7 @@
 					48.9912784
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1973,22 +2122,18 @@
 					48.9882880
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.1949104,
-					48.9912100
+					12.1949040,
+					48.9911740
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1999,35 +2144,18 @@
 					48.9713606
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					12.0978914,
-					49.0182809
+					12.0949511,
+					49.0202302
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					12.0949042,
-					49.0202328
-				]
-			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2038,9 +2166,40 @@
 					49.0159212
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0462580,
+					48.9574887
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3099229,
+					49.0203617
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.3107061,
+					49.0201893
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2051,9 +2210,7 @@
 					49.0087619
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2064,9 +2221,7 @@
 					49.0008738
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2077,9 +2232,7 @@
 					49.0011217
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2090,9 +2243,7 @@
 					48.9984369
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2103,9 +2254,18 @@
 					49.0241647
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2156761,
+					49.0308914
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2116,9 +2276,18 @@
 					49.0137394
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9597501,
+					49.0590006
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2129,9 +2298,7 @@
 					49.0070532
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2142,9 +2309,7 @@
 					49.0163227
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2155,9 +2320,7 @@
 					49.0286773
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2168,9 +2331,7 @@
 					49.0110309
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2181,9 +2342,7 @@
 					49.0160039
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2194,9 +2353,7 @@
 					49.0190796
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2207,9 +2364,7 @@
 					49.0203675
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2220,9 +2375,7 @@
 					48.9931740
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2233,9 +2386,7 @@
 					48.9940979
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2246,9 +2397,7 @@
 					49.0093149
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2259,9 +2408,7 @@
 					49.0128505
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2272,9 +2419,7 @@
 					49.0036988
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2285,9 +2430,29 @@
 					49.0195918
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9571015,
+					48.9962070
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.9545507,
+					49.0251915
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2298,9 +2463,152 @@
 					49.0310130
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0205525,
+					49.0502663
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0872407,
+					49.0206993
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1389927,
+					49.0261683
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.2085764,
+					49.0288974
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0998325,
+					49.0022400
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0956407,
+					49.0200830
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1932997,
+					48.9892193
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0634825,
+					49.0106830
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.1943521,
+					48.9813551
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0867664,
+					49.0065390
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9797780,
+							49.0047755
+						],
+						[
+							11.9803105,
+							49.0047560
+						],
+						[
+							11.9803221,
+							49.0048923
+						],
+						[
+							11.9799544,
+							49.0049058
+						],
+						[
+							11.9797897,
+							49.0049118
+						],
+						[
+							11.9797780,
+							49.0047755
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2359,9 +2667,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2408,9 +2714,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2469,9 +2773,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2546,9 +2848,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2627,9 +2927,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2660,9 +2958,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2717,9 +3013,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2758,9 +3052,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2799,9 +3091,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2836,9 +3126,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2929,9 +3217,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2962,9 +3248,117 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9675628,
+							49.0430210
+						],
+						[
+							11.9676021,
+							49.0430063
+						],
+						[
+							11.9677284,
+							49.0431503
+						],
+						[
+							11.9676044,
+							49.0431970
+						],
+						[
+							11.9676857,
+							49.0432898
+						],
+						[
+							11.9679481,
+							49.0431910
+						],
+						[
+							11.9678756,
+							49.0431083
+						],
+						[
+							11.9679211,
+							49.0430912
+						],
+						[
+							11.9678883,
+							49.0430537
+						],
+						[
+							11.9680064,
+							49.0430093
+						],
+						[
+							11.9679504,
+							49.0429454
+						],
+						[
+							11.9678438,
+							49.0429855
+						],
+						[
+							11.9677923,
+							49.0429268
+						],
+						[
+							11.9677437,
+							49.0429451
+						],
+						[
+							11.9676675,
+							49.0428583
+						],
+						[
+							11.9674816,
+							49.0429283
+						],
+						[
+							11.9675628,
+							49.0430210
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2234592,
+							48.9782238
+						],
+						[
+							12.2234688,
+							48.9781087
+						],
+						[
+							12.2233815,
+							48.9781055
+						],
+						[
+							12.2233719,
+							48.9782207
+						],
+						[
+							12.2234592,
+							48.9782238
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2999,9 +3393,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3032,9 +3424,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3081,9 +3471,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3114,9 +3502,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3159,9 +3545,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3192,9 +3576,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3225,9 +3607,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3258,9 +3638,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3299,9 +3677,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3380,9 +3756,38 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0570798,
+							49.0059802
+						],
+						[
+							12.0568452,
+							49.0058471
+						],
+						[
+							12.0566617,
+							49.0059863
+						],
+						[
+							12.0568963,
+							49.0061194
+						],
+						[
+							12.0570798,
+							49.0059802
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3407,7 +3812,7 @@
 							49.0254087
 						],
 						[
-							12.1421663,
+							12.1421664,
 							49.0253430
 						],
 						[
@@ -3429,9 +3834,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3494,9 +3897,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3535,9 +3936,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3572,9 +3971,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3621,9 +4018,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3682,9 +4077,46 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0639600,
+							48.9554543
+						],
+						[
+							12.0640733,
+							48.9553199
+						],
+						[
+							12.0639164,
+							48.9552628
+						],
+						[
+							12.0640048,
+							48.9551579
+						],
+						[
+							12.0643125,
+							48.9552698
+						],
+						[
+							12.0641107,
+							48.9555091
+						],
+						[
+							12.0639600,
+							48.9554543
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3719,9 +4151,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3756,9 +4186,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3797,9 +4225,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3830,9 +4256,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3867,9 +4291,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3956,9 +4378,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3989,9 +4409,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4034,9 +4452,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4163,9 +4579,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4204,9 +4618,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4245,9 +4657,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4278,9 +4688,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4311,9 +4719,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4348,9 +4754,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4397,9 +4801,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4486,9 +4888,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4559,9 +4959,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4600,9 +4998,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4633,9 +5029,86 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1845511,
+							48.9603426
+						],
+						[
+							12.1847026,
+							48.9603153
+						],
+						[
+							12.1846811,
+							48.9602636
+						],
+						[
+							12.1846227,
+							48.9602741
+						],
+						[
+							12.1845664,
+							48.9601391
+						],
+						[
+							12.1849718,
+							48.9600663
+						],
+						[
+							12.1849365,
+							48.9599817
+						],
+						[
+							12.1847921,
+							48.9600077
+						],
+						[
+							12.1847657,
+							48.9599445
+						],
+						[
+							12.1846805,
+							48.9599598
+						],
+						[
+							12.1847094,
+							48.9600292
+						],
+						[
+							12.1845503,
+							48.9600577
+						],
+						[
+							12.1844317,
+							48.9597730
+						],
+						[
+							12.1842583,
+							48.9598042
+						],
+						[
+							12.1844664,
+							48.9603036
+						],
+						[
+							12.1845300,
+							48.9602922
+						],
+						[
+							12.1845511,
+							48.9603426
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4690,9 +5163,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4727,9 +5198,112 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3954950,
+							49.0715513
+						],
+						[
+							12.3956098,
+							49.0715897
+						],
+						[
+							12.3956744,
+							49.0716113
+						],
+						[
+							12.3957785,
+							49.0714778
+						],
+						[
+							12.3955990,
+							49.0714178
+						],
+						[
+							12.3954950,
+							49.0715513
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3980958,
+							49.0713676
+						],
+						[
+							12.3980628,
+							49.0713417
+						],
+						[
+							12.3979613,
+							49.0712659
+						],
+						[
+							12.3978845,
+							49.0712066
+						],
+						[
+							12.3977226,
+							49.0712978
+						],
+						[
+							12.3979339,
+							49.0714588
+						],
+						[
+							12.3980958,
+							49.0713676
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3949999,
+							49.0694478
+						],
+						[
+							12.3951734,
+							49.0694122
+						],
+						[
+							12.3951248,
+							49.0693105
+						],
+						[
+							12.3949514,
+							49.0693461
+						],
+						[
+							12.3949999,
+							49.0694478
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4812,9 +5386,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4845,9 +5417,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4890,9 +5460,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4931,9 +5499,282 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2300635,
+							49.0143827
+						],
+						[
+							12.2302785,
+							49.0142109
+						],
+						[
+							12.2301449,
+							49.0141333
+						],
+						[
+							12.2298966,
+							49.0143234
+						],
+						[
+							12.2299836,
+							49.0143702
+						],
+						[
+							12.2299075,
+							49.0144310
+						],
+						[
+							12.2297958,
+							49.0143709
+						],
+						[
+							12.2296631,
+							49.0144769
+						],
+						[
+							12.2298327,
+							49.0145682
+						],
+						[
+							12.2298109,
+							49.0145857
+						],
+						[
+							12.2298870,
+							49.0146266
+						],
+						[
+							12.2301404,
+							49.0144241
+						],
+						[
+							12.2300635,
+							49.0143827
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2319447,
+							49.0161292
+						],
+						[
+							12.2320830,
+							49.0159401
+						],
+						[
+							12.2319110,
+							49.0158860
+						],
+						[
+							12.2317727,
+							49.0160750
+						],
+						[
+							12.2319447,
+							49.0161292
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2974849,
+							49.0128698
+						],
+						[
+							12.2974855,
+							49.0128487
+						],
+						[
+							12.2973898,
+							49.0128475
+						],
+						[
+							12.2973986,
+							49.0125374
+						],
+						[
+							12.2976903,
+							49.0125409
+						],
+						[
+							12.2976883,
+							49.0126110
+						],
+						[
+							12.2977338,
+							49.0126116
+						],
+						[
+							12.2977286,
+							49.0127960
+						],
+						[
+							12.2976830,
+							49.0127955
+						],
+						[
+							12.2976809,
+							49.0128722
+						],
+						[
+							12.2974849,
+							49.0128698
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2964305,
+							49.0712625
+						],
+						[
+							12.2965790,
+							49.0711778
+						],
+						[
+							12.2968140,
+							49.0713544
+						],
+						[
+							12.2966655,
+							49.0714391
+						],
+						[
+							12.2964305,
+							49.0712625
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2642034,
+							49.0400950
+						],
+						[
+							12.2641909,
+							49.0400750
+						],
+						[
+							12.2641322,
+							49.0400908
+						],
+						[
+							12.2641236,
+							49.0400769
+						],
+						[
+							12.2641037,
+							49.0400823
+						],
+						[
+							12.2640730,
+							49.0400332
+						],
+						[
+							12.2640929,
+							49.0400279
+						],
+						[
+							12.2640833,
+							49.0400126
+						],
+						[
+							12.2641420,
+							49.0399968
+						],
+						[
+							12.2640801,
+							49.0398980
+						],
+						[
+							12.2642720,
+							49.0398464
+						],
+						[
+							12.2642917,
+							49.0398779
+						],
+						[
+							12.2645330,
+							49.0398130
+						],
+						[
+							12.2645494,
+							49.0398391
+						],
+						[
+							12.2645729,
+							49.0398328
+						],
+						[
+							12.2646256,
+							49.0399170
+						],
+						[
+							12.2645544,
+							49.0399362
+						],
+						[
+							12.2645783,
+							49.0399744
+						],
+						[
+							12.2643786,
+							49.0400281
+						],
+						[
+							12.2643892,
+							49.0400450
+						],
+						[
+							12.2642034,
+							49.0400950
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4964,9 +5805,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -4975,31 +5814,29 @@
 				"coordinates": [
 					[
 						[
-							12.1963056,
-							48.9922174
+							12.1963068,
+							48.9922175
 						],
 						[
-							12.1964250,
-							48.9921784
+							12.1964255,
+							48.9921778
 						],
 						[
-							12.1963508,
-							48.9920805
+							12.1963494,
+							48.9920798
 						],
 						[
-							12.1962313,
+							12.1962307,
 							48.9921195
 						],
 						[
-							12.1963056,
-							48.9922174
+							12.1963068,
+							48.9922175
 						]
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5008,39 +5845,37 @@
 				"coordinates": [
 					[
 						[
-							12.1962313,
+							12.1962307,
 							48.9921195
 						],
 						[
-							12.1961329,
-							48.9919896
+							12.1961354,
+							48.9919969
 						],
 						[
-							12.1962635,
-							48.9919469
+							12.1962662,
+							48.9919531
 						],
 						[
-							12.1963182,
-							48.9920198
+							12.1963179,
+							48.9920197
 						],
 						[
-							12.1963614,
-							48.9920752
+							12.1963615,
+							48.9920758
 						],
 						[
-							12.1963508,
-							48.9920805
+							12.1963494,
+							48.9920798
 						],
 						[
-							12.1962313,
+							12.1962307,
 							48.9921195
 						]
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5095,9 +5930,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5152,9 +5985,38 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2195364,
+							48.9859532
+						],
+						[
+							12.2194820,
+							48.9857682
+						],
+						[
+							12.2188639,
+							48.9858467
+						],
+						[
+							12.2189184,
+							48.9860316
+						],
+						[
+							12.2195364,
+							48.9859532
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5185,9 +6047,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5226,9 +6086,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5259,9 +6117,54 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9877350,
+							49.0337969
+						],
+						[
+							11.9879015,
+							49.0337265
+						],
+						[
+							11.9878348,
+							49.0336586
+						],
+						[
+							11.9881037,
+							49.0335451
+						],
+						[
+							11.9882194,
+							49.0336629
+						],
+						[
+							11.9880583,
+							49.0337309
+						],
+						[
+							11.9880793,
+							49.0337523
+						],
+						[
+							11.9878049,
+							49.0338681
+						],
+						[
+							11.9877350,
+							49.0337969
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5292,9 +6195,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5341,9 +6242,382 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3018600,
+							49.0213214
+						],
+						[
+							12.3021153,
+							49.0213186
+						],
+						[
+							12.3021133,
+							49.0212407
+						],
+						[
+							12.3020615,
+							49.0212413
+						],
+						[
+							12.3020607,
+							49.0212098
+						],
+						[
+							12.3018572,
+							49.0212121
+						],
+						[
+							12.3018600,
+							49.0213214
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2986999,
+							49.0202340
+						],
+						[
+							12.2987021,
+							49.0200944
+						],
+						[
+							12.2985475,
+							49.0200934
+						],
+						[
+							12.2985453,
+							49.0202329
+						],
+						[
+							12.2986999,
+							49.0202340
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3049914,
+							49.0223382
+						],
+						[
+							12.3050063,
+							49.0221659
+						],
+						[
+							12.3048948,
+							49.0221618
+						],
+						[
+							12.3048890,
+							49.0222290
+						],
+						[
+							12.3047227,
+							49.0222228
+						],
+						[
+							12.3047136,
+							49.0223279
+						],
+						[
+							12.3049914,
+							49.0223382
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3329328,
+							49.0163599
+						],
+						[
+							12.3331022,
+							49.0163290
+						],
+						[
+							12.3330706,
+							49.0162542
+						],
+						[
+							12.3329012,
+							49.0162850
+						],
+						[
+							12.3329096,
+							49.0163049
+						],
+						[
+							12.3327983,
+							49.0163252
+						],
+						[
+							12.3327898,
+							49.0163052
+						],
+						[
+							12.3325883,
+							49.0163419
+						],
+						[
+							12.3326260,
+							49.0164312
+						],
+						[
+							12.3327808,
+							49.0164030
+						],
+						[
+							12.3327861,
+							49.0164156
+						],
+						[
+							12.3328329,
+							49.0164071
+						],
+						[
+							12.3328280,
+							49.0163955
+						],
+						[
+							12.3329393,
+							49.0163753
+						],
+						[
+							12.3329328,
+							49.0163599
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3488070,
+							48.9932720
+						],
+						[
+							12.3491412,
+							48.9933086
+						],
+						[
+							12.3492779,
+							48.9930087
+						],
+						[
+							12.3491537,
+							48.9929839
+						],
+						[
+							12.3490464,
+							48.9932036
+						],
+						[
+							12.3489811,
+							48.9931992
+						],
+						[
+							12.3489841,
+							48.9931795
+						],
+						[
+							12.3488685,
+							48.9931727
+						],
+						[
+							12.3488670,
+							48.9931932
+						],
+						[
+							12.3488214,
+							48.9931913
+						],
+						[
+							12.3488070,
+							48.9932720
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3272216,
+							48.9703853
+						],
+						[
+							12.3274093,
+							48.9703937
+						],
+						[
+							12.3274210,
+							48.9702815
+						],
+						[
+							12.3272334,
+							48.9702730
+						],
+						[
+							12.3272216,
+							48.9703853
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2531608,
+							48.9838259
+						],
+						[
+							12.2533526,
+							48.9837466
+						],
+						[
+							12.2531949,
+							48.9835823
+						],
+						[
+							12.2530032,
+							48.9836616
+						],
+						[
+							12.2531608,
+							48.9838259
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2716366,
+							48.9811726
+						],
+						[
+							12.2716821,
+							48.9811032
+						],
+						[
+							12.2715770,
+							48.9810735
+						],
+						[
+							12.2716575,
+							48.9809507
+						],
+						[
+							12.2715236,
+							48.9809129
+						],
+						[
+							12.2713868,
+							48.9811215
+						],
+						[
+							12.2715414,
+							48.9811652
+						],
+						[
+							12.2715522,
+							48.9811488
+						],
+						[
+							12.2716366,
+							48.9811726
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2410166,
+							48.9541262
+						],
+						[
+							12.2410178,
+							48.9540219
+						],
+						[
+							12.2407771,
+							48.9540207
+						],
+						[
+							12.2407758,
+							48.9541250
+						],
+						[
+							12.2410166,
+							48.9541262
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5398,9 +6672,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5431,9 +6703,206 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3871219,
+							48.9663095
+						],
+						[
+							12.3872300,
+							48.9661803
+						],
+						[
+							12.3870520,
+							48.9661160
+						],
+						[
+							12.3870164,
+							48.9661585
+						],
+						[
+							12.3869168,
+							48.9661226
+						],
+						[
+							12.3869053,
+							48.9661363
+						],
+						[
+							12.3868442,
+							48.9662093
+						],
+						[
+							12.3870467,
+							48.9662823
+						],
+						[
+							12.3871219,
+							48.9663095
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3788342,
+							49.0066934
+						],
+						[
+							12.3789740,
+							49.0069488
+						],
+						[
+							12.3791089,
+							49.0069171
+						],
+						[
+							12.3789692,
+							49.0066616
+						],
+						[
+							12.3788342,
+							49.0066934
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3788248,
+							49.0075127
+						],
+						[
+							12.3790743,
+							49.0074876
+						],
+						[
+							12.3790368,
+							49.0073275
+						],
+						[
+							12.3787260,
+							49.0073588
+						],
+						[
+							12.3787506,
+							49.0074637
+						],
+						[
+							12.3788119,
+							49.0074576
+						],
+						[
+							12.3788248,
+							49.0075127
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.4006582,
+							49.0014546
+						],
+						[
+							12.4008498,
+							49.0014092
+						],
+						[
+							12.4006761,
+							49.0010936
+						],
+						[
+							12.4004957,
+							49.0011596
+						],
+						[
+							12.4006582,
+							49.0014546
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9751985,
+							49.0051794
+						],
+						[
+							11.9753276,
+							49.0050625
+						],
+						[
+							11.9750372,
+							49.0049177
+						],
+						[
+							11.9751761,
+							49.0047397
+						],
+						[
+							11.9749955,
+							49.0046790
+						],
+						[
+							11.9748606,
+							49.0048528
+						],
+						[
+							11.9747770,
+							49.0049507
+						],
+						[
+							11.9747645,
+							49.0049693
+						],
+						[
+							11.9748036,
+							49.0050013
+						],
+						[
+							11.9751985,
+							49.0051794
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5464,9 +6933,136 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3638938,
+							49.0776406
+						],
+						[
+							12.3639736,
+							49.0776247
+						],
+						[
+							12.3640032,
+							49.0776883
+						],
+						[
+							12.3641572,
+							49.0776576
+						],
+						[
+							12.3640850,
+							49.0775021
+						],
+						[
+							12.3638511,
+							49.0775487
+						],
+						[
+							12.3638938,
+							49.0776406
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9360060,
+							49.0270111
+						],
+						[
+							11.9362233,
+							49.0269237
+						],
+						[
+							11.9361777,
+							49.0268758
+						],
+						[
+							11.9361382,
+							49.0268314
+						],
+						[
+							11.9359201,
+							49.0269170
+						],
+						[
+							11.9360060,
+							49.0270111
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9396372,
+							49.0260430
+						],
+						[
+							11.9401428,
+							49.0260130
+						],
+						[
+							11.9401342,
+							49.0259510
+						],
+						[
+							11.9400830,
+							49.0259540
+						],
+						[
+							11.9400575,
+							49.0257691
+						],
+						[
+							11.9398922,
+							49.0257790
+						],
+						[
+							11.9399067,
+							49.0258835
+						],
+						[
+							11.9397615,
+							49.0258921
+						],
+						[
+							11.9397721,
+							49.0259693
+						],
+						[
+							11.9396282,
+							49.0259778
+						],
+						[
+							11.9396372,
+							49.0260430
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5513,9 +7109,370 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9093897,
+							49.0269082
+						],
+						[
+							11.9094558,
+							49.0268145
+						],
+						[
+							11.9095370,
+							49.0268391
+						],
+						[
+							11.9096069,
+							49.0267400
+						],
+						[
+							11.9095106,
+							49.0267108
+						],
+						[
+							11.9095485,
+							49.0266571
+						],
+						[
+							11.9094769,
+							49.0266353
+						],
+						[
+							11.9094242,
+							49.0266846
+						],
+						[
+							11.9093645,
+							49.0266665
+						],
+						[
+							11.9093153,
+							49.0267363
+						],
+						[
+							11.9093557,
+							49.0267486
+						],
+						[
+							11.9092690,
+							49.0268717
+						],
+						[
+							11.9093897,
+							49.0269082
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9154863,
+							49.0277863
+						],
+						[
+							11.9155189,
+							49.0277210
+						],
+						[
+							11.9154189,
+							49.0276995
+						],
+						[
+							11.9154463,
+							49.0276448
+						],
+						[
+							11.9152400,
+							49.0276005
+						],
+						[
+							11.9151800,
+							49.0277205
+						],
+						[
+							11.9154863,
+							49.0277863
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9080440,
+							49.0350376
+						],
+						[
+							11.9080164,
+							49.0349993
+						],
+						[
+							11.9079776,
+							49.0349454
+						],
+						[
+							11.9080845,
+							49.0349122
+						],
+						[
+							11.9080686,
+							49.0348902
+						],
+						[
+							11.9081352,
+							49.0348696
+						],
+						[
+							11.9080751,
+							49.0347862
+						],
+						[
+							11.9080431,
+							49.0347961
+						],
+						[
+							11.9079766,
+							49.0347038
+						],
+						[
+							11.9078681,
+							49.0347557
+						],
+						[
+							11.9079116,
+							49.0348160
+						],
+						[
+							11.9075107,
+							49.0349402
+						],
+						[
+							11.9075210,
+							49.0349545
+						],
+						[
+							11.9075064,
+							49.0349590
+						],
+						[
+							11.9075685,
+							49.0350451
+						],
+						[
+							11.9077978,
+							49.0349741
+						],
+						[
+							11.9078519,
+							49.0350491
+						],
+						[
+							11.9079353,
+							49.0351648
+						],
+						[
+							11.9079579,
+							49.0351578
+						],
+						[
+							11.9079861,
+							49.0351969
+						],
+						[
+							11.9081273,
+							49.0351531
+						],
+						[
+							11.9080440,
+							49.0350376
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9073814,
+							49.0364597
+						],
+						[
+							11.9074739,
+							49.0363751
+						],
+						[
+							11.9073227,
+							49.0363040
+						],
+						[
+							11.9073325,
+							49.0362951
+						],
+						[
+							11.9072267,
+							49.0362453
+						],
+						[
+							11.9071244,
+							49.0363387
+						],
+						[
+							11.9072885,
+							49.0364160
+						],
+						[
+							11.9073814,
+							49.0364597
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3814873,
+							48.9648598
+						],
+						[
+							12.3813589,
+							48.9648227
+						],
+						[
+							12.3812302,
+							48.9647856
+						],
+						[
+							12.3812985,
+							48.9646834
+						],
+						[
+							12.3814937,
+							48.9643918
+						],
+						[
+							12.3816614,
+							48.9644402
+						],
+						[
+							12.3817567,
+							48.9642977
+						],
+						[
+							12.3818883,
+							48.9643356
+						],
+						[
+							12.3818610,
+							48.9643765
+						],
+						[
+							12.3819820,
+							48.9644114
+						],
+						[
+							12.3819014,
+							48.9645317
+						],
+						[
+							12.3819437,
+							48.9645439
+						],
+						[
+							12.3818936,
+							48.9646187
+						],
+						[
+							12.3818411,
+							48.9646035
+						],
+						[
+							12.3817956,
+							48.9646715
+						],
+						[
+							12.3817061,
+							48.9646457
+						],
+						[
+							12.3817504,
+							48.9645794
+						],
+						[
+							12.3817719,
+							48.9645856
+						],
+						[
+							12.3818212,
+							48.9645118
+						],
+						[
+							12.3817040,
+							48.9644780
+						],
+						[
+							12.3816641,
+							48.9645377
+						],
+						[
+							12.3817380,
+							48.9645590
+						],
+						[
+							12.3816529,
+							48.9646861
+						],
+						[
+							12.3815226,
+							48.9646485
+						],
+						[
+							12.3814981,
+							48.9646851
+						],
+						[
+							12.3815870,
+							48.9647107
+						],
+						[
+							12.3814873,
+							48.9648598
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5562,9 +7519,50 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1964479,
+							49.0777411
+						],
+						[
+							12.1963125,
+							49.0779395
+						],
+						[
+							12.1966839,
+							49.0780483
+						],
+						[
+							12.1967945,
+							49.0778862
+						],
+						[
+							12.1966330,
+							49.0778389
+						],
+						[
+							12.1965728,
+							49.0778213
+						],
+						[
+							12.1965976,
+							49.0777850
+						],
+						[
+							12.1964479,
+							49.0777411
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5607,9 +7605,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5640,9 +7636,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5673,9 +7667,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5730,9 +7722,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5787,9 +7777,73 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0462115,
+							48.9575763
+						],
+						[
+							12.0464100,
+							48.9575429
+						],
+						[
+							12.0463510,
+							48.9574108
+						],
+						[
+							12.0461472,
+							48.9574513
+						],
+						[
+							12.0462115,
+							48.9575763
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1092135,
+							49.0057709
+						],
+						[
+							12.1088049,
+							49.0058921
+						],
+						[
+							12.1087247,
+							49.0057758
+						],
+						[
+							12.1088560,
+							49.0057369
+						],
+						[
+							12.1091334,
+							49.0056546
+						],
+						[
+							12.1092135,
+							49.0057709
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5844,9 +7898,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5885,9 +7937,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -5918,9 +7968,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6007,9 +8055,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6022,11 +8068,19 @@
 							48.9981598
 						],
 						[
+							12.0947192,
+							48.9981598
+						],
+						[
 							12.0946910,
 							48.9981598
 						],
 						[
 							12.0946927,
+							48.9983105
+						],
+						[
+							12.0947165,
 							48.9983105
 						],
 						[
@@ -6040,9 +8094,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6101,9 +8153,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6134,9 +8184,38 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0853482,
+							49.0439507
+						],
+						[
+							12.0853666,
+							49.0438914
+						],
+						[
+							12.0854510,
+							49.0439027
+						],
+						[
+							12.0854326,
+							49.0439620
+						],
+						[
+							12.0853482,
+							49.0439507
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -6217,15 +8296,13 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "restaurant"
-			}
+			"properties": {}
 		}
 	],
 	"bbox": {
-		"minlat": 48.9684,
-		"minlon": 12.0163,
-		"maxlat": 49.0682,
-		"maxlon": 12.2104
+		"minlat": 48.9529,
+		"minlon": 11.7674,
+		"maxlat": 49.0813,
+		"maxlon": 12.4266
 	}
 }

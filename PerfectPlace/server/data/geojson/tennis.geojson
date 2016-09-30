@@ -30,9 +30,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -63,9 +61,69 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0463452,
+							49.0690463
+						],
+						[
+							12.0459294,
+							49.0688935
+						],
+						[
+							12.0456402,
+							49.0692318
+						],
+						[
+							12.0460255,
+							49.0693825
+						],
+						[
+							12.0463452,
+							49.0690463
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.0461908,
+							49.0694206
+						],
+						[
+							12.0468426,
+							49.0697105
+						],
+						[
+							12.0471329,
+							49.0694139
+						],
+						[
+							12.0464745,
+							49.0691341
+						],
+						[
+							12.0461908,
+							49.0694206
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -96,9 +154,205 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.8890834,
+							49.0624426
+						],
+						[
+							11.8884459,
+							49.0627568
+						],
+						[
+							11.8881310,
+							49.0624824
+						],
+						[
+							11.8887685,
+							49.0621682
+						],
+						[
+							11.8890834,
+							49.0624426
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9090352,
+							49.0489167
+						],
+						[
+							11.9092397,
+							49.0488420
+						],
+						[
+							11.9090045,
+							49.0485658
+						],
+						[
+							11.9088001,
+							49.0486405
+						],
+						[
+							11.9090352,
+							49.0489167
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9091692,
+							49.0487198
+						],
+						[
+							11.9095800,
+							49.0485776
+						],
+						[
+							11.9093441,
+							49.0482848
+						],
+						[
+							11.9089332,
+							49.0484270
+						],
+						[
+							11.9091692,
+							49.0487198
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9881687,
+							49.0037683
+						],
+						[
+							11.9880389,
+							49.0044122
+						],
+						[
+							11.9882625,
+							49.0044316
+						],
+						[
+							11.9883208,
+							49.0041426
+						],
+						[
+							11.9885771,
+							49.0041649
+						],
+						[
+							11.9886486,
+							49.0038099
+						],
+						[
+							11.9881687,
+							49.0037683
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3926633,
+							48.9609255
+						],
+						[
+							12.3925412,
+							48.9608476
+						],
+						[
+							12.3924954,
+							48.9608183
+						],
+						[
+							12.3921418,
+							48.9610570
+						],
+						[
+							12.3923098,
+							48.9611642
+						],
+						[
+							12.3926633,
+							48.9609255
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3928912,
+							48.9606119
+						],
+						[
+							12.3927408,
+							48.9607134
+						],
+						[
+							12.3931008,
+							48.9609433
+						],
+						[
+							12.3932512,
+							48.9608418
+						],
+						[
+							12.3928912,
+							48.9606119
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -129,9 +383,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -140,55 +392,60 @@
 				"coordinates": [
 					[
 						[
-							12.0972032,
-							48.9821887
+							12.0447613,
+							48.9566585
 						],
 						[
-							12.0972281,
-							48.9814081
+							12.0448254,
+							48.9563564
 						],
 						[
-							12.0979318,
-							48.9813954
+							12.0455781,
+							48.9564252
 						],
 						[
-							12.0980860,
-							48.9816255
+							12.0455139,
+							48.9567274
 						],
 						[
-							12.0981480,
-							48.9817059
-						],
-						[
-							12.0981931,
-							48.9817644
-						],
-						[
-							12.0982809,
-							48.9818783
-						],
-						[
-							12.0983252,
-							48.9819357
-						],
-						[
-							12.0984717,
-							48.9821865
-						],
-						[
-							12.0983178,
-							48.9821687
-						],
-						[
-							12.0972032,
-							48.9821887
+							12.0447613,
+							48.9566585
 						]
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.4100504,
+							49.0093677
+						],
+						[
+							12.4105381,
+							49.0097193
+						],
+						[
+							12.4109235,
+							49.0094893
+						],
+						[
+							12.4104357,
+							49.0091377
+						],
+						[
+							12.4100504,
+							49.0093677
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -219,9 +476,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -252,9 +507,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -285,9 +538,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -318,9 +569,162 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3754246,
+							49.0042678
+						],
+						[
+							12.3752169,
+							49.0039733
+						],
+						[
+							12.3749894,
+							49.0040424
+						],
+						[
+							12.3751972,
+							49.0043368
+						],
+						[
+							12.3754246,
+							49.0042678
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9469602,
+							49.0228976
+						],
+						[
+							11.9469790,
+							49.0225734
+						],
+						[
+							11.9483909,
+							49.0226086
+						],
+						[
+							11.9483721,
+							49.0229328
+						],
+						[
+							11.9469602,
+							49.0228976
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.8363336,
+							49.0344975
+						],
+						[
+							11.8367535,
+							49.0346358
+						],
+						[
+							11.8366544,
+							49.0347651
+						],
+						[
+							11.8362345,
+							49.0346267
+						],
+						[
+							11.8363336,
+							49.0344975
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.8367269,
+							49.0343139
+						],
+						[
+							11.8371531,
+							49.0344514
+						],
+						[
+							11.8369639,
+							49.0347034
+						],
+						[
+							11.8365377,
+							49.0345658
+						],
+						[
+							11.8367269,
+							49.0343139
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.8365191,
+							49.0342248
+						],
+						[
+							11.8367393,
+							49.0342952
+						],
+						[
+							11.8365385,
+							49.0345649
+						],
+						[
+							11.8363183,
+							49.0344945
+						],
+						[
+							11.8365191,
+							49.0342248
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -351,9 +755,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -384,9 +786,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -417,9 +817,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -450,9 +848,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -483,9 +879,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -516,9 +910,38 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2984620,
+							49.0196847
+						],
+						[
+							12.2987050,
+							49.0196862
+						],
+						[
+							12.2987006,
+							49.0200106
+						],
+						[
+							12.2984576,
+							49.0200092
+						],
+						[
+							12.2984620,
+							49.0196847
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -549,9 +972,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -582,9 +1003,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -615,9 +1034,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -648,9 +1065,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -681,9 +1096,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -714,9 +1127,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -747,9 +1158,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -780,9 +1189,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -813,9 +1220,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -846,9 +1251,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -879,9 +1282,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -912,9 +1313,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -945,9 +1344,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -978,9 +1375,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1011,9 +1406,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1044,9 +1437,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1077,9 +1468,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1088,31 +1477,29 @@
 				"coordinates": [
 					[
 						[
-							12.1418484,
-							49.0244578
+							12.1418332,
+							49.0244402
 						],
 						[
-							12.1416958,
-							49.0241594
+							12.1416895,
+							49.0241246
 						],
 						[
-							12.1419052,
-							49.0241134
+							12.1419005,
+							49.0240833
 						],
 						[
-							12.1420578,
-							49.0244117
+							12.1420442,
+							49.0243988
 						],
 						[
-							12.1418484,
-							49.0244578
+							12.1418332,
+							49.0244402
 						]
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1121,31 +1508,29 @@
 				"coordinates": [
 					[
 						[
-							12.1414893,
-							49.0242048
+							12.1414687,
+							49.0241679
 						],
 						[
-							12.1416419,
-							49.0245032
+							12.1416124,
+							49.0244834
 						],
 						[
-							12.1418484,
-							49.0244578
+							12.1418332,
+							49.0244402
 						],
 						[
-							12.1416958,
-							49.0241594
+							12.1416895,
+							49.0241246
 						],
 						[
-							12.1414893,
-							49.0242048
+							12.1414687,
+							49.0241679
 						]
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1154,64 +1539,29 @@
 				"coordinates": [
 					[
 						[
-							12.1417167,
-							49.0245800
+							12.1417177,
+							49.0245422
 						],
 						[
-							12.1419448,
-							49.0245309
+							12.1419384,
+							49.0245001
 						],
 						[
-							12.1420923,
-							49.0248255
+							12.1420799,
+							49.0248193
 						],
 						[
-							12.1418642,
-							49.0248746
+							12.1418592,
+							49.0248614
 						],
 						[
-							12.1417167,
-							49.0245800
+							12.1417177,
+							49.0245422
 						]
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Polygon",
-				"coordinates": [
-					[
-						[
-							12.1414804,
-							49.0246308
-						],
-						[
-							12.1417167,
-							49.0245800
-						],
-						[
-							12.1418642,
-							49.0248746
-						],
-						[
-							12.1416279,
-							49.0249255
-						],
-						[
-							12.1414804,
-							49.0246308
-						]
-					]
-				]
-			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1242,9 +1592,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1275,9 +1623,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1286,7 +1632,7 @@
 				"coordinates": [
 					[
 						[
-							12.1205755,
+							12.1205822,
 							49.0418246
 						],
 						[
@@ -1298,19 +1644,17 @@
 							49.0415822
 						],
 						[
-							12.1207801,
+							12.1207868,
 							49.0417877
 						],
 						[
-							12.1205755,
+							12.1205822,
 							49.0418246
 						]
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1341,9 +1685,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1356,7 +1698,7 @@
 							49.0419939
 						],
 						[
-							12.1202435,
+							12.1202434,
 							49.0416652
 						],
 						[
@@ -1374,9 +1716,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1407,42 +1747,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Polygon",
-				"coordinates": [
-					[
-						[
-							12.1206634,
-							49.0420342
-						],
-						[
-							12.1208680,
-							49.0419974
-						],
-						[
-							12.1207801,
-							49.0417877
-						],
-						[
-							12.1205755,
-							49.0418246
-						],
-						[
-							12.1206634,
-							49.0420342
-						]
-					]
-				]
-			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1473,9 +1778,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1506,9 +1809,69 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9979666,
+							49.0566890
+						],
+						[
+							11.9978907,
+							49.0563862
+						],
+						[
+							11.9976751,
+							49.0564093
+						],
+						[
+							11.9977509,
+							49.0567122
+						],
+						[
+							11.9979666,
+							49.0566890
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9982182,
+							49.0565599
+						],
+						[
+							11.9981323,
+							49.0562646
+						],
+						[
+							11.9979107,
+							49.0562923
+						],
+						[
+							11.9979966,
+							49.0565876
+						],
+						[
+							11.9982182,
+							49.0565599
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1539,9 +1902,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1572,9 +1933,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1605,9 +1964,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1638,9 +1995,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1671,9 +2026,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1704,9 +2057,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1737,9 +2088,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1770,9 +2119,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1803,9 +2150,162 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2143095,
+							48.9855444
+						],
+						[
+							12.2142566,
+							48.9852217
+						],
+						[
+							12.2140092,
+							48.9852392
+						],
+						[
+							12.2140622,
+							48.9855619
+						],
+						[
+							12.2143095,
+							48.9855444
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2145480,
+							48.9852019
+						],
+						[
+							12.2143090,
+							48.9852189
+						],
+						[
+							12.2143628,
+							48.9855431
+						],
+						[
+							12.2146018,
+							48.9855261
+						],
+						[
+							12.2145480,
+							48.9852019
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2149070,
+							48.9854640
+						],
+						[
+							12.2151758,
+							48.9854445
+						],
+						[
+							12.2151163,
+							48.9850908
+						],
+						[
+							12.2148475,
+							48.9851103
+						],
+						[
+							12.2149070,
+							48.9854640
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2143588,
+							48.9851475
+						],
+						[
+							12.2143027,
+							48.9848225
+						],
+						[
+							12.2140526,
+							48.9848411
+						],
+						[
+							12.2141087,
+							48.9851661
+						],
+						[
+							12.2143588,
+							48.9851475
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2148300,
+							48.9847178
+						],
+						[
+							12.2145849,
+							48.9847347
+						],
+						[
+							12.2146358,
+							48.9850531
+						],
+						[
+							12.2148809,
+							48.9850362
+						],
+						[
+							12.2148300,
+							48.9847178
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1840,9 +2340,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1873,9 +2371,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1906,9 +2402,100 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9491551,
+							48.9835302
+						],
+						[
+							11.9494063,
+							48.9835031
+						],
+						[
+							11.9493260,
+							48.9831794
+						],
+						[
+							11.9490730,
+							48.9832060
+						],
+						[
+							11.9491551,
+							48.9835302
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9493260,
+							48.9831794
+						],
+						[
+							11.9492450,
+							48.9828469
+						],
+						[
+							11.9489920,
+							48.9828735
+						],
+						[
+							11.9490730,
+							48.9832060
+						],
+						[
+							11.9493260,
+							48.9831794
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9609568,
+							49.0090512
+						],
+						[
+							11.9612117,
+							49.0090509
+						],
+						[
+							11.9612108,
+							49.0087245
+						],
+						[
+							11.9609559,
+							49.0087248
+						],
+						[
+							11.9609568,
+							49.0090512
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1939,9 +2526,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -1972,9 +2557,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2005,9 +2588,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2038,9 +2619,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2071,9 +2650,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2104,9 +2681,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2137,9 +2712,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2186,9 +2759,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2235,9 +2806,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2284,9 +2853,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2333,9 +2900,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2382,9 +2947,112 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.7717346,
+							49.0521759
+						],
+						[
+							11.7719636,
+							49.0521736
+						],
+						[
+							11.7719560,
+							49.0518580
+						],
+						[
+							11.7724870,
+							49.0518525
+						],
+						[
+							11.7724789,
+							49.0515189
+						],
+						[
+							11.7717190,
+							49.0515268
+						],
+						[
+							11.7717273,
+							49.0518713
+						],
+						[
+							11.7717346,
+							49.0521759
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9088764,
+							49.0490140
+						],
+						[
+							11.9090427,
+							49.0489532
+						],
+						[
+							11.9088289,
+							49.0487020
+						],
+						[
+							11.9086626,
+							49.0487628
+						],
+						[
+							11.9088764,
+							49.0490140
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2984576,
+							49.0200092
+						],
+						[
+							12.2982108,
+							49.0200077
+						],
+						[
+							12.2982152,
+							49.0196833
+						],
+						[
+							12.2984620,
+							49.0196847
+						],
+						[
+							12.2984576,
+							49.0200092
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2415,9 +3083,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2448,9 +3114,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2481,9 +3145,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2514,9 +3176,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2547,9 +3207,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2580,9 +3238,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2613,9 +3269,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2646,9 +3300,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2679,9 +3331,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2712,9 +3362,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2745,9 +3393,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2778,9 +3424,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2811,9 +3455,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2844,9 +3486,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2877,9 +3517,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2910,9 +3548,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2943,9 +3579,321 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1933847,
+							49.0781535
+						],
+						[
+							12.1937944,
+							49.0779669
+						],
+						[
+							12.1936488,
+							49.0778297
+						],
+						[
+							12.1932391,
+							49.0780163
+						],
+						[
+							12.1933847,
+							49.0781535
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1936955,
+							49.0781478
+						],
+						[
+							12.1939738,
+							49.0784087
+						],
+						[
+							12.1941785,
+							49.0783151
+						],
+						[
+							12.1939002,
+							49.0780541
+						],
+						[
+							12.1936955,
+							49.0781478
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1935196,
+							49.0777079
+						],
+						[
+							12.1932197,
+							49.0774253
+						],
+						[
+							12.1930092,
+							49.0775212
+						],
+						[
+							12.1933091,
+							49.0778037
+						],
+						[
+							12.1935196,
+							49.0777079
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1932391,
+							49.0780163
+						],
+						[
+							12.1931098,
+							49.0778945
+						],
+						[
+							12.1933091,
+							49.0778037
+						],
+						[
+							12.1935196,
+							49.0777079
+						],
+						[
+							12.1936488,
+							49.0778297
+						],
+						[
+							12.1932391,
+							49.0780163
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3931008,
+							48.9609433
+						],
+						[
+							12.3927408,
+							48.9607134
+						],
+						[
+							12.3925858,
+							48.9608175
+						],
+						[
+							12.3929462,
+							48.9610476
+						],
+						[
+							12.3931008,
+							48.9609433
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3932512,
+							48.9608418
+						],
+						[
+							12.3934139,
+							48.9607319
+						],
+						[
+							12.3930535,
+							48.9605017
+						],
+						[
+							12.3928912,
+							48.9606119
+						],
+						[
+							12.3932512,
+							48.9608418
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3923098,
+							48.9611642
+						],
+						[
+							12.3926633,
+							48.9609255
+						],
+						[
+							12.3928421,
+							48.9610397
+						],
+						[
+							12.3924885,
+							48.9612784
+						],
+						[
+							12.3923098,
+							48.9611642
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2143588,
+							48.9851475
+						],
+						[
+							12.2143027,
+							48.9848225
+						],
+						[
+							12.2145407,
+							48.9848048
+						],
+						[
+							12.2145968,
+							48.9851298
+						],
+						[
+							12.2143588,
+							48.9851475
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2148809,
+							48.9850362
+						],
+						[
+							12.2148300,
+							48.9847178
+						],
+						[
+							12.2150651,
+							48.9847016
+						],
+						[
+							12.2151160,
+							48.9850200
+						],
+						[
+							12.2148809,
+							48.9850362
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.2146018,
+							48.9855261
+						],
+						[
+							12.2145480,
+							48.9852019
+						],
+						[
+							12.2147893,
+							48.9851846
+						],
+						[
+							12.2148431,
+							48.9855088
+						],
+						[
+							12.2146018,
+							48.9855261
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -2976,9 +3924,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3009,9 +3955,38 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							11.9608981,
+							49.0588442
+						],
+						[
+							11.9614343,
+							49.0589307
+						],
+						[
+							11.9615688,
+							49.0585912
+						],
+						[
+							11.9610053,
+							49.0585000
+						],
+						[
+							11.9608981,
+							49.0588442
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3042,9 +4017,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3075,9 +4048,100 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3124208,
+							48.9754145
+						],
+						[
+							12.3122021,
+							48.9753376
+						],
+						[
+							12.3124407,
+							48.9750454
+						],
+						[
+							12.3126594,
+							48.9751223
+						],
+						[
+							12.3124208,
+							48.9754145
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3126385,
+							48.9754911
+						],
+						[
+							12.3128771,
+							48.9751989
+						],
+						[
+							12.3130974,
+							48.9752764
+						],
+						[
+							12.3128589,
+							48.9755686
+						],
+						[
+							12.3126385,
+							48.9754911
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3126385,
+							48.9754911
+						],
+						[
+							12.3124208,
+							48.9754145
+						],
+						[
+							12.3126594,
+							48.9751223
+						],
+						[
+							12.3128771,
+							48.9751989
+						],
+						[
+							12.3126385,
+							48.9754911
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3108,9 +4172,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3141,9 +4203,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3174,9 +4234,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3207,9 +4265,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3240,9 +4296,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3273,9 +4327,69 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3751972,
+							49.0043368
+						],
+						[
+							12.3749721,
+							49.0044052
+						],
+						[
+							12.3747644,
+							49.0041107
+						],
+						[
+							12.3749894,
+							49.0040424
+						],
+						[
+							12.3751972,
+							49.0043368
+						]
+					]
+				]
+			},
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.3749721,
+							49.0044052
+						],
+						[
+							12.3747495,
+							49.0044728
+						],
+						[
+							12.3745418,
+							49.0041783
+						],
+						[
+							12.3747644,
+							49.0041107
+						],
+						[
+							12.3749721,
+							49.0044052
+						]
+					]
+				]
+			},
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3306,9 +4420,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3339,9 +4451,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3372,9 +4482,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3405,9 +4513,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3438,9 +4544,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3471,9 +4575,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3504,9 +4606,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3537,9 +4637,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3570,9 +4668,7 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
 		},
 		{
 			"type": "Feature",
@@ -3603,15 +4699,44 @@
 					]
 				]
 			},
-			"properties": {
-				"category": "tennis"
-			}
+			"properties": {}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							12.1414684,
+							49.0245901
+						],
+						[
+							12.1416891,
+							49.0245481
+						],
+						[
+							12.1418306,
+							49.0248673
+						],
+						[
+							12.1416098,
+							49.0249094
+						],
+						[
+							12.1414684,
+							49.0245901
+						]
+					]
+				]
+			},
+			"properties": {}
 		}
 	],
 	"bbox": {
-		"minlat": 48.9684,
-		"minlon": 12.0163,
-		"maxlat": 49.0682,
-		"maxlon": 12.2104
+		"minlat": 48.9529,
+		"minlon": 11.7674,
+		"maxlat": 49.0813,
+		"maxlon": 12.4266
 	}
 }
