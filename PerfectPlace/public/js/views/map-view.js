@@ -25,7 +25,7 @@
 
 		var that = this;
 		var updatingData = false;
-		var socket = io.connect('http://localhost');
+		var socket = io.connect('http://localhost:8040');
 		var $updateDataBtn = $('#server-precache');
 
 		$updateDataBtn.on('click', function() {

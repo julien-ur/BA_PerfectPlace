@@ -17,7 +17,7 @@
                 var tmpl_string;
 
                 $.ajax({
-                    url: '/templates/' + tmpl_name + '.html',
+                    url: './templates/' + tmpl_name + '.html',
                     method: 'GET',
                     async: false,
                     success: function(data) {

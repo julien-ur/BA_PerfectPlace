@@ -102,12 +102,8 @@ function generateGeoJsonFiles(geoObjectCollection, callback) {
 	callback();
 }
 
-server.listen(80, function() {
+server.listen(8040, function() {
 	console.log("SocketIO connection ready");
-});
-
-app.listen(8000, function() {
-	console.log("WebApp online on port 8000");
 });
 
 
