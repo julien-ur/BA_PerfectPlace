@@ -13,7 +13,14 @@
 			var id = that.paramsList.createNewDefaultParam();
 			that.createParameterSettingsPanel(id);
 		});
-	}
+
+		$('#blur-filter-toggle-btn').click(function(e) {
+            if (e.target !== this)
+                return; // prevents firing two click events, when clicking directly on checkbox child
+
+            $('#blur-filter-checkbox').trigger('click');
+		})
+	};
 
 	AppInteraction.prototype.createParameterSettingsPanel = function(id) {
 		var that = this;
