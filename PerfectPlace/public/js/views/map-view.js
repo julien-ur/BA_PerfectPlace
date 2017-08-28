@@ -26,11 +26,15 @@
 		var that = this;
 		var updatingData = false;
 		var socket = io.connect('http://localhost:8040');
+
 		var $updateDataBtn = $('#server-precache');
 
 		$updateDataBtn.on('click', function() {
 			if(!updatingData) updateOSMData();
 		});
+
+        $updateDataBtn.html("UpdateServer unavailable");
+        $updateDataBtn.attr("disabled", true);
 
 		function updateOSMData() {
 
@@ -51,6 +55,20 @@
 		socket.on('dataUpdated', function() {
 			$updateDataBtn.html("Update OSM Data");
 			updatingData = false;
+		});
+
+        socket.on('dataUpdating', function() {
+            $updateDataBtn.html("Currently updated by another client");
+        });
+
+        socket.on('connect', function() {
+            $updateDataBtn.html("Update OSM Data");
+            $updateDataBtn.attr("disabled", false);
+        });
+
+		socket.on('disconnect', function() {
+            $updateDataBtn.html("UpdateServer unavailable");
+            $updateDataBtn.attr("disabled", true);
 		});
 	}
 

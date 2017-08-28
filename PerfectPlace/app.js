@@ -20,6 +20,9 @@ var tilestrata = require('tilestrata');
 var vtServer = require('./server/js/utils/vt-server.js');
 // var disk = require('tilestrata-disk');
 
+var updating = false;
+var waitingSockets = [];
+
 // MAKE FOLDERS ACCESSIBLE TO CLIENT
 app.use(express.static('node_modules'));
 app.use(express.static('public'));
@@ -33,6 +36,14 @@ startTileServer();
 // open socket connection, used to initiate geojson files generation process
 io.on('connection', function (socket) {
 	socket.on('updateOSMData', function (actualViewportBBox) {
+        waitingSockets.push(socket);
+		if (updating) {
+            socket.emit('dataUpdating');
+            return;
+		}
+
+        updating = true;
+
 		console.log(actualViewportBBox);
 		var bbox = [actualViewportBBox.west, actualViewportBBox.south, actualViewportBBox.east, actualViewportBBox.north];
 
@@ -64,12 +75,16 @@ function parseOSMFileFromServer(bbox, socket) {
 			generateGeoJsonFiles(geoObjectCollection, function() {
 				//var bbox = geoObjectCollection.getBoundingBox();
 				//generateTileCache(bbox);
-				socket.emit('dataUpdated');
+                updating = false;
+				for (var i in waitingSockets) {
+                    waitingSockets[i].emit('dataUpdated')
+                }
 			});
 		});
 	});
 
 	req.on('error', function(e) {
+        updating = false;
 		console.log('problem with request: ' + e.message);
 	});
 
