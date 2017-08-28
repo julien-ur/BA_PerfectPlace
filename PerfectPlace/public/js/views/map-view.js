@@ -33,7 +33,7 @@
 			if(!updatingData) updateOSMData();
 		});
 
-        $updateDataBtn.html("UpdateServer unavailable");
+        $updateDataBtn.html("TileServer unavailable");
         $updateDataBtn.attr("disabled", true);
 
 		function updateOSMData() {
@@ -67,7 +67,7 @@
         });
 
 		socket.on('disconnect', function() {
-            $updateDataBtn.html("UpdateServer unavailable");
+            $updateDataBtn.html("TileServer unavailable");
             $updateDataBtn.attr("disabled", true);
 		});
 	}
